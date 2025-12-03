@@ -15,18 +15,15 @@
 
 ## Technical Overview
 ### Purpose
-A web component tile display that lists the 10 most recent contracts (upload datetime) submitted by the user. This information can be retrieved by a GET operation on the webservice api (/contract/recent) that lists the top 10 most recent by unique user id.
-
-There is an linked icon to navigate to the contract analysis page (/analysis).
-There is a linked icon to delete the contract after a confirmation
+Enables the recent contract capability
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
-| ENB-349820 | Recent Contracts API |
-| ENB-823280 | Recent Contracts Web Component |
+| ENB-349820 |
+| ENB-823280 |
 
 ## Dependencies
 

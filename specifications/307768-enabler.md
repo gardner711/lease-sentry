@@ -19,28 +19,28 @@
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-307768-01 | Display pop-up dialog for review submission | Draft | High |
-| FR-307768-02 | Provide star rating selection (1-5) | Draft | High |
-| FR-307768-03 | Provide text area for detailed comment | Draft | High |
-| FR-307768-04 | Pre-populate email field if user email available | Draft | Medium |
-| FR-307768-05 | Validate rating and comment inputs | Draft | High |
-| FR-307768-06 | Submit review data to /review API | Draft | High |
-| FR-307768-07 | Handle API success and close dialog | Draft | High |
-| FR-307768-08 | Handle API errors and display messages | Draft | High |
-| FR-307768-09 | Allow dialog dismissal without submission | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-307768-01 |  | Display pop-up dialog for review submission | High | Draft | Not Approved |
+| FR-307768-02 |  | Provide star rating selection (1-5) | High | Draft | Not Approved |
+| FR-307768-03 |  | Provide text area for detailed comment | High | Draft | Not Approved |
+| FR-307768-04 |  | Pre-populate email field if user email available | Medium | Draft | Not Approved |
+| FR-307768-05 |  | Validate rating and comment inputs | High | Draft | Not Approved |
+| FR-307768-06 |  | Submit review data to /review API | High | Draft | Not Approved |
+| FR-307768-07 |  | Handle API success and close dialog | High | Draft | Not Approved |
+| FR-307768-08 |  | Handle API errors and display messages | High | Draft | Not Approved |
+| FR-307768-09 |  | Allow dialog dismissal without submission | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-307768-01 | Responsive dialog design | Draft | High |
-| NFR-307768-02 | Accessible rating and form controls | Draft | High |
-| NFR-307768-03 | Secure form submission | Draft | High |
-| NFR-307768-04 | Fast dialog loading | Draft | High |
-| NFR-307768-05 | Intuitive user interface | Draft | Medium |
-| NFR-307768-06 | Compatible with modern browsers | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-307768-01 |  |  | Responsive dialog design | High | Draft | Not Approved |
+| NFR-307768-02 |  |  | Accessible rating and form controls | High | Draft | Not Approved |
+| NFR-307768-03 |  |  | Secure form submission | High | Draft | Not Approved |
+| NFR-307768-04 |  |  | Fast dialog loading | High | Draft | Not Approved |
+| NFR-307768-05 |  |  | Intuitive user interface | Medium | Draft | Not Approved |
+| NFR-307768-06 |  |  | Compatible with modern browsers | Medium | Draft | Not Approved |
 
 ## Dependencies
 

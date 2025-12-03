@@ -15,20 +15,15 @@
 
 ## Technical Overview
 ### Purpose
-This web component and API call will:
-- Provide a web component for a user to upload their contract (PDF, DOCX, PNG, JPG)
-- Post that contract through the webservice API 
-- The API will save the document to blob storage
-- The API will save a contract json document to cosmos db in the container "contract" which has a reference to the file location in blob storage, the unique user id, the current upload time stamp, and the status of "processing". It will retrieve the unique id of the contract after saving
-- Publish the contract json document to the event grid for further processing
+Enables the contract upload capability
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
-| ENB-000886 | Upload Contract API |
-| ENB-603922 | Upload Contract Web Component |
+| ENB-000886 |
+| ENB-603922 |
 
 ## Dependencies
 

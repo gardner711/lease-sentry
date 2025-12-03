@@ -15,23 +15,14 @@
 
 ## Technical Overview
 ### Purpose
-Accepts a delete bus message from Event Grid and performs the following operations:
-- Unsubscribes the user through Stripe
-- Deletes the user's profile in cosmos db
-- Deletes all the AI search rag databases associated to each contract owned by the user
-- Deletes all history analysis for each contract owned by the user
-- Deletes all files related to the those contracts in blob storage
-- Delete's all contracts owned by the user in the cosmos db
-- Deletes the user's subscription in cosmos db
-
-- Deletes the users
+Enables the delete serverless function in Azure
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
-| ENB-966828 | Delete Operation |
+| ENB-966828 |
 
 ## Dependencies
 

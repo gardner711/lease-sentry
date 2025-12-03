@@ -15,19 +15,14 @@
 
 ## Technical Overview
 ### Purpose
-This web page has three sections:
-- Recent Contracts web component at the top
-- Contract Upload web component in the middle
-- If the user has the Pro subscription, display the Contract Library
-
-This page is independently navigable by a unique URL (/contracts) and only accessible if the user is logged in.
+Enables the contract page for managing contracts
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
-| ENB-908856 | Contracts Web Page |
+| ENB-908856 |
 
 ## Dependencies
 

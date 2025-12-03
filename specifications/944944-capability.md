@@ -15,15 +15,7 @@
 
 ## Technical Overview
 ### Purpose
-A web component that is a grid list of all the contracts owned by the user. This grid should support:
-- Columns: title, score, upload datetime, status, icon link to view, icon link to delete
-- Sorting by column
-- Filter by title, score, upload datetime
-- 20 at a time paging
-- Each contract has a linked icon to navigate to the contract analysis page.
-- Each contract has a linked icon to delete the contract after confirmation
-The contract list is retrieved by a webservice API GET (/contract) that retrieves the contract list from Cosmos Db.
-The contract is deleted by a webservice API DELETE (/contract) that deletes the contract by id and deletes the associated blob storage file
+Enables a contract library
 
 ## Enablers
 

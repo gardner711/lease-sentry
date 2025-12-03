@@ -28,9 +28,6 @@ Deletes the user's history by:
 Deletes the user's profile from the "profile" container in cosmos db
 Deletes the user's account from the "account" container in cosmos db
 
-
-
-
 ## Functional Requirements
 
 | ID | Name | Requirement | Priority | Status | Approval |

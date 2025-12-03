@@ -27,29 +27,29 @@ Publishes the delete bus message to Event Grid
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-167373-01 | Implement DELETE /subscription endpoint | Draft | High |
-| FR-167373-02 | Extract user id from bearer token | Draft | High |
-| FR-167373-03 | Retrieve account document from accounts container using user id | Draft | High |
-| FR-167373-04 | Cancel Stripe subscription using account document information | Draft | High |
-| FR-167373-05 | Create delete bus message with user id | Draft | High |
-| FR-167373-06 | Publish delete bus message to Event Grid | Draft | High |
-| FR-167373-07 | Handle Stripe cancellation errors | Draft | High |
-| FR-167373-08 | Return success/error responses | Draft | High |
-| FR-167373-09 | Log subscription deletion activity | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-167373-01 |  | Implement DELETE /subscription endpoint | High | Draft | Not Approved |
+| FR-167373-02 |  | Extract user id from bearer token | High | Draft | Not Approved |
+| FR-167373-03 |  | Retrieve account document from accounts container using user id | High | Draft | Not Approved |
+| FR-167373-04 |  | Cancel Stripe subscription using account document information | High | Draft | Not Approved |
+| FR-167373-05 |  | Create delete bus message with user id | High | Draft | Not Approved |
+| FR-167373-06 |  | Publish delete bus message to Event Grid | High | Draft | Not Approved |
+| FR-167373-07 |  | Handle Stripe cancellation errors | High | Draft | Not Approved |
+| FR-167373-08 |  | Return success/error responses | High | Draft | Not Approved |
+| FR-167373-09 |  | Log subscription deletion activity | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-167373-01 | Secure handling of bearer tokens and account data | Draft | High |
-| NFR-167373-02 | Guaranteed message delivery to Event Grid | Draft | High |
-| NFR-167373-03 | Response time under 5 seconds | Draft | High |
-| NFR-167373-04 | Comprehensive error logging | Draft | Medium |
-| NFR-167373-05 | Stripe API rate limit handling | Draft | High |
-| NFR-167373-06 | Atomic subscription cancellation and message publishing | Draft | High |
-| NFR-167373-07 | Audit trail for subscription deletions | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-167373-01 |  |  | Secure handling of bearer tokens and account data | High | Draft | Not Approved |
+| NFR-167373-02 |  |  | Guaranteed message delivery to Event Grid | High | Draft | Not Approved |
+| NFR-167373-03 |  |  | Response time under 5 seconds | High | Draft | Not Approved |
+| NFR-167373-04 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
+| NFR-167373-05 |  |  | Stripe API rate limit handling | High | Draft | Not Approved |
+| NFR-167373-06 |  |  | Atomic subscription cancellation and message publishing | High | Draft | Not Approved |
+| NFR-167373-07 |  |  | Audit trail for subscription deletions | Medium | Draft | Not Approved |
 
 ## Dependencies
 

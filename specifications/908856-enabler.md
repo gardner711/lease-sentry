@@ -25,31 +25,30 @@ The page has three sections:
 - Bottom section: Contract Library web component
 - Bottom section is only viewable if the user has the Pro subscription
 
-
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-908856-01 | Display page at /contracts URL | Draft | High |
-| FR-908856-02 | Require user login for access | Draft | High |
-| FR-908856-03 | Show Recent Contracts component in top section | Draft | High |
-| FR-908856-04 | Show Contract Upload component in middle section | Draft | High |
-| FR-908856-05 | Show Contract Library component in bottom section only for Pro users | Draft | High |
-| FR-908856-06 | Check user subscription level | Draft | High |
-| FR-908856-07 | Hide Contract Library for non-Pro users | Draft | High |
-| FR-908856-08 | Ensure independent navigation | Draft | Medium |
-| FR-908856-09 | Handle authentication redirects | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-908856-01 |  | Display page at /contracts URL | High | Draft | Not Approved |
+| FR-908856-02 |  | Require user login for access | High | Draft | Not Approved |
+| FR-908856-03 |  | Show Recent Contracts component in top section | High | Draft | Not Approved |
+| FR-908856-04 |  | Show Contract Upload component in middle section | High | Draft | Not Approved |
+| FR-908856-05 |  | Show Contract Library component in bottom section only for Pro users | High | Draft | Not Approved |
+| FR-908856-06 |  | Check user subscription level | High | Draft | Not Approved |
+| FR-908856-07 |  | Hide Contract Library for non-Pro users | High | Draft | Not Approved |
+| FR-908856-08 |  | Ensure independent navigation | Medium | Draft | Not Approved |
+| FR-908856-09 |  | Handle authentication redirects | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-908856-01 | Secure authentication check | Draft | High |
-| NFR-908856-02 | Page loads within 2 seconds | Draft | High |
-| NFR-908856-03 | Responsive layout for all sections | Draft | High |
-| NFR-908856-04 | Accessible navigation and content | Draft | High |
-| NFR-908856-05 | Subscription check performance | Draft | Medium |
-| NFR-908856-06 | Compatible with modern browsers | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-908856-01 |  |  | Secure authentication check | High | Draft | Not Approved |
+| NFR-908856-02 |  |  | Page loads within 2 seconds | High | Draft | Not Approved |
+| NFR-908856-03 |  |  | Responsive layout for all sections | High | Draft | Not Approved |
+| NFR-908856-04 |  |  | Accessible navigation and content | High | Draft | Not Approved |
+| NFR-908856-05 |  |  | Subscription check performance | Medium | Draft | Not Approved |
+| NFR-908856-06 |  |  | Compatible with modern browsers | Medium | Draft | Not Approved |
 
 ## Dependencies
 

@@ -1,8 +1,8 @@
-# Initial Login - Step 1
+# Initial Free Login
 
 ## Metadata
 
-- **Name**: Initial Login - Step 1
+- **Name**: Initial Free Login
 - **Type**: Capability
 - **System**: ls
 - **Component**: free-subscription
@@ -15,20 +15,14 @@
 
 ## Technical Overview
 ### Purpose
-Step one of a multiple step wizard:\
-
-Integrates with Azure App Service Authentication and logs the user in via oAuth
-POST to add the new account to the webservice API (/account) with the unique id of the oAuth user to identify the user later and the subscription setting of Free.
-POST to add a new profile to the webservice API (/profile) with the unique id of the oAuth user.
-Navigates to step 2 (/contracts)
-This step is independently navigable by a unique url (/freelogin).
+Enables the free subscription tier for first time users
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
-| ENB-925037 | Initial Log In Web Component |
+| ENB-925037 |
 
 ## Dependencies
 

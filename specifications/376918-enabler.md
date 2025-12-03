@@ -19,28 +19,28 @@ Implement a pop-up support dialog component with greeting, subject dropdown, com
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-376918-01 | Display pop-up support dialog | Draft | High |
-| FR-376918-02 | Show helpful greeting with response commitment | Draft | High |
-| FR-376918-03 | Provide subject dropdown with options | Draft | High |
-| FR-376918-04 | Include comment text box | Draft | High |
-| FR-376918-05 | Include email input field | Draft | High |
-| FR-376918-06 | Pre-populate email if user is authenticated | Draft | High |
-| FR-376918-07 | Validate required fields before submission | Draft | High |
-| FR-376918-08 | Submit support request to API | Draft | High |
-| FR-376918-09 | Show success/error feedback | Draft | High |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-376918-01 |  | Display pop-up support dialog | High | Draft | Not Approved |
+| FR-376918-02 |  | Show helpful greeting with response commitment | High | Draft | Not Approved |
+| FR-376918-03 |  | Provide subject dropdown with options | High | Draft | Not Approved |
+| FR-376918-04 |  | Include comment text box | High | Draft | Not Approved |
+| FR-376918-05 |  | Include email input field | High | Draft | Not Approved |
+| FR-376918-06 |  | Pre-populate email if user is authenticated | High | Draft | Not Approved |
+| FR-376918-07 |  | Validate required fields before submission | High | Draft | Not Approved |
+| FR-376918-08 |  | Submit support request to API | High | Draft | Not Approved |
+| FR-376918-09 |  | Show success/error feedback | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-376918-01 | Responsive design for mobile/desktop | Draft | High |
-| NFR-376918-02 | Accessible form controls | Draft | High |
-| NFR-376918-03 | Fast dialog loading | Draft | Medium |
-| NFR-376918-04 | Clear error messaging | Draft | High |
-| NFR-376918-05 | Secure form handling | Draft | High |
-| NFR-376918-06 | Consistent UI styling | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-376918-01 |  |  | Responsive design for mobile/desktop | High | Draft | Not Approved |
+| NFR-376918-02 |  |  | Accessible form controls | High | Draft | Not Approved |
+| NFR-376918-03 |  |  | Fast dialog loading | Medium | Draft | Not Approved |
+| NFR-376918-04 |  |  | Clear error messaging | High | Draft | Not Approved |
+| NFR-376918-05 |  |  | Secure form handling | High | Draft | Not Approved |
+| NFR-376918-06 |  |  | Consistent UI styling | Medium | Draft | Not Approved |
 
 ## Dependencies
 

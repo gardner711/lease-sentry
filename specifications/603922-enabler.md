@@ -26,30 +26,30 @@ Once a document is selected:
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-603922-01 | Display upload section with description | Draft | High |
-| FR-603922-02 | Provide file upload interface for PDF, DOCX, PNG, JPG | Draft | High |
-| FR-603922-03 | Validate selected file type | Draft | High |
-| FR-603922-04 | Show progress dialog during upload | Draft | High |
-| FR-603922-05 | Call Upload Contract API with selected file | Draft | High |
-| FR-603922-06 | Handle upload success and display confirmation | Draft | High |
-| FR-603922-07 | Handle upload errors and display messages | Draft | High |
-| FR-603922-08 | Refresh Contract Library component after upload | Draft | High |
-| FR-603922-09 | Refresh Recent Contracts component after upload | Draft | High |
-| FR-603922-10 | Ensure component integration with page | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-603922-01 |  | Display upload section with description | High | Draft | Not Approved |
+| FR-603922-02 |  | Provide file upload interface for PDF, DOCX, PNG, JPG | High | Draft | Not Approved |
+| FR-603922-03 |  | Validate selected file type | High | Draft | Not Approved |
+| FR-603922-04 |  | Show progress dialog during upload | High | Draft | Not Approved |
+| FR-603922-05 |  | Call Upload Contract API with selected file | High | Draft | Not Approved |
+| FR-603922-06 |  | Handle upload success and display confirmation | High | Draft | Not Approved |
+| FR-603922-07 |  | Handle upload errors and display messages | High | Draft | Not Approved |
+| FR-603922-08 |  | Refresh Contract Library component after upload | High | Draft | Not Approved |
+| FR-603922-09 |  | Refresh Recent Contracts component after upload | High | Draft | Not Approved |
+| FR-603922-10 |  | Ensure component integration with page | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-603922-01 | Responsive upload interface | Draft | High |
-| NFR-603922-02 | Accessible file selection and upload | Draft | High |
-| NFR-603922-03 | Progress dialog provides real-time feedback | Draft | Medium |
-| NFR-603922-04 | Secure file handling in browser | Draft | High |
-| NFR-603922-05 | Fast component refresh after upload | Draft | High |
-| NFR-603922-06 | Compatible with modern browsers | Draft | Medium |
-| NFR-603922-07 | Handle large file uploads gracefully | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-603922-01 |  |  | Responsive upload interface | High | Draft | Not Approved |
+| NFR-603922-02 |  |  | Accessible file selection and upload | High | Draft | Not Approved |
+| NFR-603922-03 |  |  | Progress dialog provides real-time feedback | Medium | Draft | Not Approved |
+| NFR-603922-04 |  |  | Secure file handling in browser | High | Draft | Not Approved |
+| NFR-603922-05 |  |  | Fast component refresh after upload | High | Draft | Not Approved |
+| NFR-603922-06 |  |  | Compatible with modern browsers | Medium | Draft | Not Approved |
+| NFR-603922-07 |  |  | Handle large file uploads gracefully | Medium | Draft | Not Approved |
 
 ## Dependencies
 

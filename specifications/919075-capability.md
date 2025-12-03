@@ -15,17 +15,18 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's subscription. Subscription information contains the current tier of the user's subscription two actions:
-- Change the subscription tier
-- Unsubscribe from the service
-
-The unsubscribe action pops up a confirmation dialog with a warning that after this is complete all document will be deleted and unrecoverable. On confirmation the DELETE webservice API operation (/subscription)  will be called that submits a delete bus message with the users unique id.
+Enables the user to manager their subscription
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-551364 |
+| ENB-167373 |
+| ENB-079527 |
+| ENB-406492 |
+| ENB-163246 |
 
 ## Dependencies
 

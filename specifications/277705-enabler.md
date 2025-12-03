@@ -29,26 +29,26 @@ The contract is deleted by a webservice API DELETE (/contract) that deletes the 
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-277705-01 | Implement DELETE /contract endpoint | Draft | High |
-| FR-277705-02 | Accept contract id in request | Draft | High |
-| FR-277705-03 | Delete contract document from cosmos contracts container | Draft | High |
-| FR-277705-04 | Delete analysis document from cosmos analysis container | Draft | High |
-| FR-277705-05 | Delete blob storage file using location from contract | Draft | High |
-| FR-277705-06 | Validate contract ownership by user | Draft | High |
-| FR-277705-07 | Return success/error responses | Draft | High |
-| FR-277705-08 | Handle partial deletion failures | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-277705-01 |  | Implement DELETE /contract endpoint | High | Draft | Not Approved |
+| FR-277705-02 |  | Accept contract id in request | High | Draft | Not Approved |
+| FR-277705-03 |  | Delete contract document from cosmos contracts container | High | Draft | Not Approved |
+| FR-277705-04 |  | Delete analysis document from cosmos analysis container | High | Draft | Not Approved |
+| FR-277705-05 |  | Delete blob storage file using location from contract | High | Draft | Not Approved |
+| FR-277705-06 |  | Validate contract ownership by user | High | Draft | Not Approved |
+| FR-277705-07 |  | Return success/error responses | High | Draft | Not Approved |
+| FR-277705-08 |  | Handle partial deletion failures | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-277705-01 | Atomic deletion operations | Draft | High |
-| NFR-277705-02 | Secure access control | Draft | High |
-| NFR-277705-03 | Response time under 3 seconds | Draft | High |
-| NFR-277705-04 | Comprehensive error logging | Draft | Medium |
-| NFR-277705-05 | Handle concurrent deletions | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-277705-01 |  |  | Atomic deletion operations | High | Draft | Not Approved |
+| NFR-277705-02 |  |  | Secure access control | High | Draft | Not Approved |
+| NFR-277705-03 |  |  | Response time under 3 seconds | High | Draft | Not Approved |
+| NFR-277705-04 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
+| NFR-277705-05 |  |  | Handle concurrent deletions | Medium | Draft | Not Approved |
 
 ## Dependencies
 

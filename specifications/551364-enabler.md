@@ -26,30 +26,30 @@ Updates and save the account document with the new subscription item id and subs
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-551364-01 | Implement PUT /subscription endpoint | Draft | High |
-| FR-551364-02 | Accept subscription request in payload | Draft | High |
-| FR-551364-03 | Extract user id from bearer token | Draft | High |
-| FR-551364-04 | Retrieve account document from accounts container using user id | Draft | High |
-| FR-551364-05 | Update Stripe subscription with new price id using subscription id and item id | Draft | High |
-| FR-551364-06 | Update account document with new subscription item id and type | Draft | High |
-| FR-551364-07 | Save updated account document to accounts container | Draft | High |
-| FR-551364-08 | Validate subscription type (starter or pro) | Draft | High |
-| FR-551364-09 | Handle Stripe API errors gracefully | Draft | High |
-| FR-551364-10 | Return success/error responses | Draft | High |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-551364-01 |  | Implement PUT /subscription endpoint | High | Draft | Not Approved |
+| FR-551364-02 |  | Accept subscription request in payload | High | Draft | Not Approved |
+| FR-551364-03 |  | Extract user id from bearer token | High | Draft | Not Approved |
+| FR-551364-04 |  | Retrieve account document from accounts container using user id | High | Draft | Not Approved |
+| FR-551364-05 |  | Update Stripe subscription with new price id using subscription id and item id | High | Draft | Not Approved |
+| FR-551364-06 |  | Update account document with new subscription item id and type | High | Draft | Not Approved |
+| FR-551364-07 |  | Save updated account document to accounts container | High | Draft | Not Approved |
+| FR-551364-08 |  | Validate subscription type (starter or pro) | High | Draft | Not Approved |
+| FR-551364-09 |  | Handle Stripe API errors gracefully | High | Draft | Not Approved |
+| FR-551364-10 |  | Return success/error responses | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-551364-01 | Secure handling of bearer tokens and account data | Draft | High |
-| NFR-551364-02 | Validate all inputs against data schema | Draft | High |
-| NFR-551364-03 | Response time under 5 seconds | Draft | High |
-| NFR-551364-04 | Atomic account document updates | Draft | High |
-| NFR-551364-05 | Comprehensive error logging | Draft | Medium |
-| NFR-551364-06 | Stripe API rate limit handling | Draft | High |
-| NFR-551364-07 | Idempotent subscription changes | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-551364-01 |  |  | Secure handling of bearer tokens and account data | High | Draft | Not Approved |
+| NFR-551364-02 |  |  | Validate all inputs against data schema | High | Draft | Not Approved |
+| NFR-551364-03 |  |  | Response time under 5 seconds | High | Draft | Not Approved |
+| NFR-551364-04 |  |  | Atomic account document updates | High | Draft | Not Approved |
+| NFR-551364-05 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
+| NFR-551364-06 |  |  | Stripe API rate limit handling | High | Draft | Not Approved |
+| NFR-551364-07 |  |  | Idempotent subscription changes | Medium | Draft | Not Approved |
 
 ## Dependencies
 

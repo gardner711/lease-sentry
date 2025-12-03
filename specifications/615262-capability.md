@@ -15,20 +15,15 @@
 
 ## Technical Overview
 ### Purpose
-Pop-up dialog that enables the user to:
-- Select a star rating
-- Provide a detailed comment as to their experience
-- Email prepopulated if user email is available
-
-On submission, the data is post to the web-service API (/review) and the results, which will also include the user's first name, last name, unique user id, and email address, are stored in cosmos db under the container "review"
+Enables the user to submit a review
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
-| ENB-307768 | Review Web Component |
-| ENB-633557 | Review API |
+| ENB-307768 |
+| ENB-633557 |
 
 ## Dependencies
 

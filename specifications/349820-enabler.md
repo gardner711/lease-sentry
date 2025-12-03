@@ -25,25 +25,25 @@ Orders the list by upload datetime descending
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-349820-01 | Implement GET /contract/recent endpoint | Draft | High |
-| FR-349820-02 | Query top 10 contracts by upload datetime descending | Draft | High |
-| FR-349820-03 | Return array of contract documents | Draft | High |
-| FR-349820-04 | Extract user id from bearer token | Draft | High |
-| FR-349820-05 | Filter contracts by user id | Draft | High |
-| FR-349820-06 | Handle cases with less than 10 contracts | Draft | Medium |
-| FR-349820-07 | Return appropriate response format | Draft | High |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-349820-01 |  | Implement GET /contract/recent endpoint | High | Draft | Not Approved |
+| FR-349820-02 |  | Query top 10 contracts by upload datetime descending | High | Draft | Not Approved |
+| FR-349820-03 |  | Return array of contract documents | High | Draft | Not Approved |
+| FR-349820-04 |  | Extract user id from bearer token | High | Draft | Not Approved |
+| FR-349820-05 |  | Filter contracts by user id | High | Draft | Not Approved |
+| FR-349820-06 |  | Handle cases with less than 10 contracts | Medium | Draft | Not Approved |
+| FR-349820-07 |  | Return appropriate response format | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-349820-01 | Response time under 1 second | Draft | High |
-| NFR-349820-02 | Secure token handling | Draft | High |
-| NFR-349820-03 | Efficient cosmos query | Draft | High |
-| NFR-349820-04 | Handle high request volume | Draft | Medium |
-| NFR-349820-05 | Comprehensive error logging | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-349820-01 |  |  | Response time under 1 second | High | Draft | Not Approved |
+| NFR-349820-02 |  |  | Secure token handling | High | Draft | Not Approved |
+| NFR-349820-03 |  |  | Efficient cosmos query | High | Draft | Not Approved |
+| NFR-349820-04 |  |  | Handle high request volume | Medium | Draft | Not Approved |
+| NFR-349820-05 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
 
 ## Dependencies
 

@@ -18,6 +18,7 @@
 Universal subscriptions options with features:
 
 ** Free **
+$0
 Residential Only Support
 Critical Clauses
 Risk Summary
@@ -26,6 +27,7 @@ Deal Sheet Sample
 One Contract at a Time
 
 ** Starter **
+$19.95
 Residential Only Support
 Critical Clauses
 Full Risk Score Card
@@ -35,6 +37,7 @@ State Specific Clause Analysis
 24 Hour Storage
 
 ** Pro **
+$49.95
 Residential and Commercial Support
 Critical Clauses
 Full Risk Score Card
@@ -48,6 +51,7 @@ Unlimited Storage
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-828574 | Subscription Configurations |
 
 ## Dependencies
 

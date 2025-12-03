@@ -15,21 +15,15 @@
 
 ## Technical Overview
 ### Purpose
-Pop-up support dialog with:
-- Helpful greeting and we commit to a response within the business day.
-- Contact subject drop-down: Billing Question, Technical Issue, General Question\Comment
-- Comment text box
-- Email from the user. If available, pre-populate with the user email
-
-On submission the request is sent to the web-service and an email is sent via a configurable SMTP service and to a configurable email account.
+Enables the user to submit a support ticket
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
-| ENB-606505 | Support API |
-| ENB-376918 | Support Web Component |
+| ENB-606505 |
+| ENB-376918 |
 
 ## Dependencies
 

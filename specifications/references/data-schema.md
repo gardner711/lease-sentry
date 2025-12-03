@@ -13,7 +13,9 @@ This document outlines the data model for the Lease Sentry application using Azu
     "id": "unique-account-id",
     "userId": "oauth-user-id",
     "subscription": {
-      "type": "free|starter|pro"
+      "type": "free|starter|pro",
+      "subscriptionId": "unique-subscription-id from Stripe",
+      "subscriptionItemId": "unique-subscription-item-id from Strip"
     }
   }
   ```

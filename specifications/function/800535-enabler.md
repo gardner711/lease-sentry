@@ -1,12 +1,12 @@
-# Review API
+# Analyze Operation
 
 ## Metadata
 
-- **Name**: Review API
+- **Name**: Analyze Operation
 - **Type**: Enabler
-- **ID**: ENB-633557
+- **ID**: ENB-800535
 - **Approval**: Not Approved
-- **Capability ID**: CAP-615262
+- **Capability ID**: CAP-951236
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,31 +15,36 @@
 
 ## Technical Overview
 ### Purpose
-[What is the purpose?]
+A function that will be hosted as a serverless function in Azure that:
+- Accepts an analyze bus message from Event Grid with a contract id and user id
+
+Performs the following operations:
+Gets the contract by contract id from the "contract" container in cosmos db
+Gets the file from blob storage using the storage from the contract document
+TODO - loads the document in azure ai search
+Creates an analysis document
+- appends the contract id from the bus message
+- appends the user id from the bus message
+- appends the results from the Critical Clause sub function
+- appends the results from the Report Card sub function
+- appends the results from the Deal Cheat Sheet sub function
+- appends the results from the State Specific sub function
+A failure in any function does not fail the operation, rather is logged and appended to the analysis document
+Adds the analysis document in the "analysis" container in cosmos db
+Updates the contract document status to processed
+Updates the contract in the "contract" container in cosmos db
 
 ## Functional Requirements
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-633557-01 |  | Implement POST /review endpoint | High | Draft | Not Approved |
-| FR-633557-02 |  | Accept review data: rating, comment, email | High | Draft | Not Approved |
-| FR-633557-03 |  | Extract user id from bearer token if authenticated | High | Draft | Not Approved |
-| FR-633557-04 |  | Include user first name, last name, user id, email in stored data | High | Draft | Not Approved |
-| FR-633557-05 |  | Save review to reviews container in cosmos | High | Draft | Not Approved |
-| FR-633557-06 |  | Validate rating (1-5) and comment length | High | Draft | Not Approved |
-| FR-633557-07 |  | Handle anonymous reviews (no user id) | Medium | Draft | Not Approved |
-| FR-633557-08 |  | Return success/error responses | High | Draft | Not Approved |
+| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-633557-01 |  |  | Secure handling of user data | High | Draft | Not Approved |
-| NFR-633557-02 |  |  | Validate all inputs | High | Draft | Not Approved |
-| NFR-633557-03 |  |  | Response time under 2 seconds | High | Draft | Not Approved |
-| NFR-633557-04 |  |  | Atomic review storage | High | Draft | Not Approved |
-| NFR-633557-05 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
-| NFR-633557-06 |  |  | Support high volume of reviews | Medium | Draft | Not Approved |
+| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
 
 ## Dependencies
 
@@ -66,7 +71,7 @@
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-633557<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-800535<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 

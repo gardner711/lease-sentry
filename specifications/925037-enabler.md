@@ -28,30 +28,30 @@ On successful subscription submission, navigate to the Contracts Page (/contract
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-925037-01 | Display login page at /freelogin | Draft | High |
-| FR-925037-02 | Show login options from Azure Easy Auth | Draft | High |
-| FR-925037-03 | Integrate with Azure App Service Authentication | Draft | High |
-| FR-925037-04 | Create subscription request with free type on login success | Draft | High |
-| FR-925037-05 | Create profile request with pre-populated data from login | Draft | High |
-| FR-925037-06 | Pre-populate email, first name, last name if available | Draft | Medium |
-| FR-925037-07 | Call Subscription API with subscription and profile requests | Draft | High |
-| FR-925037-08 | Navigate to /contracts on successful submission | Draft | High |
-| FR-925037-09 | Handle login failures and display errors | Draft | High |
-| FR-925037-10 | Ensure page is independently navigable | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-925037-01 |  | Display login page at /freelogin | High | Draft | Not Approved |
+| FR-925037-02 |  | Show login options from Azure Easy Auth | High | Draft | Not Approved |
+| FR-925037-03 |  | Integrate with Azure App Service Authentication | High | Draft | Not Approved |
+| FR-925037-04 |  | Create subscription request with free type on login success | High | Draft | Not Approved |
+| FR-925037-05 |  | Create profile request with pre-populated data from login | High | Draft | Not Approved |
+| FR-925037-06 |  | Pre-populate email, first name, last name if available | Medium | Draft | Not Approved |
+| FR-925037-07 |  | Call Subscription API with subscription and profile requests | High | Draft | Not Approved |
+| FR-925037-08 |  | Navigate to /contracts on successful submission | High | Draft | Not Approved |
+| FR-925037-09 |  | Handle login failures and display errors | High | Draft | Not Approved |
+| FR-925037-10 |  | Ensure page is independently navigable | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-925037-01 | Secure authentication handling | Draft | High |
-| NFR-925037-02 | Responsive design for login options | Draft | High |
-| NFR-925037-03 | Accessible login interface | Draft | High |
-| NFR-925037-04 | Page loads within 2 seconds | Draft | High |
-| NFR-925037-05 | Pre-population improves user experience | Draft | Medium |
-| NFR-925037-06 | Compatible with Azure Easy Auth providers | Draft | High |
-| NFR-925037-07 | Error logging for debugging | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-925037-01 |  |  | Secure authentication handling | High | Draft | Not Approved |
+| NFR-925037-02 |  |  | Responsive design for login options | High | Draft | Not Approved |
+| NFR-925037-03 |  |  | Accessible login interface | High | Draft | Not Approved |
+| NFR-925037-04 |  |  | Page loads within 2 seconds | High | Draft | Not Approved |
+| NFR-925037-05 |  |  | Pre-population improves user experience | Medium | Draft | Not Approved |
+| NFR-925037-06 |  |  | Compatible with Azure Easy Auth providers | High | Draft | Not Approved |
+| NFR-925037-07 |  |  | Error logging for debugging | Medium | Draft | Not Approved |
 
 ## Dependencies
 

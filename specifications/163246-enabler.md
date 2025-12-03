@@ -24,29 +24,29 @@ On success, the user is logged out the site and is navigated to the home page (/
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-163246-01 | Display Delete Subscription button with caution styling | Draft | High |
-| FR-163246-02 | Show confirmation dialog on button click with data deletion warning | Draft | High |
-| FR-163246-03 | Include warning about subscription cancellation and unrecoverable data loss | Draft | High |
-| FR-163246-04 | Call DELETE /subscription API on confirmation | Draft | High |
-| FR-163246-05 | Log out user on successful deletion | Draft | High |
-| FR-163246-06 | Navigate to home page (/home) after successful deletion | Draft | High |
-| FR-163246-07 | Handle API error responses gracefully | Draft | High |
-| FR-163246-08 | Keep confirmation dialog open on API errors | Draft | Medium |
-| FR-163246-09 | Provide clear success/error feedback to user | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-163246-01 |  | Display Delete Subscription button with caution styling | High | Draft | Not Approved |
+| FR-163246-02 |  | Show confirmation dialog on button click with data deletion warning | High | Draft | Not Approved |
+| FR-163246-03 |  | Include warning about subscription cancellation and unrecoverable data loss | High | Draft | Not Approved |
+| FR-163246-04 |  | Call DELETE /subscription API on confirmation | High | Draft | Not Approved |
+| FR-163246-05 |  | Log out user on successful deletion | High | Draft | Not Approved |
+| FR-163246-06 |  | Navigate to home page (/home) after successful deletion | High | Draft | Not Approved |
+| FR-163246-07 |  | Handle API error responses gracefully | High | Draft | Not Approved |
+| FR-163246-08 |  | Keep confirmation dialog open on API errors | Medium | Draft | Not Approved |
+| FR-163246-09 |  | Provide clear success/error feedback to user | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-163246-01 | Clear caution styling for destructive action | Draft | High |
-| NFR-163246-02 | Accessible button and dialog controls | Draft | High |
-| NFR-163246-03 | Fast dialog loading and response | Draft | High |
-| NFR-163246-04 | Secure API call handling | Draft | High |
-| NFR-163246-05 | Comprehensive error messaging | Draft | High |
-| NFR-163246-06 | Smooth logout and navigation transition | Draft | Medium |
-| NFR-163246-07 | Compatible with modern browsers | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-163246-01 |  |  | Clear caution styling for destructive action | High | Draft | Not Approved |
+| NFR-163246-02 |  |  | Accessible button and dialog controls | High | Draft | Not Approved |
+| NFR-163246-03 |  |  | Fast dialog loading and response | High | Draft | Not Approved |
+| NFR-163246-04 |  |  | Secure API call handling | High | Draft | Not Approved |
+| NFR-163246-05 |  |  | Comprehensive error messaging | High | Draft | Not Approved |
+| NFR-163246-06 |  |  | Smooth logout and navigation transition | Medium | Draft | Not Approved |
+| NFR-163246-07 |  |  | Compatible with modern browsers | Medium | Draft | Not Approved |
 
 ## Dependencies
 
