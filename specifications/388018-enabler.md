@@ -25,6 +25,8 @@ Validates the session id is valid and payment is complete with Stripe
 Create an account document:
 - Set user id from the user id in the bearer token
 - Set the subscription type
+- Set the subscription item id from the Stripe session
+- Set the subscription id from the Stripe session
 Saves the account in the "account" container in cosmos db
 Set the user id from the user id in the bearer token on the profile document
 Saves the profile document in the "profile" container in cosmos db
@@ -39,10 +41,13 @@ Saves the profile document in the "profile" container in cosmos db
 | FR-388018-04 | Validate session id with Stripe for payment completion | Draft | High |
 | FR-388018-05 | Extract user id from bearer token | Draft | High |
 | FR-388018-06 | Create account document in accounts container | Draft | High |
-| FR-388018-07 | Set subscription type in account document | Draft | High |
-| FR-388018-08 | Save profile document in profiles container | Draft | High |
-| FR-388018-09 | Set user id on profile document | Draft | High |
-| FR-388018-10 | Handle validation errors and return appropriate responses | Draft | High |
+| FR-388018-07 | Set user id from bearer token in account document | Draft | High |
+| FR-388018-08 | Set subscription type in account document | Draft | High |
+| FR-388018-09 | Set subscription item id from Stripe session in account document | Draft | High |
+| FR-388018-10 | Set subscription id from Stripe session in account document | Draft | High |
+| FR-388018-11 | Save profile document in profiles container | Draft | High |
+| FR-388018-12 | Set user id from bearer token on profile document | Draft | High |
+| FR-388018-13 | Handle validation errors and return appropriate responses | Draft | High |
 
 ## Non-Functional Requirements
 
@@ -54,6 +59,7 @@ Saves the profile document in the "profile" container in cosmos db
 | NFR-388018-04 | Atomic operations for account and profile creation | Draft | High |
 | NFR-388018-05 | Comprehensive error logging | Draft | Medium |
 | NFR-388018-06 | PCI compliance for payment validation | Draft | High |
+| NFR-388018-07 | Idempotent subscription creation | Draft | Medium |
 
 ## Dependencies
 
