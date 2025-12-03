@@ -1,12 +1,12 @@
-# New Profile Web Component
+# Initial Log In Web Component
 
 ## Metadata
 
-- **Name**: New Profile Web Component
+- **Name**: Initial Log In Web Component
 - **Type**: Enabler
-- **ID**: ENB-577934
+- **ID**: ENB-037678
 - **Approval**: Not Approved
-- **Capability ID**: CAP-329283
+- **Capability ID**: CAP-227261
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,13 +15,12 @@
 
 ## Technical Overview
 ### Purpose
-Step four of a multi-step wizard:
-- This step is independently navigable by a unique url (/newprofile).
-- Adds the session id to the subscription request
-- Enables the user to enter a First Name, Last Name, Email address (pre-populates with any email address from the login), State from a drop down of the 50 u.s. states
+Step one of a multi-step wizard:
+- This step is independently navigable by a unique url (/newlogin).
+- Displays the log in options from Azure App Service Authentication (Easy Auth)
 
-On submission, call the Subscription API passing it the subscription and profile request
-On success, navigates to the Contracts Page (/contracts)
+Integrates with Azure App Service Authentication (Easy Auth)
+On successful login, navigates to Subscription Choice Step 2
 
 ## Functional Requirements
 
@@ -60,7 +59,7 @@ On success, navigates to the Contracts Page (/contracts)
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-577934<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-037678<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 

@@ -21,7 +21,7 @@ Azure App Service Authentication (Easy Auth) integration
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
+| ENB-037678 |
 
 ## Dependencies
 

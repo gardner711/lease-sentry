@@ -21,7 +21,6 @@ Finalizes the subscription
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-388018 |
 | ENB-577934 |
 

@@ -21,7 +21,6 @@ Chose subscription type
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-390020 |
 
 ## Dependencies

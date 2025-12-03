@@ -21,7 +21,6 @@ Payment step
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-918796 |
 | ENB-572526 |
 
