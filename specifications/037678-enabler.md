@@ -26,13 +26,22 @@ On successful login, navigates to Subscription Choice Step 2
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| FR-037678-01 | Login Page Display | Display a login page at /newlogin with authentication options from Azure Easy Auth. | High | Draft | Not Approved |
+| FR-037678-02 | Authentication Integration | Integrate with Azure App Service Authentication (Easy Auth) to handle login flows. | High | Draft | Not Approved |
+| FR-037678-03 | Successful Login Navigation | On successful authentication, navigate the user to the Subscription Choice Step 2. | High | Draft | Not Approved |
+| FR-037678-04 | Independent Navigation | Ensure the /newlogin URL is independently accessible without prior steps. | Medium | Draft | Not Approved |
+| FR-037678-05 | Authentication Options Display | Display all available login options provided by Azure Easy Auth (e.g., Microsoft, Google, etc.). | High | Draft | Not Approved |
+| FR-037678-06 | Error Handling | Display appropriate error messages for failed authentication attempts. | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| NFR-037678-01 | Security | Security | Securely handle authentication tokens and prevent unauthorized access. | High | Draft | Not Approved |
+| NFR-037678-02 | Usability | Usability | Provide a clear, intuitive login interface with accessible options. | High | Draft | Not Approved |
+| NFR-037678-03 | Performance | Performance | Login page loads within 2 seconds under normal conditions. | Medium | Draft | Not Approved |
+| NFR-037678-04 | Compatibility | Compatibility | Compatible with modern browsers and Azure Easy Auth providers. | Medium | Draft | Not Approved |
+| NFR-037678-05 | Reliability | Reliability | Handle authentication failures gracefully without crashing the application. | High | Draft | Not Approved |
 
 ## Dependencies
 
