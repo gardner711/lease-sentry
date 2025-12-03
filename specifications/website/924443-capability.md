@@ -26,6 +26,7 @@ A single website to support the user interface for the web application
 | ENB-299518 | Home Page |
 | ENB-265470 | Footer |
 | ENB-928863 | Header Menu |
+| ENB-335470 | API Webserver Client |
 
 ## Dependencies
 

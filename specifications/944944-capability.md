@@ -1,12 +1,12 @@
-# User Profile
+# Contract Library
 
 ## Metadata
 
-- **Name**: User Profile
+- **Name**: Contract Library
 - **Type**: Capability
 - **System**: ls
-- **Component**: user
-- **ID**: CAP-537783
+- **Component**: contracts
+- **ID**: CAP-944944
 - **Approval**: Not Approved
 - **Owner**: Product Team
 - **Status**: In Draft
@@ -15,18 +15,24 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's profile. Profile information contains:
--user first name
--user last name
--email address
--U.S. state selection for (Default) State
-The profile operations in the web service API (/profile) are saved in Cosmos Db in collection called "profile" 
+A web component that is a grid list of all the contracts owned by the user. This grid should support:
+- Columns: title, score, upload datetime, status, icon link to view, icon link to delete
+- Sorting by column
+- Filter by title, score, upload datetime
+- 20 at a time paging
+- Each contract has a linked icon to navigate to the contract analysis page.
+- Each contract has a linked icon to delete the contract after confirmation
+The contract list is retrieved by a webservice API GET (/contract) that retrieves the contract list from Cosmos Db.
+The contract is deleted by a webservice API DELETE (/contract) that deletes the contract by id and deletes the associated blob storage file
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-857384 | List Contracts API |
+| ENB-277705 | Delete Contract API |
+| ENB-853968 | Contract Library Web Component |
 
 ## Dependencies
 

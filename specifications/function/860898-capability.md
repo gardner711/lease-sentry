@@ -1,12 +1,12 @@
-# User Profile
+# Delete Function
 
 ## Metadata
 
-- **Name**: User Profile
+- **Name**: Delete Function
 - **Type**: Capability
 - **System**: ls
-- **Component**: user
-- **ID**: CAP-537783
+- **Component**: function
+- **ID**: CAP-860898
 - **Approval**: Not Approved
 - **Owner**: Product Team
 - **Status**: In Draft
@@ -15,12 +15,16 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's profile. Profile information contains:
--user first name
--user last name
--email address
--U.S. state selection for (Default) State
-The profile operations in the web service API (/profile) are saved in Cosmos Db in collection called "profile" 
+Accepts a delete bus message from Event Grid and performs the following operations:
+- Unsubscribes the user through Stripe
+- Deletes the user's profile in cosmos db
+- Deletes all the AI search rag databases associated to each contract owned by the user
+- Deletes all history analysis for each contract owned by the user
+- Deletes all files related to the those contracts in blob storage
+- Delete's all contracts owned by the user in the cosmos db
+- Deletes the user's subscription in cosmos db
+
+- Deletes the users
 
 ## Enablers
 

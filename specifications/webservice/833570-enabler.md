@@ -21,28 +21,28 @@ Integrate Azure Cosmos DB for high-performance NoSQL document storage with globa
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-833571 | Document CRUD | Create, read, update, and delete JSON documents with automatic indexing | Must Have | Ready for Implementation | Approved |
-| FR-833572 | Query Operations | Execute SQL-like queries with filtering, sorting, and pagination support | Must Have | Ready for Implementation | Approved |
-| FR-833573 | Partition Key Management | Define and manage partition keys for optimal data distribution and query performance | Must Have | Ready for Implementation | Approved |
-| FR-833574 | Bulk Operations | Support bulk insert, update, and delete operations for batch processing | Must Have | Ready for Implementation | Approved |
-| FR-833575 | Change Feed | Subscribe to change feed for real-time data synchronization and event processing | Must Have | Ready for Implementation | Approved |
-| FR-833576 | Stored Procedures | Create and execute server-side stored procedures for transactional operations | Medium | Ready for Implementation | Approved |
-| FR-833577 | Consistency Levels | Configure consistency levels (Strong, Bounded Staleness, Session, Consistent Prefix, Eventual) | Must Have | Ready for Implementation | Approved |
-| FR-833578 | Database Management | Create, configure, and manage databases and containers programmatically | Must Have | Ready for Implementation | Approved |
-| FR-833579 | Environment Configuration | Configure Cosmos DB endpoints and keys per environment (dev, test, prod) | Must Have | Ready for Implementation | Approved |
-| FR-833580 | Authentication | Support managed identity, connection strings, and account keys for authentication | Must Have | Ready for Implementation | Approved |
-| FR-833581 | TTL Management | Configure time-to-live (TTL) for automatic document expiration | Medium | Ready for Implementation | Approved |
+| FR-833570-01 | Document CRUD | Create, read, update, and delete JSON documents with automatic indexing | High | Draft | Not Approved |
+| FR-833570-02 | Query Operations | Execute SQL-like queries with filtering, sorting, and pagination support | High | Draft | Not Approved |
+| FR-833570-03 | Partition Key Management | Define and manage partition keys for optimal data distribution and query performance | High | Draft | Not Approved |
+| FR-833570-04 | Bulk Operations | Support bulk insert, update, and delete operations for batch processing | High | Draft | Not Approved |
+| FR-833570-05 | Change Feed | Subscribe to change feed for real-time data synchronization and event processing | High | Draft | Not Approved |
+| FR-833570-06 | Stored Procedures | Create and execute server-side stored procedures for transactional operations | Medium | Draft | Not Approved |
+| FR-833570-07 | Consistency Levels | Configure consistency levels (Strong, Bounded Staleness, Session, Consistent Prefix, Eventual) | High | Draft | Not Approved |
+| FR-833570-08 | Database Management | Create, configure, and manage databases and containers programmatically | High | Draft | Not Approved |
+| FR-833570-09 | Environment Configuration | Configure Cosmos DB endpoints and keys per environment (dev, test, prod) | High | Draft | Not Approved |
+| FR-833570-10 | Authentication | Support managed identity, connection strings, and account keys for authentication | High | Draft | Not Approved |
+| FR-833570-11 | TTL Management | Configure time-to-live (TTL) for automatic document expiration | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-833582 | Read Latency | Achieve single-digit millisecond read latency for queries within same region | Must Have | Ready for Implementation | Approved |
-| NFR-833583 | Write Latency | Achieve less than 15ms write latency for document operations | Must Have | Ready for Implementation | Approved |
-| NFR-833584 | Throughput | Support provisioned throughput from 400 RU/s to 10,000 RU/s per container | High | Ready for Implementation | Approved |
-| NFR-833585 | Scalability | Auto-scale throughput based on workload with serverless option for dev environments | Must Have | Ready for Implementation | Approved |
-| NFR-833586 | Availability | Guarantee 99.999% availability with multi-region writes for production | Must Have | Ready for Implementation | Approved |
-| NFR-833587 | Cost Management | Monitor RU consumption and optimize queries to minimize costs | High | Ready for Implementation | Approved |
+| NFR-833570-01 | Read Latency | Achieve single-digit millisecond read latency for queries within same region | High | Draft | Not Approved |
+| NFR-833570-02 | Write Latency | Achieve less than 15ms write latency for document operations | High | Draft | Not Approved |
+| NFR-833570-03 | Throughput | Support provisioned throughput from 400 RU/s to 10,000 RU/s per container | High | Draft | Not Approved |
+| NFR-833570-04 | Scalability | Auto-scale throughput based on workload with serverless option for dev environments | High | Draft | Not Approved |
+| NFR-833570-05 | Availability | Guarantee 99.999% availability with multi-region writes for production | High | Draft | Not Approved |
+| NFR-833570-06 | Cost Management | Monitor RU consumption and optimize queries to minimize costs | High | Draft | Not Approved |
 | NFR-833588 | Security | Encrypt data at rest and in transit with RBAC for database access control | Must Have | Ready for Implementation | Approved |
 
 ## Dependencies

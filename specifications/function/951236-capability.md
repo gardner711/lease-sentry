@@ -1,26 +1,22 @@
-# User Profile
+# Analyze Function
 
 ## Metadata
 
-- **Name**: User Profile
+- **Name**: Analyze Function
 - **Type**: Capability
 - **System**: ls
-- **Component**: user
-- **ID**: CAP-537783
+- **Component**: function
+- **ID**: CAP-951236
 - **Approval**: Not Approved
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
 - **Analysis Review**: Required
 
-## Technical Overview
-### Purpose
-This web component provides the capabilities to view and edit the current user's profile. Profile information contains:
--user first name
--user last name
--email address
--U.S. state selection for (Default) State
-The profile operations in the web service API (/profile) are saved in Cosmos Db in collection called "profile" 
+## Technical Overview 
+###  Purpose
+[Clear business value statement]
+
 
 ## Enablers
 

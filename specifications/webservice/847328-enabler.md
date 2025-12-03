@@ -21,20 +21,20 @@ Provide secure API access control using JSON Web Token (JWT) authentication with
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-847329 | Token Generation | Generate JWT tokens upon successful authentication with user claims | Must Have | Ready for Implementation | Approved |
-| FR-847401 | Token Validation | Validate JWT tokens on protected endpoints including signature and expiration | Must Have | Ready for Implementation | Approved |
-| FR-847402 | Token Refresh | Provide mechanism to refresh expired tokens using refresh tokens | Must Have | Ready for Implementation | Approved |
-| FR-847403 | Protected Endpoints | Secure API endpoints requiring valid JWT tokens | Must Have | Ready for Implementation | Approved |
-| FR-847404 | Token Revocation | Support token revocation for logout and security events | Must Have | Ready for Implementation | Approved |
+| FR-847328-01 | Token Generation | Generate JWT tokens upon successful authentication with user claims | High | Draft | Not Approved |
+| FR-847328-02 | Token Validation | Validate JWT tokens on protected endpoints including signature and expiration | High | Draft | Not Approved |
+| FR-847328-03 | Token Refresh | Provide mechanism to refresh expired tokens using refresh tokens | High | Draft | Not Approved |
+| FR-847328-04 | Protected Endpoints | Secure API endpoints requiring valid JWT tokens | High | Draft | Not Approved |
+| FR-847328-05 | Token Revocation | Support token revocation for logout and security events | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-847405 | Token Expiration | Security | Access tokens should expire within 15 minutes, refresh tokens within 7 days | Must Have | Ready for Implementation | Approved |
-| NFR-847406 | Signature Algorithm | Security | Use RS256 or HS256 algorithm for token signing | Must Have | Ready for Implementation | Approved |
-| NFR-847407 | Secure Storage | Security | Store signing keys securely using environment variables or key management service | Must Have | Ready for Implementation | Approved |
-| NFR-847408 | Performance | Performance | Token validation should add no more than 10ms overhead per request | Must Have | Ready for Implementation | Approved |
+| NFR-847328-01 | Token Expiration | Security | Access tokens should expire within 15 minutes, refresh tokens within 7 days | High | Draft | Not Approved |
+| NFR-847328-02 | Signature Algorithm | Security | Use RS256 or HS256 algorithm for token signing | High | Draft | Not Approved |
+| NFR-847328-03 | Secure Storage | Security | Store signing keys securely using environment variables or key management service | High | Draft | Not Approved |
+| NFR-847328-04 | Performance | Performance | Token validation should add no more than 10ms overhead per request | High | Draft | Not Approved |
 
 ## Dependencies
 

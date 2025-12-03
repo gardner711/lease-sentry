@@ -25,6 +25,7 @@ Standard web service template
 | ENB-847294 |
 | ENB-847295 |
 | ENB-847328 |
+| ENB-352820 | API Schema |
 
 ## Dependencies
 

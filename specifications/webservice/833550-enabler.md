@@ -21,28 +21,28 @@ Integrate Azure Blob Storage for secure file storage, retrieval, and management.
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-833551 | Blob Upload | Upload files to Blob Storage with support for block blobs and append blobs | Must Have | Ready for Implementation | Approved |
-| FR-833552 | Blob Download | Download blobs with streaming support for large files | Must Have | Ready for Implementation | Approved |
-| FR-833553 | Blob Deletion | Delete blobs with optional soft delete and undelete capabilities | Must Have | Ready for Implementation | Approved |
-| FR-833554 | Container Management | Create, list, and delete blob containers with access level configuration | Must Have | Ready for Implementation | Approved |
-| FR-833555 | Blob Metadata | Set and retrieve custom metadata key-value pairs for blobs | Must Have | Ready for Implementation | Approved |
-| FR-833556 | SAS Token Generation | Generate Shared Access Signature tokens with time-limited permissions | Must Have | Ready for Implementation | Approved |
-| FR-833557 | Blob Versioning | Enable blob versioning to track and restore previous versions | Must Have | Ready for Implementation | Approved |
-| FR-833558 | Lifecycle Management | Configure lifecycle policies for automatic tier transitions and deletion | Medium | Ready for Implementation | Approved |
-| FR-833559 | Environment Configuration | Configure storage account connections per environment (dev, test, prod) | Must Have | Ready for Implementation | Approved |
-| FR-833560 | Authentication | Support managed identity, connection strings, and account keys for authentication | Must Have | Ready for Implementation | Approved |
-| FR-833561 | Content Type Detection | Automatically detect and set Content-Type headers based on file extension | Must Have | Ready for Implementation | Approved |
+| FR-833550-01 | Blob Upload | Upload files to Blob Storage with support for block blobs and append blobs | High | Draft | Not Approved |
+| FR-833550-02 | Blob Download | Download blobs with streaming support for large files | High | Draft | Not Approved |
+| FR-833550-03 | Blob Deletion | Delete blobs with optional soft delete and undelete capabilities | High | Draft | Not Approved |
+| FR-833550-04 | Container Management | Create, list, and delete blob containers with access level configuration | High | Draft | Not Approved |
+| FR-833550-05 | Blob Metadata | Set and retrieve custom metadata key-value pairs for blobs | High | Draft | Not Approved |
+| FR-833550-06 | SAS Token Generation | Generate Shared Access Signature tokens with time-limited permissions | High | Draft | Not Approved |
+| FR-833550-07 | Blob Versioning | Enable blob versioning to track and restore previous versions | High | Draft | Not Approved |
+| FR-833550-08 | Lifecycle Management | Configure lifecycle policies for automatic tier transitions and deletion | Medium | Draft | Not Approved |
+| FR-833550-09 | Environment Configuration | Configure storage account connections per environment (dev, test, prod) | High | Draft | Not Approved |
+| FR-833550-10 | Authentication | Support managed identity, connection strings, and account keys for authentication | High | Draft | Not Approved |
+| FR-833550-11 | Content Type Detection | Automatically detect and set Content-Type headers based on file extension | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-833562 | Upload Performance | Upload files up to 100MB in under 30 seconds on standard network | Must Have | Ready for Implementation | Approved |
-| NFR-833563 | Scalability | Support concurrent operations with up to 100 simultaneous blob transfers | High | Ready for Implementation | Approved |
-| NFR-833564 | Reliability | Guarantee 99.99% availability for blob operations with automatic retry | Must Have | Ready for Implementation | Approved |
-| NFR-833565 | Security | Encrypt all blobs at rest with AES-256 and in transit with TLS 1.2+ | Must Have | Ready for Implementation | Approved |
-| NFR-833566 | Cost Optimization | Use appropriate storage tiers (Hot, Cool, Archive) based on access patterns | Medium | Ready for Implementation | Approved |
-| NFR-833567 | Monitoring | Track blob operations, storage usage, and costs in Application Insights | Must Have | Ready for Implementation | Approved |
+| NFR-833550-01 | Upload Performance | Upload files up to 100MB in under 30 seconds on standard network | High | Draft | Not Approved |
+| NFR-833550-02 | Scalability | Support concurrent operations with up to 100 simultaneous blob transfers | High | Draft | Not Approved |
+| NFR-833550-03 | Reliability | Guarantee 99.99% availability for blob operations with automatic retry | High | Draft | Not Approved |
+| NFR-833550-04 | Security | Encrypt all blobs at rest with AES-256 and in transit with TLS 1.2+ | High | Draft | Not Approved |
+| NFR-833550-05 | Cost Optimization | Use appropriate storage tiers (Hot, Cool, Archive) based on access patterns | Medium | Draft | Not Approved |
+| NFR-833550-06 | Monitoring | Track blob operations, storage usage, and costs in Application Insights | High | Draft | Not Approved |
 
 ## Dependencies
 

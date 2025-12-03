@@ -21,19 +21,19 @@ Manage application dependencies, third-party packages, and libraries using packa
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-847412 | Package Installation | Install and manage project dependencies using package managers | Must Have | Ready for Implementation | Approved |
-| FR-847413 | Version Locking | Lock dependency versions to ensure reproducible builds | Must Have | Ready for Implementation | Approved |
-| FR-847414 | Dependency Resolution | Resolve dependency conflicts and transitive dependencies | Must Have | Ready for Implementation | Approved |
-| FR-847415 | Package Scripts | Support custom scripts for build, test, and deployment tasks | Must Have | Ready for Implementation | Approved |
+| FR-847342-01 | Package Installation | Install and manage project dependencies using package managers | High | Draft | Not Approved |
+| FR-847342-02 | Version Locking | Lock dependency versions to ensure reproducible builds | High | Draft | Not Approved |
+| FR-847342-03 | Dependency Resolution | Resolve dependency conflicts and transitive dependencies | High | Draft | Not Approved |
+| FR-847342-04 | Package Scripts | Support custom scripts for build, test, and deployment tasks | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-847367 | Vulnerability Scanning | Security | Scan dependencies for known security vulnerabilities | Must Have | Ready for Implementation | Approved |
-| NFR-847416 | Install Performance | Performance | Optimize dependency installation time using caching | Must Have | Ready for Implementation | Approved |
-| NFR-847417 | License Compliance | Compliance | Track and validate dependency licenses | Must Have | Ready for Implementation | Approved |
-| NFR-847418 | Offline Support | Reliability | Support offline installation using cached packages | Must Have | Ready for Implementation | Approved |
+| NFR-847342-01 | Vulnerability Scanning | Security | Scan dependencies for known security vulnerabilities | High | Draft | Not Approved |
+| NFR-847342-02 | Install Performance | Performance | Optimize dependency installation time using caching | High | Draft | Not Approved |
+| NFR-847342-03 | License Compliance | Compliance | Track and validate dependency licenses | High | Draft | Not Approved |
+| NFR-847342-04 | Offline Support | Reliability | Support offline installation using cached packages | High | Draft | Not Approved |
 
 ## Dependencies
 

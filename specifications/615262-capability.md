@@ -18,9 +18,9 @@
 Pop-up dialog that enables the user to:
 - Select a star rating
 - Provide a detailed comment as to their experience
+- Email prepopulated if user email is available
 
-On submission, the data is sent to the web-service API and the results, which include the user's first name, last name, and email address are stored in the object store under the container "reviews"
-
+On submission, the data is post to the web-service API (/review) and the results, which will also include the user's first name, last name, unique user id, and email address, are stored in cosmos db under the container "review"
 
 ## Enablers
 

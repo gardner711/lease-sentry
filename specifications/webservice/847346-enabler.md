@@ -21,31 +21,31 @@ Implement the web service backend using Node.js programming language to provide 
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-847001 | Node.js Runtime | Use Node.js LTS version (v20.x or later) as the runtime environment | High | Ready for Design | Approved |
-| FR-847002 | Express Framework | Implement RESTful API using Express.js framework for routing and middleware | High | Ready for Design | Approved |
-| FR-847003 | TypeScript Support | Use TypeScript for type safety and enhanced developer experience | High | Ready for Design | Approved |
-| FR-847004 | Environment Configuration | Support environment-specific configuration using dotenv or similar | High | Ready for Design | Approved |
-| FR-847005 | Async/Await Pattern | Use async/await for asynchronous operations instead of callbacks | High | Ready for Design | Approved |
-| FR-847006 | Error Handling Middleware | Implement centralized error handling middleware for consistent error responses | High | Ready for Design | Approved |
-| FR-847007 | Request Validation | Validate incoming requests using express-validator or similar library | High | Ready for Design | Approved |
-| FR-847008 | CORS Support | Configure CORS middleware for cross-origin requests | Medium | Ready for Design | Approved |
-| FR-847009 | Graceful Shutdown | Implement graceful shutdown handling for SIGTERM and SIGINT signals | Medium | Ready for Design | Approved |
-| FR-847010 | Module System | Use ES modules (import/export) instead of CommonJS (require) | Medium | Ready for Design | Approved |
+| FR-847346-01 | Node.js Runtime | Use Node.js LTS version (v20.x or later) as the runtime environment | High | Draft | Not Approved |
+| FR-847346-02 | Express Framework | Implement RESTful API using Express.js framework for routing and middleware | High | Draft | Not Approved |
+| FR-847346-03 | TypeScript Support | Use TypeScript for type safety and enhanced developer experience | High | Draft | Not Approved |
+| FR-847346-04 | Environment Configuration | Support environment-specific configuration using dotenv or similar | High | Draft | Not Approved |
+| FR-847346-05 | Async/Await Pattern | Use async/await for asynchronous operations instead of callbacks | High | Draft | Not Approved |
+| FR-847346-06 | Error Handling Middleware | Implement centralized error handling middleware for consistent error responses | High | Draft | Not Approved |
+| FR-847346-07 | Request Validation | Validate incoming requests using express-validator or similar library | High | Draft | Not Approved |
+| FR-847346-08 | CORS Support | Configure CORS middleware for cross-origin requests | Medium | Draft | Not Approved |
+| FR-847346-09 | Graceful Shutdown | Implement graceful shutdown handling for SIGTERM and SIGINT signals | Medium | Draft | Not Approved |
+| FR-847346-10 | Module System | Use ES modules (import/export) instead of CommonJS (require) | Medium | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-847001 | Performance | Handle minimum 1000 requests per second with p95 latency under 100ms | High | Ready for Design | Approved |
-| NFR-847002 | Memory Efficiency | Maintain memory usage under 512MB for typical workloads | High | Ready for Design | Approved |
-| NFR-847003 | Startup Time | Application must start and be ready to serve requests within 5 seconds | Medium | Ready for Design | Approved |
-| NFR-847004 | Code Quality | Maintain minimum 80% code coverage with automated tests | High | Ready for Design | Approved |
-| NFR-847005 | Error Recovery | Automatically recover from uncaught exceptions using process managers (PM2) | High | Ready for Design | Approved |
-| NFR-847006 | Dependency Management | Use npm or pnpm for dependency management with lock files | High | Ready for Design | Approved |
-| NFR-847007 | Security | Keep dependencies up-to-date and scan for vulnerabilities using npm audit | High | Ready for Design | Approved |
-| NFR-847008 | Logging Standards | Use structured logging (Winston, Pino) with appropriate log levels | High | Ready for Design | Approved |
-| NFR-847009 | Code Style | Enforce consistent code style using ESLint and Prettier | Medium | Ready for Design | Approved |
-| NFR-847010 | Build Performance | Complete TypeScript compilation in under 10 seconds for incremental builds | Medium | Ready for Design | Approved |
+| NFR-847346-01 | Performance | Handle minimum 1000 requests per second with p95 latency under 100ms | High | Draft | Not Approved |
+| NFR-847346-02 | Memory Efficiency | Maintain memory usage under 512MB for typical workloads | High | Draft | Not Approved |
+| NFR-847346-03 | Startup Time | Application must start and be ready to serve requests within 5 seconds | Medium | Draft | Not Approved |
+| NFR-847346-04 | Code Quality | Maintain minimum 80% code coverage with automated tests | High | Draft | Not Approved |
+| NFR-847346-05 | Error Recovery | Automatically recover from uncaught exceptions using process managers (PM2) | High | Draft | Not Approved |
+| NFR-847346-06 | Dependency Management | Use npm or pnpm for dependency management with lock files | High | Draft | Not Approved |
+| NFR-847346-07 | Security | Keep dependencies up-to-date and scan for vulnerabilities using npm audit | High | Draft | Not Approved |
+| NFR-847346-08 | Logging Standards | Use structured logging (Winston, Pino) with appropriate log levels | High | Draft | Not Approved |
+| NFR-847346-09 | Code Style | Enforce consistent code style using ESLint and Prettier | Medium | Draft | Not Approved |
+| NFR-847346-10 | Build Performance | Complete TypeScript compilation in under 10 seconds for incremental builds | Medium | Draft | Not Approved |
 
 ## Dependencies
 

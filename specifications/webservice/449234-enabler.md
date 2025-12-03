@@ -21,18 +21,18 @@ Provide centralized logging capabilities for tracking API requests, responses, e
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-485342 | Log Levels | Support multiple log levels: DEBUG, INFO, WARN, ERROR, FATAL | Must Have | Ready for Implementation | Approved |
-| FR-485344 | Request Logging | Log all incoming API requests with timestamp, endpoint, method, and client info | Must Have | Ready for Implementation | Approved |
-| FR-485346 | Error Logging | Capture and log all errors with stack traces and context | Must Have | Ready for Implementation | Approved |
-| FR-485348 | Structured Logging | Output logs in structured JSON format | Must Have | Ready for Implementation | Approved |
+| FR-449234-01 | Log Levels | Support multiple log levels: DEBUG, INFO, WARN, ERROR, FATAL | High | Draft | Not Approved |
+| FR-449234-02 | Request Logging | Log all incoming API requests with timestamp, endpoint, method, and client info | High | Draft | Not Approved |
+| FR-449234-03 | Error Logging | Capture and log all errors with stack traces and context | High | Draft | Not Approved |
+| FR-449234-04 | Structured Logging | Output logs in structured JSON format | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-485350 | Performance Impact | Performance | Logging operations should not add more than 5ms overhead per request | Must Have | Ready for Implementation | Approved |
-| NFR-847308 | Log Rotation | Maintainability | Support automatic log file rotation based on size or time | Must Have | Ready for Implementation | Approved |
-| NFR-847309 | Configurable Output | Flexibility | Allow configuration of log output destinations (console, file, external service) | Must Have | Ready for Implementation | Approved |
+| NFR-449234-01 | Performance Impact | Performance | Logging operations should not add more than 5ms overhead per request | High | Draft | Not Approved |
+| NFR-449234-02 | Log Rotation | Maintainability | Support automatic log file rotation based on size or time | High | Draft | Not Approved |
+| NFR-449234-03 | Configurable Output | Flexibility | Allow configuration of log output destinations (console, file, external service) | High | Draft | Not Approved |
 
 ## Dependencies
 

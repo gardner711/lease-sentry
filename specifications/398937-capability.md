@@ -1,12 +1,12 @@
-# User Profile
+# Initial Login - Step 1
 
 ## Metadata
 
-- **Name**: User Profile
+- **Name**: Initial Login - Step 1
 - **Type**: Capability
 - **System**: ls
-- **Component**: user
-- **ID**: CAP-537783
+- **Component**: free-subscription
+- **ID**: CAP-398937
 - **Approval**: Not Approved
 - **Owner**: Product Team
 - **Status**: In Draft
@@ -15,12 +15,13 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's profile. Profile information contains:
--user first name
--user last name
--email address
--U.S. state selection for (Default) State
-The profile operations in the web service API (/profile) are saved in Cosmos Db in collection called "profile" 
+Step one of a multiple step wizard:\
+
+Integrates with Azure App Service Authentication and logs the user in via oAuth
+POST to add the new account to the webservice API (/account) with the unique id of the oAuth user to identify the user later and the subscription setting of Free.
+POST to add a new profile to the webservice API (/profile) with the unique id of the oAuth user.
+Navigates to step 2 (/contracts)
+This step is independently navigable by a unique url (/freelogin).
 
 ## Enablers
 

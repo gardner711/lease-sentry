@@ -21,27 +21,27 @@ Integrate Azure Event Grid for publishing and subscribing to event-driven messag
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-833531 | Event Publishing | Publish events to Event Grid topics with custom event schemas and metadata | Must Have | Ready for Implementation | Approved |
-| FR-833532 | Event Subscription | Subscribe to Event Grid events with webhook or Event Hub endpoints | Must Have | Ready for Implementation | Approved |
-| FR-833533 | Event Filtering | Filter events by subject, event type, and custom data properties | Must Have | Ready for Implementation | Approved |
-| FR-833534 | Retry Configuration | Configure retry policies including maximum attempts, backoff intervals, and expiration time | Must Have | Ready for Implementation | Approved |
-| FR-833535 | Dead-Letter Queue | Route failed events to dead-letter destination (Blob Storage or Storage Queue) | Must Have | Ready for Implementation | Approved |
-| FR-833536 | Event Schema Validation | Validate events against Event Grid schema or CloudEvents schema | Must Have | Ready for Implementation | Approved |
-| FR-833537 | Environment Configuration | Configure Event Grid endpoints, topics, and authentication per environment (dev, test, prod) | Must Have | Ready for Implementation | Approved |
-| FR-833538 | Authentication | Support managed identity, SAS tokens, and access keys for authentication | Must Have | Ready for Implementation | Approved |
-| FR-833539 | Custom Topics | Create and manage custom Event Grid topics for domain-specific events | Must Have | Ready for Implementation | Approved |
-| FR-833540 | Event Tracing | Track event delivery status and correlation IDs for distributed tracing | Must Have | Ready for Implementation | Approved |
+| FR-833530-01 | Event Publishing | Publish events to Event Grid topics with custom event schemas and metadata | High | Draft | Not Approved |
+| FR-833530-02 | Event Subscription | Subscribe to Event Grid events with webhook or Event Hub endpoints | High | Draft | Not Approved |
+| FR-833530-03 | Event Filtering | Filter events by subject, event type, and custom data properties | High | Draft | Not Approved |
+| FR-833530-04 | Retry Configuration | Configure retry policies including maximum attempts, backoff intervals, and expiration time | High | Draft | Not Approved |
+| FR-833530-05 | Dead-Letter Queue | Route failed events to dead-letter destination (Blob Storage or Storage Queue) | High | Draft | Not Approved |
+| FR-833530-06 | Event Schema Validation | Validate events against Event Grid schema or CloudEvents schema | High | Draft | Not Approved |
+| FR-833530-07 | Environment Configuration | Configure Event Grid endpoints, topics, and authentication per environment (dev, test, prod) | High | Draft | Not Approved |
+| FR-833530-08 | Authentication | Support managed identity, SAS tokens, and access keys for authentication | High | Draft | Not Approved |
+| FR-833530-09 | Custom Topics | Create and manage custom Event Grid topics for domain-specific events | High | Draft | Not Approved |
+| FR-833530-10 | Event Tracing | Track event delivery status and correlation IDs for distributed tracing | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-833541 | Event Delivery Latency | Deliver events to subscribers within 5 seconds under normal conditions | Must Have | Ready for Implementation | Approved |
-| NFR-833542 | Throughput | Support publishing up to 5,000 events per second per topic | High | Ready for Implementation | Approved |
-| NFR-833543 | Reliability | Guarantee at-least-once delivery with 99.99% delivery success rate | Must Have | Ready for Implementation | Approved |
-| NFR-833544 | Security | Encrypt all events in transit using TLS 1.2+ and support RBAC for topic access | Must Have | Ready for Implementation | Approved |
-| NFR-833545 | Monitoring | Integrate with Application Insights to track event metrics and failures | Must Have | Ready for Implementation | Approved |
-| NFR-833546 | Scalability | Auto-scale to handle event bursts up to 10,000 events per second | High | Ready for Implementation | Approved |
+| NFR-833530-01 | Event Delivery Latency | Deliver events to subscribers within 5 seconds under normal conditions | High | Draft | Not Approved |
+| NFR-833530-02 | Throughput | Support publishing up to 5,000 events per second per topic | High | Draft | Not Approved |
+| NFR-833530-03 | Reliability | Guarantee at-least-once delivery with 99.99% delivery success rate | High | Draft | Not Approved |
+| NFR-833530-04 | Security | Encrypt all events in transit using TLS 1.2+ and support RBAC for topic access | High | Draft | Not Approved |
+| NFR-833530-05 | Monitoring | Integrate with Application Insights to track event metrics and failures | High | Draft | Not Approved |
+| NFR-833530-06 | Scalability | Auto-scale to handle event bursts up to 10,000 events per second | High | Draft | Not Approved |
 
 ## Dependencies
 

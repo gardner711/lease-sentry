@@ -1,12 +1,12 @@
-# User Profile
+# Contract Upload
 
 ## Metadata
 
-- **Name**: User Profile
+- **Name**: Contract Upload
 - **Type**: Capability
 - **System**: ls
-- **Component**: user
-- **ID**: CAP-537783
+- **Component**: contracts
+- **ID**: CAP-773285
 - **Approval**: Not Approved
 - **Owner**: Product Team
 - **Status**: In Draft
@@ -15,18 +15,20 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's profile. Profile information contains:
--user first name
--user last name
--email address
--U.S. state selection for (Default) State
-The profile operations in the web service API (/profile) are saved in Cosmos Db in collection called "profile" 
+This web component and API call will:
+- Provide a web component for a user to upload their contract (PDF, DOCX, PNG, JPG)
+- Post that contract through the webservice API 
+- The API will save the document to blob storage
+- The API will save a contract json document to cosmos db in the container "contract" which has a reference to the file location in blob storage, the unique user id, the current upload time stamp, and the status of "processing". It will retrieve the unique id of the contract after saving
+- Publish the contract json document to the event grid for further processing
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-000886 | Upload Contract API |
+| ENB-603922 | Upload Contract Web Component |
 
 ## Dependencies
 

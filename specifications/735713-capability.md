@@ -1,12 +1,12 @@
-# User Profile
+# Contract Page
 
 ## Metadata
 
-- **Name**: User Profile
+- **Name**: Contract Page
 - **Type**: Capability
 - **System**: ls
-- **Component**: user
-- **ID**: CAP-537783
+- **Component**: contracts
+- **ID**: CAP-735713
 - **Approval**: Not Approved
 - **Owner**: Product Team
 - **Status**: In Draft
@@ -15,18 +15,19 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's profile. Profile information contains:
--user first name
--user last name
--email address
--U.S. state selection for (Default) State
-The profile operations in the web service API (/profile) are saved in Cosmos Db in collection called "profile" 
+This web page has three sections:
+- Recent Contracts web component at the top
+- Contract Upload web component in the middle
+- If the user has the Pro subscription, display the Contract Library
+
+This page is independently navigable by a unique URL (/contracts) and only accessible if the user is logged in.
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-908856 | Contracts Web Page |
 
 ## Dependencies
 

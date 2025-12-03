@@ -1,8 +1,8 @@
-# Account Information
+# Subscription
 
 ## Metadata
 
-- **Name**: Account Information
+- **Name**: Subscription
 - **Type**: Capability
 - **System**: ls
 - **Component**: user
@@ -15,11 +15,11 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's account information. Account information contains the current tier of the user's subscription with the option:
-- Change thier tier
+This web component provides the capabilities to view and edit the current user's subscription. Subscription information contains the current tier of the user's subscription two actions:
+- Change the subscription tier
 - Unsubscribe from the service
 
-The Account Information actions are exchanged through web operations in the web service API and changes saved in object store in collection called account-info by the user's unique id
+The unsubscribe action pops up a confirmation dialog with a warning that after this is complete all document will be deleted and unrecoverable. On confirmation the DELETE webservice API operation (/subscription)  will be called that submits a delete bus message with the users unique id.
 
 ## Enablers
 

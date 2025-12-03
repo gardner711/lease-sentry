@@ -1,12 +1,12 @@
-# User Profile
+# Recent Contracts
 
 ## Metadata
 
-- **Name**: User Profile
+- **Name**: Recent Contracts
 - **Type**: Capability
 - **System**: ls
-- **Component**: user
-- **ID**: CAP-537783
+- **Component**: contracts
+- **ID**: CAP-574476
 - **Approval**: Not Approved
 - **Owner**: Product Team
 - **Status**: In Draft
@@ -15,18 +15,18 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's profile. Profile information contains:
--user first name
--user last name
--email address
--U.S. state selection for (Default) State
-The profile operations in the web service API (/profile) are saved in Cosmos Db in collection called "profile" 
+A web component tile display that lists the 10 most recent contracts (upload datetime) submitted by the user. This information can be retrieved by a GET operation on the webservice api (/contract/recent) that lists the top 10 most recent by unique user id.
+
+There is an linked icon to navigate to the contract analysis page (/analysis).
+There is a linked icon to delete the contract after a confirmation
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-349820 | Recent Contracts API |
+| ENB-823280 | Recent Contracts Web Component |
 
 ## Dependencies
 

@@ -28,20 +28,20 @@ Each environment SHALL have distinct configuration to prevent cross-environment 
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-602651 | Environment Variables | Support configuration and management of environment variables for different runtime stages. Docker Deployments: Provide Docker Compose configurations for three environments: (1) docker-compose.yml or docker-compose.prod.yml for production, (2) docker-compose.dev.yml for development, (3) docker-compose.test.yml for testing. Each SHALL define environment-specific variables including log levels, database connections, API configurations, and feature flags appropriate to that environment. | Must Have | Ready for Implementation | Approved |
-| FR-602660 | Runtime Version Management | Manage and configure specific runtime versions for Node.js and its dependencies | Must Have | Ready for Implementation | Approved |
-| FR-602662 | Configuration Files | Support .env configuration file format with environment-specific variants (.env.development, .env.test, .env.production) for local development and Docker override files | Must Have | Ready for Implementation | Approved |
-| FR-602664 | Environment Isolation | Provide complete isolation between development, testing, and production environments through separate configuration files, Docker Compose configurations, and environment variable namespacing to prevent configuration leakage across environments | Must Have | Ready for Implementation | Approved |
-| FR-602666 | Docker Environment Profiles | Docker Compose files MUST support launching containers with environment-appropriate settings: development (verbose logging, debug mode, hot-reload), test (test databases, mock services, CI/CD integration), production (minimal logging, optimized settings, security hardening) | Must Have | Ready for Implementation | Approved |
+| FR-449229-01 | Environment Variables | Support configuration and management of environment variables for different runtime stages. Docker Deployments: Provide Docker Compose configurations for three environments: (1) docker-compose.yml or docker-compose.prod.yml for production, (2) docker-compose.dev.yml for development, (3) docker-compose.test.yml for testing. Each SHALL define environment-specific variables including log levels, database connections, API configurations, and feature flags appropriate to that environment. | High | Draft | Not Approved |
+| FR-449229-02 | Runtime Version Management | Manage and configure specific runtime versions for Node.js and its dependencies | High | Draft | Not Approved |
+| FR-449229-03 | Configuration Files | Support .env configuration file format with environment-specific variants (.env.development, .env.test, .env.production) for local development and Docker override files | High | Draft | Not Approved |
+| FR-449229-04 | Environment Isolation | Provide complete isolation between development, testing, and production environments through separate configuration files, Docker Compose configurations, and environment variable namespacing to prevent configuration leakage across environments | High | Draft | Not Approved |
+| FR-449229-05 | Docker Environment Profiles | Docker Compose files MUST support launching containers with environment-appropriate settings: development (verbose logging, debug mode, hot-reload), test (test databases, mock services, CI/CD integration), production (minimal logging, optimized settings, security hardening) | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-602668 | Configuration Security | Security | Sensitive configuration data must be encrypted or stored securely. Docker secrets or environment variable substitution (${VAR:-default}) SHALL be used for production deployments. Development and test environments MAY use plain-text configuration files with .gitignore protection. | Must Have | Ready for Implementation | Approved |
-| NFR-602670 | Hot Reload | Performance | Support hot-reloading of configuration changes without full restart (development environment only) | Must Have | Ready for Implementation | Approved |
-| NFR-602672 | Validation | Quality | Validate configuration values against schemas before application loading | Must Have | Ready for Implementation | Approved |
-| NFR-602674 | Docker Compose Standards | Standards | All Docker Compose files MUST follow version 3.8+ specification with proper service definitions, volume mounts for development, health checks, and restart policies appropriate to each environment (unless-stopped for prod, no for dev/test) | Must Have | Ready for Implementation | Approved |
+| NFR-449229-01 | Configuration Security | Security | Sensitive configuration data must be encrypted or stored securely. Docker secrets or environment variable substitution (${VAR:-default}) SHALL be used for production deployments. Development and test environments MAY use plain-text configuration files with .gitignore protection. | High | Draft | Not Approved |
+| NFR-449229-02 | Hot Reload | Performance | Support hot-reloading of configuration changes without full restart (development environment only) | High | Draft | Not Approved |
+| NFR-449229-03 | Validation | Quality | Validate configuration values against schemas before application loading | High | Draft | Not Approved |
+| NFR-449229-04 | Docker Compose Standards | Standards | All Docker Compose files MUST follow version 3.8+ specification with proper service definitions, volume mounts for development, health checks, and restart policies appropriate to each environment (unless-stopped for prod, no for dev/test) | High | Draft | Not Approved |
 
 ## Dependencies
 

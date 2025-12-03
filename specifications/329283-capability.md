@@ -15,26 +15,15 @@
 
 ## Technical Overview
 ### Purpose
-Step four of a multiple step wizard:
-Adds the sessionid to the Account Info data.
-Posts the account info data to the web-service api which:
-- Validates the sessionid payment is completed with Stripe
-- Removes the sessionid field from the Account Info
-- Saves the account info document for the user
-- returns a unique user id for later reference
-The webcomponent enables the user to enter in:
-- First name
-- Last name
-- Email address (pre-populates with any email address from the login)
-- State from a drop down of the 50 u.s. states
-This step is independently  navigable by a unique url (/newprofile).
-On submission, the profile information is posted to the web-service and stored in the "profile" container by unique user id and the user is navigated to the document library
+Finalizes the subscription
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-388018 |
+| ENB-577934 |
 
 ## Dependencies
 

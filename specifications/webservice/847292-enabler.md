@@ -21,21 +21,21 @@ Implement RESTful API endpoints supporting standard HTTP methods (GET, POST, PUT
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-847296 | HTTP Method Support | Implement routing infrastructure that supports standard HTTP methods: GET, POST, PUT, DELETE, PATCH (framework/library configuration only) | Must Have | Ready for Implementation | Approved |
-| FR-847297 | Request Validation | Create reusable request validation utilities/middleware for payload and parameter validation | Must Have | Ready for Implementation | Approved |
-| FR-847298 | Response Formatting | Create response formatting utilities that return JSON format with appropriate HTTP status codes | Must Have | Ready for Implementation | Approved |
-| FR-847299 | Error Handling | Create error handling middleware/utilities that provide structured error responses with meaningful error messages | Must Have | Ready for Implementation | Approved |
-| FR-958429 | Standards | All REST infrastructure must follow OpenAPI standards found here https://swagger.io/specification/ | Must Have | Ready for Implementation | Approved |
-| FR-847303 | No Demo Code | STRICTLY PROHIBITED: Do NOT create any sample resource handlers (e.g., Recipe, Product, User models), demonstration CRUD endpoints, or example API routes. ONLY implement: (1) HTTP routing configuration, (2) middleware utilities, (3) request/response formatting helpers, (4) validation utilities. The implementation must provide infrastructure components that OTHER services can use, not working examples. | Must Have | Ready for Implementation | Approved |
+| FR-847292-01 | HTTP Method Support | Implement routing infrastructure that supports standard HTTP methods: GET, POST, PUT, DELETE, PATCH (framework/library configuration only) | High | Draft | Not Approved |
+| FR-847292-02 | Request Validation | Create reusable request validation utilities/middleware for payload and parameter validation | High | Draft | Not Approved |
+| FR-847292-03 | Response Formatting | Create response formatting utilities that return JSON format with appropriate HTTP status codes | High | Draft | Not Approved |
+| FR-847292-04 | Error Handling | Create error handling middleware/utilities that provide structured error responses with meaningful error messages | High | Draft | Not Approved |
+| FR-847292-05 | Standards | All REST infrastructure must follow OpenAPI standards found here https://swagger.io/specification/ | High | Draft | Not Approved |
+| FR-847292-06 | No Demo Code | STRICTLY PROHIBITED: Do NOT create any sample resource handlers (e.g., Recipe, Product, User models), demonstration CRUD endpoints, or example API routes. ONLY implement: (1) HTTP routing configuration, (2) middleware utilities, (3) request/response formatting helpers, (4) validation utilities. The implementation must provide infrastructure components that OTHER services can use, not working examples. | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-847300 | Response Time | Performance | REST infrastructure should add minimal overhead (< 5ms) to request processing | Must Have | Ready for Implementation | Approved |
-| NFR-847301 | Concurrent Requests | Scalability | Infrastructure must handle at least 100 concurrent requests without degradation | Must Have | Ready for Implementation | Approved |
-| NFR-847302 | Content Type Support | Compatibility | Infrastructure must support application/json content type for request and response | Must Have | Ready for Implementation | Approved |
-| NFR-847304 | Minimal Implementation | Simplicity | Only implement infrastructure components explicitly required. No speculative or demonstration code. This enabler provides building blocks, not complete applications. See FR-847303 for explicit prohibitions. | Must Have | Ready for Implementation | Approved |
+| NFR-847292-01 | Response Time | Performance | REST infrastructure should add minimal overhead (< 5ms) to request processing | High | Draft | Not Approved |
+| NFR-847292-02 | Concurrent Requests | Scalability | Infrastructure must handle at least 100 concurrent requests without degradation | High | Draft | Not Approved |
+| NFR-847292-03 | Content Type Support | Compatibility | Infrastructure must support application/json content type for request and response | High | Draft | Not Approved |
+| NFR-847292-04 | Minimal Implementation | Simplicity | Only implement infrastructure components explicitly required. No speculative or demonstration code. This enabler provides building blocks, not complete applications. See FR-847303 for explicit prohibitions. | High | Draft | Not Approved |
 
 ## Dependencies
 

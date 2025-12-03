@@ -21,36 +21,36 @@ Ensure code quality by identifying and resolving ALL linting issues using a Node
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-558001 | ESLint Installation | Install and configure ESLint as the primary Node.js linter | High | Ready for Design | Approved |
-| FR-558002 | TypeScript ESLint | Configure @typescript-eslint/parser and @typescript-eslint/eslint-plugin for TypeScript support | High | Ready for Design | Approved |
-| FR-558003 | Prettier Integration | Integrate Prettier with ESLint using eslint-config-prettier to avoid conflicts | High | Ready for Design | Approved |
-| FR-558004 | Airbnb Style Guide | Use eslint-config-airbnb-typescript or similar industry-standard configuration | Medium | Ready for Design | Approved |
-| FR-558005 | Auto-fix Capability | Support automatic fixing of linting issues using eslint --fix command | High | Ready for Design | Approved |
-| FR-558006 | Pre-commit Hook | Integrate linter with Husky pre-commit hooks to prevent committing unlinted code | High | Ready for Design | Approved |
-| FR-558007 | CI/CD Integration | Add linting step to CI/CD pipeline that fails build on any errors or warnings | High | Ready for Design | Approved |
-| FR-558008 | IDE Integration | Configure ESLint for VS Code and other IDEs with real-time feedback | Medium | Ready for Design | Approved |
-| FR-558009 | Custom Rules | Support custom ESLint rules specific to project requirements | Medium | Ready for Design | Approved |
-| FR-558010 | Import Sorting | Enforce consistent import ordering using eslint-plugin-import | Medium | Ready for Design | Approved |
-| FR-558011 | Unused Code Detection | Detect and report unused variables, imports, and functions | High | Ready for Design | Approved |
-| FR-558012 | Code Complexity Rules | Enforce maximum cyclomatic complexity and function length limits | Medium | Ready for Design | Approved |
-| FR-558013 | Consistent Naming | Enforce naming conventions (camelCase, PascalCase, UPPER_CASE) | High | Ready for Design | Approved |
-| FR-558014 | Zero Tolerance Policy | Enforce zero linting errors and zero warnings before merge/deployment | High | Ready for Design | Approved |
-| FR-558015 | Configuration File | Maintain .eslintrc.js or .eslintrc.json with all rules documented | High | Ready for Design | Approved |
+| FR-558144-01 | ESLint Installation | Install and configure ESLint as the primary Node.js linter | High | Draft | Not Approved |
+| FR-558144-02 | TypeScript ESLint | Configure @typescript-eslint/parser and @typescript-eslint/eslint-plugin for TypeScript support | High | Draft | Not Approved |
+| FR-558144-03 | Prettier Integration | Integrate Prettier with ESLint using eslint-config-prettier to avoid conflicts | High | Draft | Not Approved |
+| FR-558144-04 | Airbnb Style Guide | Use eslint-config-airbnb-typescript or similar industry-standard configuration | Medium | Draft | Not Approved |
+| FR-558144-05 | Auto-fix Capability | Support automatic fixing of linting issues using eslint --fix command | High | Draft | Not Approved |
+| FR-558144-06 | Pre-commit Hook | Integrate linter with Husky pre-commit hooks to prevent committing unlinted code | High | Draft | Not Approved |
+| FR-558144-07 | CI/CD Integration | Add linting step to CI/CD pipeline that fails build on any errors or warnings | High | Draft | Not Approved |
+| FR-558144-08 | IDE Integration | Configure ESLint for VS Code and other IDEs with real-time feedback | Medium | Draft | Not Approved |
+| FR-558144-09 | Custom Rules | Support custom ESLint rules specific to project requirements | Medium | Draft | Not Approved |
+| FR-558144-10 | Import Sorting | Enforce consistent import ordering using eslint-plugin-import | Medium | Draft | Not Approved |
+| FR-558144-11 | Unused Code Detection | Detect and report unused variables, imports, and functions | High | Draft | Not Approved |
+| FR-558144-12 | Code Complexity Rules | Enforce maximum cyclomatic complexity and function length limits | Medium | Draft | Not Approved |
+| FR-558144-13 | Consistent Naming | Enforce naming conventions (camelCase, PascalCase, UPPER_CASE) | High | Draft | Not Approved |
+| FR-558144-14 | Zero Tolerance Policy | Enforce zero linting errors and zero warnings before merge/deployment | High | Draft | Not Approved |
+| FR-558144-15 | Configuration File | Maintain .eslintrc.js or .eslintrc.json with all rules documented | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-558001 | Linting Performance | Complete full codebase linting in under 10 seconds for incremental checks | High | Ready for Design | Approved |
-| NFR-558002 | Fast Feedback | Provide real-time linting feedback in IDE within 500ms of code change | High | Ready for Design | Approved |
-| NFR-558003 | Rule Coverage | Cover minimum 200+ ESLint rules across code quality, style, and best practices | Medium | Ready for Design | Approved |
-| NFR-558004 | Zero False Positives | Minimize false positives to less than 1% through proper configuration | High | Ready for Design | Approved |
-| NFR-558005 | Cache Performance | Use ESLint cache to improve repeat linting performance by 80%+ | Medium | Ready for Design | Approved |
-| NFR-558006 | Parallel Processing | Support parallel linting of multiple files for faster execution | Medium | Ready for Design | Approved |
-| NFR-558007 | Documentation | Provide clear documentation for all enabled rules and how to fix violations | High | Ready for Design | Approved |
-| NFR-558008 | Version Stability | Use specific ESLint version to ensure consistent behavior across environments | High | Ready for Design | Approved |
-| NFR-558009 | Error Reporting | Generate detailed, actionable error messages with line numbers and suggestions | High | Ready for Design | Approved |
-| NFR-558010 | Build Integration | Integrate seamlessly with npm scripts and build tools (Webpack, Vite) | High | Ready for Design | Approved |
+| NFR-558144-01 | Linting Performance | Complete full codebase linting in under 10 seconds for incremental checks | High | Draft | Not Approved |
+| NFR-558144-02 | Fast Feedback | Provide real-time linting feedback in IDE within 500ms of code change | High | Draft | Not Approved |
+| NFR-558144-03 | Rule Coverage | Cover minimum 200+ ESLint rules across code quality, style, and best practices | Medium | Draft | Not Approved |
+| NFR-558144-04 | Zero False Positives | Minimize false positives to less than 1% through proper configuration | High | Draft | Not Approved |
+| NFR-558144-05 | Cache Performance | Use ESLint cache to improve repeat linting performance by 80%+ | Medium | Draft | Not Approved |
+| NFR-558144-06 | Parallel Processing | Support parallel linting of multiple files for faster execution | Medium | Draft | Not Approved |
+| NFR-558144-07 | Documentation | Provide clear documentation for all enabled rules and how to fix violations | High | Draft | Not Approved |
+| NFR-558144-08 | Version Stability | Use specific ESLint version to ensure consistent behavior across environments | High | Draft | Not Approved |
+| NFR-558144-09 | Error Reporting | Generate detailed, actionable error messages with line numbers and suggestions | High | Draft | Not Approved |
+| NFR-558144-10 | Build Integration | Integrate seamlessly with npm scripts and build tools (Webpack, Vite) | High | Draft | Not Approved |
 
 ## Dependencies
 

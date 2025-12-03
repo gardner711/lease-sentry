@@ -15,17 +15,15 @@
 
 ## Technical Overview
 ### Purpose
-Step three of a multiple step wizard:
-
-Integrates with Stipe embedded forms for payment
-On success, navigates to step 4 passing the sessionid (/newprofile?session_id={CHECKOUT_SESSION_ID})
-This step is independently navigable by a unique url (/payment).
+Payment step
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-918796 |
+| ENB-572526 |
 
 ## Dependencies
 

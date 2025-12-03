@@ -1,12 +1,12 @@
-# Footer
+# Upload Contract API
 
 ## Metadata
 
-- **Name**: Footer
+- **Name**: Upload Contract API
 - **Type**: Enabler
-- **ID**: ENB-265470
+- **ID**: ENB-000886
 - **Approval**: Not Approved
-- **Capability ID**: CAP-924443
+- **Capability ID**: CAP-773285
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,27 +15,35 @@
 
 ## Technical Overview
 ### Purpose
-A footer at the bottom of every page that is always pinned to the bottom. That footer contains a centered title: "Lease Sentry (c)" linked to the homepage. 
+A webservice API that creates a new contract 
+- POST method
+- /contract path
+- Accepts a contract binary document
+- Returns the contract id created by cosmos db
+
+Only accept files of type: PDF, DOCX, PNG, JPG
+Save the file to blob storage
+Save a thumbnail picture of the file to blob storage
+Create a contract document:
+- Set the storage to the file location from blob storage
+- Set the thumbnail to the file location from blob storage
+- Set the upload datetime to now
+- Set the user id to the user id in the bearer token
+- Set the status to "processing"
+Save the contract request to cosmos db in the container "contract" 
+Publish the contract request to the event grid for further processing
 
 ## Functional Requirements
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-265470-01 | Footer Display | Display a footer at the bottom of every page in the website. | High | Draft | Not Approved |
-| FR-265470-02 | Footer Positioning | Ensure the footer is always pinned to the bottom of the viewport, even on pages with minimal content. | High | Draft | Not Approved |
-| FR-265470-03 | Footer Content | Include a centered title "Lease Sentry ©" in the footer. | High | Draft | Not Approved |
-| FR-265470-04 | Homepage Link | Make the title "Lease Sentry ©" a clickable link that navigates to the homepage. | High | Draft | Not Approved |
-| FR-265470-05 | Consistent Appearance | Ensure the footer appears consistently across all pages and devices. | Medium | Draft | Not Approved |
+| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-265470-01 | Responsiveness | Usability | Footer should be responsive and display correctly on desktop, tablet, and mobile devices. | High | Draft | Not Approved |
-| NFR-265470-02 | Accessibility | Usability | Footer content should meet WCAG 2.1 AA standards, including proper contrast and keyboard navigation. | High | Draft | Not Approved |
-| NFR-265470-03 | Performance | Performance | Footer rendering should not impact page load time, with no additional HTTP requests. | Medium | Draft | Not Approved |
-| NFR-265470-04 | Browser Compatibility | Compatibility | Footer should work in all modern browsers (Chrome, Firefox, Safari, Edge). | Medium | Draft | Not Approved |
-| NFR-265470-05 | Maintainability | Maintainability | Footer code should be modular and easy to update for future changes. | Low | Draft | Not Approved |
+| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
 
 ## Dependencies
 
@@ -62,7 +70,7 @@ A footer at the bottom of every page that is always pinned to the bottom. That f
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-265470<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-000886<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 

@@ -21,24 +21,24 @@ Implement comprehensive unit tests for all API operations defined in the specifi
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-847419 | GET Endpoint Tests | Unit tests for all GET operations including success, not found, and error scenarios | Must Have | Ready for Implementation | Approved |
-| FR-847350 | POST Endpoint Tests | Unit tests for all POST operations including validation, creation success, and conflict scenarios | Must Have | Ready for Implementation | Approved |
-| FR-847351 | PUT Endpoint Tests | Unit tests for all PUT operations including updates, validation, and not found scenarios | Must Have | Ready for Implementation | Approved |
-| FR-847352 | DELETE Endpoint Tests | Unit tests for all DELETE operations including success, not found, and cascade scenarios | Must Have | Ready for Implementation | Approved |
-| FR-847420 | PATCH Endpoint Tests | Unit tests for PATCH operations including partial updates and validation | Must Have | Ready for Implementation | Approved |
-| FR-847421 | Request Validation Tests | Tests for all input validation rules, schema validation, and constraint checking | Must Have | Ready for Implementation | Approved |
-| FR-847422 | Error Response Tests | Tests for all error scenarios with proper status codes and error messages | Must Have | Ready for Implementation | Approved |
-| FR-847423 | Edge Case Tests | Tests for boundary conditions, null values, empty requests, and malformed data | Must Have | Ready for Implementation | Approved |
+| FR-847348-01 | GET Endpoint Tests | Unit tests for all GET operations including success, not found, and error scenarios | High | Draft | Not Approved |
+| FR-847348-02 | POST Endpoint Tests | Unit tests for all POST operations including validation, creation success, and conflict scenarios | High | Draft | Not Approved |
+| FR-847348-03 | PUT Endpoint Tests | Unit tests for all PUT operations including updates, validation, and not found scenarios | High | Draft | Not Approved |
+| FR-847348-04 | DELETE Endpoint Tests | Unit tests for all DELETE operations including success, not found, and cascade scenarios | High | Draft | Not Approved |
+| FR-847348-05 | PATCH Endpoint Tests | Unit tests for PATCH operations including partial updates and validation | High | Draft | Not Approved |
+| FR-847348-06 | Request Validation Tests | Tests for all input validation rules, schema validation, and constraint checking | High | Draft | Not Approved |
+| FR-847348-07 | Error Response Tests | Tests for all error scenarios with proper status codes and error messages | High | Draft | Not Approved |
+| FR-847348-08 | Edge Case Tests | Tests for boundary conditions, null values, empty requests, and malformed data | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-847357 | Test Coverage | Quality | Achieve minimum 90% code coverage for all API handlers | Must Have | Ready for Implementation | Approved |
-| NFR-847424 | Test Execution Speed | Performance | All unit tests should complete within 5 seconds | Must Have | Ready for Implementation | Approved |
-| NFR-847425 | Test Isolation | Quality | Each test should be independent and not affect other tests | Must Have | Ready for Implementation | Approved |
-| NFR-847426 | Test Maintainability | Maintainability | Tests should be clear, well-documented, and easy to update | Must Have | Ready for Implementation | Approved |
-| NFR-847361 | Automated Execution | Automation | Tests should run automatically on every code commit | Must Have | Ready for Implementation | Approved |
+| NFR-847348-01 | Test Coverage | Quality | Achieve minimum 90% code coverage for all API handlers | High | Draft | Not Approved |
+| NFR-847348-02 | Test Execution Speed | Performance | All unit tests should complete within 5 seconds | High | Draft | Not Approved |
+| NFR-847348-03 | Test Isolation | Quality | Each test should be independent and not affect other tests | High | Draft | Not Approved |
+| NFR-847348-04 | Test Maintainability | Maintainability | Tests should be clear, well-documented, and easy to update | High | Draft | Not Approved |
+| NFR-847348-05 | Automated Execution | Automation | Tests should run automatically on every code commit | High | Draft | Not Approved |
 
 ## Dependencies
 

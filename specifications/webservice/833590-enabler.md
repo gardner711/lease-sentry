@@ -21,28 +21,28 @@ Integrate Azure AI Search (formerly Azure Cognitive Search) for full-text search
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-833591 | Index Management | Create, update, and delete search indexes with field definitions and analyzers | Must Have | Ready for Implementation | Approved |
-| FR-833592 | Document Indexing | Index documents from Cosmos DB or Blob Storage with automatic refresh | Must Have | Ready for Implementation | Approved |
-| FR-833593 | Full-Text Search | Execute full-text search queries with relevance scoring and highlighting | Must Have | Ready for Implementation | Approved |
-| FR-833594 | Faceted Navigation | Support faceted search for filtering by categories, dates, and numeric ranges | Must Have | Ready for Implementation | Approved |
-| FR-833595 | Vector Search | Store and search document embeddings for semantic similarity queries | Must Have | Ready for Implementation | Approved |
-| FR-833596 | Autocomplete | Provide autocomplete and suggestion capabilities for search queries | Medium | Ready for Implementation | Approved |
-| FR-833597 | Search Filters | Apply OData filters to refine search results by multiple criteria | Must Have | Ready for Implementation | Approved |
-| FR-833598 | Geospatial Search | Support location-based search with distance and polygon filters | Medium | Ready for Implementation | Approved |
-| FR-833599 | Indexer Configuration | Configure indexers to automatically pull data from data sources | Must Have | Ready for Implementation | Approved |
-| FR-833600 | Environment Configuration | Configure search service endpoints and keys per environment (dev, test, prod) | Must Have | Ready for Implementation | Approved |
-| FR-833601 | Authentication | Support managed identity, admin keys, and query keys for authentication | Must Have | Ready for Implementation | Approved |
+| FR-833590-01 | Index Management | Create, update, and delete search indexes with field definitions and analyzers | High | Draft | Not Approved |
+| FR-833590-02 | Document Indexing | Index documents from Cosmos DB or Blob Storage with automatic refresh | High | Draft | Not Approved |
+| FR-833590-03 | Full-Text Search | Execute full-text search queries with relevance scoring and highlighting | High | Draft | Not Approved |
+| FR-833590-04 | Faceted Navigation | Support faceted search for filtering by categories, dates, and numeric ranges | High | Draft | Not Approved |
+| FR-833590-05 | Vector Search | Store and search document embeddings for semantic similarity queries | High | Draft | Not Approved |
+| FR-833590-06 | Autocomplete | Provide autocomplete and suggestion capabilities for search queries | Medium | Draft | Not Approved |
+| FR-833590-07 | Search Filters | Apply OData filters to refine search results by multiple criteria | High | Draft | Not Approved |
+| FR-833590-08 | Geospatial Search | Support location-based search with distance and polygon filters | Medium | Draft | Not Approved |
+| FR-833590-09 | Indexer Configuration | Configure indexers to automatically pull data from data sources | High | Draft | Not Approved |
+| FR-833590-10 | Environment Configuration | Configure search service endpoints and keys per environment (dev, test, prod) | High | Draft | Not Approved |
+| FR-833590-11 | Authentication | Support managed identity, admin keys, and query keys for authentication | High | Draft | Not Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-833602 | Search Latency | Return search results within 200ms for simple queries | Must Have | Ready for Implementation | Approved |
-| NFR-833603 | Index Performance | Index up to 10,000 documents per minute during bulk operations | High | Ready for Implementation | Approved |
-| NFR-833604 | Scalability | Support search indexes with up to 50 million documents in production | High | Ready for Implementation | Approved |
-| NFR-833605 | Relevance Quality | Achieve 85%+ precision on top 10 search results using semantic ranking | Must Have | Ready for Implementation | Approved |
-| NFR-833606 | Availability | Guarantee 99.9% availability for search operations | Must Have | Ready for Implementation | Approved |
-| NFR-833607 | Cost Management | Optimize index size and query complexity to manage search unit costs | Medium | Ready for Implementation | Approved |
+| NFR-833590-01 | Search Latency | Return search results within 200ms for simple queries | High | Draft | Not Approved |
+| NFR-833590-02 | Index Performance | Index up to 10,000 documents per minute during bulk operations | High | Draft | Not Approved |
+| NFR-833590-03 | Scalability | Support search indexes with up to 50 million documents in production | High | Draft | Not Approved |
+| NFR-833590-04 | Relevance Quality | Achieve 85%+ precision on top 10 search results using semantic ranking | High | Draft | Not Approved |
+| NFR-833590-05 | Availability | Guarantee 99.9% availability for search operations | High | Draft | Not Approved |
+| NFR-833590-06 | Cost Management | Optimize index size and query complexity to manage search unit costs | Medium | Draft | Not Approved |
 | NFR-833608 | Security | Encrypt search indexes at rest and in transit with RBAC for index access | Must Have | Ready for Implementation | Approved |
 
 ## Dependencies

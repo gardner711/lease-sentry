@@ -1,12 +1,12 @@
-# User Profile
+# Universal Subscription Options
 
 ## Metadata
 
-- **Name**: User Profile
+- **Name**: Universal Subscription Options
 - **Type**: Capability
 - **System**: ls
-- **Component**: user
-- **ID**: CAP-537783
+- **Component**: subscription
+- **ID**: CAP-081697
 - **Approval**: Not Approved
 - **Owner**: Product Team
 - **Status**: In Draft
@@ -15,12 +15,33 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's profile. Profile information contains:
--user first name
--user last name
--email address
--U.S. state selection for (Default) State
-The profile operations in the web service API (/profile) are saved in Cosmos Db in collection called "profile" 
+Universal subscriptions options with features:
+
+** Free **
+Residential Only Support
+Critical Clauses
+Risk Summary
+Q&A Example
+Deal Sheet Sample
+One Contract at a Time
+
+** Starter **
+Residential Only Support
+Critical Clauses
+Full Risk Score Card
+Q&A Interactive
+Deal Sheet
+State Specific Clause Analysis
+24 Hour Storage
+
+** Pro **
+Residential and Commercial Support
+Critical Clauses
+Full Risk Score Card
+Q&A Interactive
+Deal Sheet
+State Specific Clause Analysis
+Unlimited Storage
 
 ## Enablers
 

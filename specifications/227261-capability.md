@@ -15,12 +15,7 @@
 
 ## Technical Overview
 ### Purpose
-Step one of a multiple step wizard:\
-- Integrates with Azure App Service Authentication and logs the user in via oAuth
-- Creates a accountinfo json object with a unique id from the oAuth user to identify the user later
-- Navigates to step 2 (/newsubscription)
-
-This step is independently navigable by a unique url (/newlogin).
+Azure App Service Authentication (Easy Auth) integration
 
 ## Enablers
 

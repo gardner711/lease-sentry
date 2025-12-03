@@ -15,7 +15,7 @@
 
 ## Technical Overview
 ### Purpose
-Allows the user to change their password
+Allows the user to change their password either by linking to their provider or by Azure App Authentication Service.
 
 ## Enablers
 

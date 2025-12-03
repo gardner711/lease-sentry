@@ -15,20 +15,14 @@
 
 ## Technical Overview
 ### Purpose
-Step two of a multiple step wizard:
-- A selection of the the three subscription options
-- A description of the options
-- A grid comparison of the options
-Navigates to step 3 (/payment)
-
-This step is independently navigable by a unique url (/newsubscription).
-Adds the selected subscription identifier to the accountinfo object
+Chose subscription type
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-390020 |
 
 ## Dependencies
 
