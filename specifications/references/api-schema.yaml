@@ -16,12 +16,12 @@ components:
     Subscription:
       type: object
       required:
-        - userId
         - subscription
       properties:
         userId:
           type: string
-          description: Unique OAuth ID of the user
+          description: Unique OAuth ID of the user (derived from JWT token, not provided in request)
+          readOnly: true
         subscription:
           type: string
           enum: [free, starter, pro]
@@ -29,7 +29,6 @@ components:
     Profile:
       type: object
       required:
-        - userId
         - email
       properties:
         id:
@@ -37,7 +36,8 @@ components:
           description: Unique ID of the profile
         userId:
           type: string
-          description: Unique OAuth ID of the user
+          description: Unique OAuth ID of the user (derived from JWT token, not provided in request)
+          readOnly: true
         firstName:
           type: string
         lastName:
@@ -91,7 +91,6 @@ components:
     Contract:
       type: object
       required:
-        - userId
         - upload
         - status
       properties:
@@ -100,7 +99,8 @@ components:
           description: Unique ID of the contract
         userId:
           type: string
-          description: Unique OAuth ID of the user
+          description: Unique OAuth ID of the user (derived from JWT token, not provided in request)
+          readOnly: true
         score:
           type: integer
           minimum: 1
