@@ -1,12 +1,12 @@
-# Upload Contract Web Component
+# Get Profile API
 
 ## Metadata
 
-- **Name**: Upload Contract Web Component
+- **Name**: Get Profile API
 - **Type**: Enabler
-- **ID**: ENB-603922
+- **ID**: ENB-392023
 - **Approval**: Not Approved
-- **Capability ID**: CAP-773285
+- **Capability ID**: CAP-537783
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,41 +15,33 @@
 
 ## Technical Overview
 ### Purpose
-A web component that consists of:
-- A defined section with a description of the contract upload function to start the contract analysis
-- Ability to upload a contract (PDF, DOCX, PNG, JPG) from the browser
+The profile operation in the web service:
+- GET method
+- Url (/profile) 
+- Returns profile document
 
-Once a document is selected:
-- Display a progress dialog while the file is being uploaded. Processing can take several seconds.
-- Call the Upload Contract API with the uploaded file
-- Refresh the Contract Library and Recent Contracts web components on the same page
+Get the user's profile from the "profile" container in comsos db based on the user id in the bearer token
 
 ## Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-603922-01 | Display upload section with description | Draft | High |
-| FR-603922-02 | Provide file upload interface for PDF, DOCX, PNG, JPG | Draft | High |
-| FR-603922-03 | Validate selected file type | Draft | High |
-| FR-603922-04 | Show progress dialog during upload | Draft | High |
-| FR-603922-05 | Call Upload Contract API with selected file | Draft | High |
-| FR-603922-06 | Handle upload success and display confirmation | Draft | High |
-| FR-603922-07 | Handle upload errors and display messages | Draft | High |
-| FR-603922-08 | Refresh Contract Library component after upload | Draft | High |
-| FR-603922-09 | Refresh Recent Contracts component after upload | Draft | High |
-| FR-603922-10 | Ensure component integration with page | Draft | Medium |
+| FR-392023-01 | Implement GET /profile endpoint | Draft | High |
+| FR-392023-02 | Extract user id from bearer token | Draft | High |
+| FR-392023-03 | Query profile from profiles container in cosmos by user id | Draft | High |
+| FR-392023-04 | Return profile document in response | Draft | High |
+| FR-392023-05 | Handle case when profile not found | Draft | High |
+| FR-392023-06 | Validate authentication | Draft | High |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-603922-01 | Responsive upload interface | Draft | High |
-| NFR-603922-02 | Accessible file selection and upload | Draft | High |
-| NFR-603922-03 | Progress dialog provides real-time feedback | Draft | Medium |
-| NFR-603922-04 | Secure file handling in browser | Draft | High |
-| NFR-603922-05 | Fast component refresh after upload | Draft | High |
-| NFR-603922-06 | Compatible with modern browsers | Draft | Medium |
-| NFR-603922-07 | Handle large file uploads gracefully | Draft | Medium |
+| NFR-392023-01 | Secure token handling | Draft | High |
+| NFR-392023-02 | Response time under 1 second | Draft | High |
+| NFR-392023-03 | Efficient cosmos query | Draft | High |
+| NFR-392023-04 | Comprehensive error logging | Draft | Medium |
+| NFR-392023-05 | Handle high request volume | Draft | Medium |
 
 ## Dependencies
 
@@ -76,7 +68,7 @@ Once a document is selected:
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-603922<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-392023<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 

@@ -1,8 +1,8 @@
-# User Profile
+# Profile
 
 ## Metadata
 
-- **Name**: User Profile
+- **Name**: Profile
 - **Type**: Capability
 - **System**: ls
 - **Component**: user
@@ -15,18 +15,16 @@
 
 ## Technical Overview
 ### Purpose
-This web component provides the capabilities to view and edit the current user's profile. Profile information contains:
--user first name
--user last name
--email address
--U.S. state selection for (Default) State
-The profile operations in the web service API (/profile) are saved in Cosmos Db in collection called "profile" 
+Views and edits the user's profile
 
 ## Enablers
 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-576795 |
+| ENB-682199 |
+| ENB-392023 |
 
 ## Dependencies
 

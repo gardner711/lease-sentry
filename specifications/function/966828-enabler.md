@@ -1,12 +1,12 @@
-# Recent Contracts API
+# Delete Operation
 
 ## Metadata
 
-- **Name**: Recent Contracts API
+- **Name**: Delete Operation
 - **Type**: Enabler
-- **ID**: ENB-349820
+- **ID**: ENB-966828
 - **Approval**: Not Approved
-- **Capability ID**: CAP-574476
+- **Capability ID**: CAP-860898
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,35 +15,33 @@
 
 ## Technical Overview
 ### Purpose
-A webservice API that gets a list of the top 10 most recent contracts
-- GET method
-- /contract/recent path
-- Returns an array of contract documents
+A function that will be hosted as a serverless function in Azure that:
+- Accepts a delete bus message from Event Grid with a user id
 
-Gets the top 10 most recent contracts from the "contract" container in cosmos db
-Orders the list by upload datetime descending
+Performs the following operations:
+Unsubscribes the user's recurring payment through Stripe
+Deletes the user's history by:
+- Get's all the contracts owned by the user from the "contract" container in cosmos db
+- Deletes all files related to the those contracts in blob storage
+- Delete's all analysis for that contract from the "analysis" container in the cosmos db
+- Delete's all contracts owned by the user in the cosmos db
+Deletes the user's profile from the "profile" container in cosmos db
+Deletes the user's account from the "account" container in cosmos db
+
+
+
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-349820-01 | Implement GET /contract/recent endpoint | Draft | High |
-| FR-349820-02 | Query top 10 contracts by upload datetime descending | Draft | High |
-| FR-349820-03 | Return array of contract documents | Draft | High |
-| FR-349820-04 | Extract user id from bearer token | Draft | High |
-| FR-349820-05 | Filter contracts by user id | Draft | High |
-| FR-349820-06 | Handle cases with less than 10 contracts | Draft | Medium |
-| FR-349820-07 | Return appropriate response format | Draft | High |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-349820-01 | Response time under 1 second | Draft | High |
-| NFR-349820-02 | Secure token handling | Draft | High |
-| NFR-349820-03 | Efficient cosmos query | Draft | High |
-| NFR-349820-04 | Handle high request volume | Draft | Medium |
-| NFR-349820-05 | Comprehensive error logging | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
 
 ## Dependencies
 
@@ -70,7 +68,7 @@ Orders the list by upload datetime descending
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-349820<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-966828<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 

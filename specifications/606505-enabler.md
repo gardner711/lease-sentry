@@ -1,12 +1,12 @@
-# Upload Contract Web Component
+# Support API
 
 ## Metadata
 
-- **Name**: Upload Contract Web Component
+- **Name**: Support API
 - **Type**: Enabler
-- **ID**: ENB-603922
+- **ID**: ENB-606505
 - **Approval**: Not Approved
-- **Capability ID**: CAP-773285
+- **Capability ID**: CAP-827120
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,41 +15,31 @@
 
 ## Technical Overview
 ### Purpose
-A web component that consists of:
-- A defined section with a description of the contract upload function to start the contract analysis
-- Ability to upload a contract (PDF, DOCX, PNG, JPG) from the browser
-
-Once a document is selected:
-- Display a progress dialog while the file is being uploaded. Processing can take several seconds.
-- Call the Upload Contract API with the uploaded file
-- Refresh the Contract Library and Recent Contracts web components on the same page
+Implement POST /support endpoint to receive support requests, store them in the support container in Cosmos DB, and send notification emails via configurable SMTP service.
 
 ## Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-603922-01 | Display upload section with description | Draft | High |
-| FR-603922-02 | Provide file upload interface for PDF, DOCX, PNG, JPG | Draft | High |
-| FR-603922-03 | Validate selected file type | Draft | High |
-| FR-603922-04 | Show progress dialog during upload | Draft | High |
-| FR-603922-05 | Call Upload Contract API with selected file | Draft | High |
-| FR-603922-06 | Handle upload success and display confirmation | Draft | High |
-| FR-603922-07 | Handle upload errors and display messages | Draft | High |
-| FR-603922-08 | Refresh Contract Library component after upload | Draft | High |
-| FR-603922-09 | Refresh Recent Contracts component after upload | Draft | High |
-| FR-603922-10 | Ensure component integration with page | Draft | Medium |
+| FR-606505-01 | Implement POST /support endpoint | Draft | High |
+| FR-606505-02 | Accept support data: subject, comment, email | Draft | High |
+| FR-606505-03 | Extract user id from bearer token if authenticated | Draft | High |
+| FR-606505-04 | Include user details in stored support request | Draft | High |
+| FR-606505-05 | Save support request to support container in cosmos | Draft | High |
+| FR-606505-06 | Send notification email via SMTP service | Draft | High |
+| FR-606505-07 | Validate subject options and required fields | Draft | High |
+| FR-606505-08 | Return success/error responses | Draft | High |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-603922-01 | Responsive upload interface | Draft | High |
-| NFR-603922-02 | Accessible file selection and upload | Draft | High |
-| NFR-603922-03 | Progress dialog provides real-time feedback | Draft | Medium |
-| NFR-603922-04 | Secure file handling in browser | Draft | High |
-| NFR-603922-05 | Fast component refresh after upload | Draft | High |
-| NFR-603922-06 | Compatible with modern browsers | Draft | Medium |
-| NFR-603922-07 | Handle large file uploads gracefully | Draft | Medium |
+| NFR-606505-01 | Secure handling of user data | Draft | High |
+| NFR-606505-02 | Validate all inputs | Draft | High |
+| NFR-606505-03 | Response time under 2 seconds | Draft | High |
+| NFR-606505-04 | Atomic support request storage | Draft | High |
+| NFR-606505-05 | Comprehensive error logging | Draft | Medium |
+| NFR-606505-06 | Configurable SMTP settings | Draft | Medium |
 
 ## Dependencies
 
@@ -76,7 +66,7 @@ Once a document is selected:
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-603922<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-606505<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 

@@ -22,6 +22,7 @@ Allows the user to change their password either by linking to their provider or 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-106466 | Change Password Web Component |
 
 ## Dependencies
 

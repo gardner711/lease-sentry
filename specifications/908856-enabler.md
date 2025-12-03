@@ -28,15 +28,28 @@ The page has three sections:
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-908856-01 | Display page at /contracts URL | Draft | High |
+| FR-908856-02 | Require user login for access | Draft | High |
+| FR-908856-03 | Show Recent Contracts component in top section | Draft | High |
+| FR-908856-04 | Show Contract Upload component in middle section | Draft | High |
+| FR-908856-05 | Show Contract Library component in bottom section only for Pro users | Draft | High |
+| FR-908856-06 | Check user subscription level | Draft | High |
+| FR-908856-07 | Hide Contract Library for non-Pro users | Draft | High |
+| FR-908856-08 | Ensure independent navigation | Draft | Medium |
+| FR-908856-09 | Handle authentication redirects | Draft | Medium |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-908856-01 | Secure authentication check | Draft | High |
+| NFR-908856-02 | Page loads within 2 seconds | Draft | High |
+| NFR-908856-03 | Responsive layout for all sections | Draft | High |
+| NFR-908856-04 | Accessible navigation and content | Draft | High |
+| NFR-908856-05 | Subscription check performance | Draft | Medium |
+| NFR-908856-06 | Compatible with modern browsers | Draft | Medium |
 
 ## Dependencies
 

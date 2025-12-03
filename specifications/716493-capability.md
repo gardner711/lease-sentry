@@ -34,7 +34,6 @@ Provides the capabilities to deploy the following Azure resources for project:
 | ENB-716522 | Azure Functions Deployment |
 | ENB-716526 | Azure Cosmos DB Provisioning |
 | ENB-716530 | Azure Blob Storage Provisioning |
-| ENB-716534 | Azure AI Search Provisioning |
 | ENB-716542 | Azure Event Grid Provisioning |
 | ENB-716538 | Azure App Service Authentication Provisioning |
 

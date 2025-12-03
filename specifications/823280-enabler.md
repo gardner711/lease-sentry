@@ -27,15 +27,29 @@ Each tile has a clickable delete icon to delete the contract by calling the Dele
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-823280-01 | Display rotating tile carousel with 5 tiles visible | Draft | High |
+| FR-823280-02 | Show 10 most recent contracts | Draft | High |
+| FR-823280-03 | Populate carousel using Recent Contracts API | Draft | High |
+| FR-823280-04 | Display thumbnail, title, score, upload datetime, status icon on each tile | Draft | High |
+| FR-823280-05 | Include clickable view icon on each tile | Draft | High |
+| FR-823280-06 | Include clickable delete icon on each tile | Draft | High |
+| FR-823280-07 | Navigate to contract analysis on view click | Draft | High |
+| FR-823280-08 | Show confirmation dialog on delete click | Draft | High |
+| FR-823280-09 | Call Delete Contract API on confirmed delete | Draft | High |
+| FR-823280-10 | Update carousel after delete operations | Draft | Medium |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-823280-01 | Smooth carousel rotation | Draft | Medium |
+| NFR-823280-02 | Responsive tile layout | Draft | High |
+| NFR-823280-03 | Accessible icons and interactions | Draft | High |
+| NFR-823280-04 | Fast carousel loading | Draft | High |
+| NFR-823280-05 | Intuitive navigation controls | Draft | Medium |
+| NFR-823280-06 | Compatible with modern browsers | Draft | Medium |
 
 ## Dependencies
 

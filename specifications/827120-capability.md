@@ -28,6 +28,8 @@ On submission the request is sent to the web-service and an email is sent via a 
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-606505 | Support API |
+| ENB-376918 | Support Web Component |
 
 ## Dependencies
 

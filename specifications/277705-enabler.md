@@ -29,15 +29,26 @@ The contract is deleted by a webservice API DELETE (/contract) that deletes the 
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-277705-01 | Implement DELETE /contract endpoint | Draft | High |
+| FR-277705-02 | Accept contract id in request | Draft | High |
+| FR-277705-03 | Delete contract document from cosmos contracts container | Draft | High |
+| FR-277705-04 | Delete analysis document from cosmos analysis container | Draft | High |
+| FR-277705-05 | Delete blob storage file using location from contract | Draft | High |
+| FR-277705-06 | Validate contract ownership by user | Draft | High |
+| FR-277705-07 | Return success/error responses | Draft | High |
+| FR-277705-08 | Handle partial deletion failures | Draft | Medium |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-277705-01 | Atomic deletion operations | Draft | High |
+| NFR-277705-02 | Secure access control | Draft | High |
+| NFR-277705-03 | Response time under 3 seconds | Draft | High |
+| NFR-277705-04 | Comprehensive error logging | Draft | Medium |
+| NFR-277705-05 | Handle concurrent deletions | Draft | Medium |
 
 ## Dependencies
 

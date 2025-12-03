@@ -13,10 +13,13 @@
 - **Priority**: High
 - **Analysis Review**: Required
 
-## Technical Overview 
-###  Purpose
-[Clear business value statement]
+## Technical Overview
+### Purpose
+A function that will be hosted as a serverless function in Azure that:
+- Accepts a analyze bus message from Event Grid with a contract id
 
+Performs the following operations:
+Creates an analysis document in the "analysis" container in cosmos db
 
 ## Enablers
 

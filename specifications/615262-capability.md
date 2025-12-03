@@ -27,6 +27,8 @@ On submission, the data is post to the web-service API (/review) and the results
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-307768 | Review Web Component |
+| ENB-633557 | Review API |
 
 ## Dependencies
 

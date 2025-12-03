@@ -1,12 +1,12 @@
-# Upload Contract Web Component
+# Review Web Component
 
 ## Metadata
 
-- **Name**: Upload Contract Web Component
+- **Name**: Review Web Component
 - **Type**: Enabler
-- **ID**: ENB-603922
+- **ID**: ENB-307768
 - **Approval**: Not Approved
-- **Capability ID**: CAP-773285
+- **Capability ID**: CAP-615262
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,41 +15,32 @@
 
 ## Technical Overview
 ### Purpose
-A web component that consists of:
-- A defined section with a description of the contract upload function to start the contract analysis
-- Ability to upload a contract (PDF, DOCX, PNG, JPG) from the browser
-
-Once a document is selected:
-- Display a progress dialog while the file is being uploaded. Processing can take several seconds.
-- Call the Upload Contract API with the uploaded file
-- Refresh the Contract Library and Recent Contracts web components on the same page
+[What is the purpose?]
 
 ## Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-603922-01 | Display upload section with description | Draft | High |
-| FR-603922-02 | Provide file upload interface for PDF, DOCX, PNG, JPG | Draft | High |
-| FR-603922-03 | Validate selected file type | Draft | High |
-| FR-603922-04 | Show progress dialog during upload | Draft | High |
-| FR-603922-05 | Call Upload Contract API with selected file | Draft | High |
-| FR-603922-06 | Handle upload success and display confirmation | Draft | High |
-| FR-603922-07 | Handle upload errors and display messages | Draft | High |
-| FR-603922-08 | Refresh Contract Library component after upload | Draft | High |
-| FR-603922-09 | Refresh Recent Contracts component after upload | Draft | High |
-| FR-603922-10 | Ensure component integration with page | Draft | Medium |
+| FR-307768-01 | Display pop-up dialog for review submission | Draft | High |
+| FR-307768-02 | Provide star rating selection (1-5) | Draft | High |
+| FR-307768-03 | Provide text area for detailed comment | Draft | High |
+| FR-307768-04 | Pre-populate email field if user email available | Draft | Medium |
+| FR-307768-05 | Validate rating and comment inputs | Draft | High |
+| FR-307768-06 | Submit review data to /review API | Draft | High |
+| FR-307768-07 | Handle API success and close dialog | Draft | High |
+| FR-307768-08 | Handle API errors and display messages | Draft | High |
+| FR-307768-09 | Allow dialog dismissal without submission | Draft | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-603922-01 | Responsive upload interface | Draft | High |
-| NFR-603922-02 | Accessible file selection and upload | Draft | High |
-| NFR-603922-03 | Progress dialog provides real-time feedback | Draft | Medium |
-| NFR-603922-04 | Secure file handling in browser | Draft | High |
-| NFR-603922-05 | Fast component refresh after upload | Draft | High |
-| NFR-603922-06 | Compatible with modern browsers | Draft | Medium |
-| NFR-603922-07 | Handle large file uploads gracefully | Draft | Medium |
+| NFR-307768-01 | Responsive dialog design | Draft | High |
+| NFR-307768-02 | Accessible rating and form controls | Draft | High |
+| NFR-307768-03 | Secure form submission | Draft | High |
+| NFR-307768-04 | Fast dialog loading | Draft | High |
+| NFR-307768-05 | Intuitive user interface | Draft | Medium |
+| NFR-307768-06 | Compatible with modern browsers | Draft | Medium |
 
 ## Dependencies
 
@@ -76,7 +67,7 @@ Once a document is selected:
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-603922<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-307768<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 

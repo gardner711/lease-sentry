@@ -1,12 +1,12 @@
-# Upload Contract Web Component
+# Change Password Web Component
 
 ## Metadata
 
-- **Name**: Upload Contract Web Component
+- **Name**: Change Password Web Component
 - **Type**: Enabler
-- **ID**: ENB-603922
+- **ID**: ENB-106466
 - **Approval**: Not Approved
-- **Capability ID**: CAP-773285
+- **Capability ID**: CAP-614158
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,41 +15,36 @@
 
 ## Technical Overview
 ### Purpose
-A web component that consists of:
-- A defined section with a description of the contract upload function to start the contract analysis
-- Ability to upload a contract (PDF, DOCX, PNG, JPG) from the browser
+This web component enables the user to change their password:
+- This page is independently navigable by a unique url (/changepassword).
+- Displays the change password options from Azure App Service Authentication (Easy Auth)
+- Integrates with Azure App Service Authentication (Easy Auth)
 
-Once a document is selected:
-- Display a progress dialog while the file is being uploaded. Processing can take several seconds.
-- Call the Upload Contract API with the uploaded file
-- Refresh the Contract Library and Recent Contracts web components on the same page
+On successful change password, navigate to the Contracts Page (/contracts)
 
 ## Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-603922-01 | Display upload section with description | Draft | High |
-| FR-603922-02 | Provide file upload interface for PDF, DOCX, PNG, JPG | Draft | High |
-| FR-603922-03 | Validate selected file type | Draft | High |
-| FR-603922-04 | Show progress dialog during upload | Draft | High |
-| FR-603922-05 | Call Upload Contract API with selected file | Draft | High |
-| FR-603922-06 | Handle upload success and display confirmation | Draft | High |
-| FR-603922-07 | Handle upload errors and display messages | Draft | High |
-| FR-603922-08 | Refresh Contract Library component after upload | Draft | High |
-| FR-603922-09 | Refresh Recent Contracts component after upload | Draft | High |
-| FR-603922-10 | Ensure component integration with page | Draft | Medium |
+| FR-106466-01 | Display change password page at /changepassword | Draft | High |
+| FR-106466-02 | Show change password options from Azure Easy Auth | Draft | High |
+| FR-106466-03 | Integrate with Azure App Service Authentication | Draft | High |
+| FR-106466-04 | Handle password change flow | Draft | High |
+| FR-106466-05 | Validate new password requirements | Draft | High |
+| FR-106466-06 | Navigate to /contracts on successful change | Draft | High |
+| FR-106466-07 | Handle change failures and display errors | Draft | High |
+| FR-106466-08 | Ensure page is independently navigable | Draft | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-603922-01 | Responsive upload interface | Draft | High |
-| NFR-603922-02 | Accessible file selection and upload | Draft | High |
-| NFR-603922-03 | Progress dialog provides real-time feedback | Draft | Medium |
-| NFR-603922-04 | Secure file handling in browser | Draft | High |
-| NFR-603922-05 | Fast component refresh after upload | Draft | High |
-| NFR-603922-06 | Compatible with modern browsers | Draft | Medium |
-| NFR-603922-07 | Handle large file uploads gracefully | Draft | Medium |
+| NFR-106466-01 | Secure password handling | Draft | High |
+| NFR-106466-02 | Responsive page design | Draft | High |
+| NFR-106466-03 | Accessible password change interface | Draft | High |
+| NFR-106466-04 | Fast page loading | Draft | High |
+| NFR-106466-05 | Compatible with Azure Easy Auth | Draft | High |
+| NFR-106466-06 | Error logging for debugging | Draft | Medium |
 
 ## Dependencies
 
@@ -76,7 +71,7 @@ Once a document is selected:
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-603922<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-106466<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 

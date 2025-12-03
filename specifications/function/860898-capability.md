@@ -31,6 +31,7 @@ Accepts a delete bus message from Event Grid and performs the following operatio
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-966828 | Delete Operation |
 
 ## Dependencies
 

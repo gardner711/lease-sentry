@@ -1,12 +1,12 @@
-# Upload Contract Web Component
+# Profile Web Component
 
 ## Metadata
 
-- **Name**: Upload Contract Web Component
+- **Name**: Profile Web Component
 - **Type**: Enabler
-- **ID**: ENB-603922
+- **ID**: ENB-682199
 - **Approval**: Not Approved
-- **Capability ID**: CAP-773285
+- **Capability ID**: CAP-537783
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,41 +15,39 @@
 
 ## Technical Overview
 ### Purpose
-A web component that consists of:
-- A defined section with a description of the contract upload function to start the contract analysis
-- Ability to upload a contract (PDF, DOCX, PNG, JPG) from the browser
+This web component enables the user to view and edit the user's profile. Profile information contains:
+-user first name
+-user last name
+-email address
+-U.S. state selection for (Default) state specific analysis
 
-Once a document is selected:
-- Display a progress dialog while the file is being uploaded. Processing can take several seconds.
-- Call the Upload Contract API with the uploaded file
-- Refresh the Contract Library and Recent Contracts web components on the same page
+Gets information from the Get Profile API
+On submission, submits changes to the Update Profile API
 
 ## Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-603922-01 | Display upload section with description | Draft | High |
-| FR-603922-02 | Provide file upload interface for PDF, DOCX, PNG, JPG | Draft | High |
-| FR-603922-03 | Validate selected file type | Draft | High |
-| FR-603922-04 | Show progress dialog during upload | Draft | High |
-| FR-603922-05 | Call Upload Contract API with selected file | Draft | High |
-| FR-603922-06 | Handle upload success and display confirmation | Draft | High |
-| FR-603922-07 | Handle upload errors and display messages | Draft | High |
-| FR-603922-08 | Refresh Contract Library component after upload | Draft | High |
-| FR-603922-09 | Refresh Recent Contracts component after upload | Draft | High |
-| FR-603922-10 | Ensure component integration with page | Draft | Medium |
+| FR-682199-01 | Display profile form with first name, last name, email, state fields | Draft | High |
+| FR-682199-02 | Populate form using Get Profile API | Draft | High |
+| FR-682199-03 | Allow editing of first name, last name, email, state | Draft | High |
+| FR-682199-04 | Provide dropdown for US state selection | Draft | High |
+| FR-682199-05 | Validate form inputs (email format, required fields) | Draft | High |
+| FR-682199-06 | Submit changes to Update Profile API | Draft | High |
+| FR-682199-07 | Handle API success and display confirmation | Draft | High |
+| FR-682199-08 | Handle API errors and display messages | Draft | High |
+| FR-682199-09 | Refresh form data after successful update | Draft | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-603922-01 | Responsive upload interface | Draft | High |
-| NFR-603922-02 | Accessible file selection and upload | Draft | High |
-| NFR-603922-03 | Progress dialog provides real-time feedback | Draft | Medium |
-| NFR-603922-04 | Secure file handling in browser | Draft | High |
-| NFR-603922-05 | Fast component refresh after upload | Draft | High |
-| NFR-603922-06 | Compatible with modern browsers | Draft | Medium |
-| NFR-603922-07 | Handle large file uploads gracefully | Draft | Medium |
+| NFR-682199-01 | Responsive form layout | Draft | High |
+| NFR-682199-02 | Accessible form controls | Draft | High |
+| NFR-682199-03 | Client-side validation for better UX | Draft | Medium |
+| NFR-682199-04 | Secure form submission | Draft | High |
+| NFR-682199-05 | Fast form loading and updates | Draft | High |
+| NFR-682199-06 | Compatible with modern browsers | Draft | Medium |
 
 ## Dependencies
 
@@ -76,7 +74,7 @@ Once a document is selected:
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-603922<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-682199<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 
