@@ -28,6 +28,7 @@ This step is independently navigable by a unique url (/freelogin).
 | Enabler ID |
 |------------|
 | ENB-XXXXXX |
+| ENB-925037 | Initial Log In Web Component |
 
 ## Dependencies
 

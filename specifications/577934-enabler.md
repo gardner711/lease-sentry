@@ -25,15 +25,30 @@ On success, navigates to the Contracts Page (/contracts)
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-577934-01 | Display profile creation page at /newprofile | Draft | High |
+| FR-577934-02 | Add session id to subscription request | Draft | High |
+| FR-577934-03 | Provide form for First Name input | Draft | High |
+| FR-577934-04 | Provide form for Last Name input | Draft | High |
+| FR-577934-05 | Provide form for Email input with pre-population | Draft | High |
+| FR-577934-06 | Provide dropdown for State selection (50 US states) | Draft | High |
+| FR-577934-07 | Validate all form inputs | Draft | High |
+| FR-577934-08 | Call Subscription API with subscription and profile data | Draft | High |
+| FR-577934-09 | Navigate to /contracts on successful submission | Draft | High |
+| FR-577934-10 | Handle API errors and display to user | Draft | High |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-577934-01 | Pre-populate email from login if available | Draft | Medium |
+| NFR-577934-02 | Responsive form design | Draft | High |
+| NFR-577934-03 | Accessible form controls | Draft | High |
+| NFR-577934-04 | Secure form submission | Draft | High |
+| NFR-577934-05 | Page loads within 2 seconds | Draft | High |
+| NFR-577934-06 | Client-side validation for better UX | Draft | Medium |
+| NFR-577934-07 | Compatible with modern browsers | Draft | Medium |
 
 ## Dependencies
 

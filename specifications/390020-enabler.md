@@ -26,15 +26,28 @@ Adds the selected subscription (free, starter, pro) to the subscription object
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-390020-01 | Display subscription selection page at /newsubscription | Draft | High |
+| FR-390020-02 | Show three subscription options: Free, Starter, Pro | Draft | High |
+| FR-390020-03 | Display descriptions for each subscription option | Draft | High |
+| FR-390020-04 | Provide grid comparison of subscription features | Draft | High |
+| FR-390020-05 | Allow user to select one subscription option | Draft | High |
+| FR-390020-06 | Validate subscription selection before submission | Draft | High |
+| FR-390020-07 | Navigate to /payment page on successful submission | Draft | High |
+| FR-390020-08 | Update subscription object with selected option | Draft | High |
+| FR-390020-09 | Ensure page is independently navigable | Draft | Medium |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-390020-01 | Page loads within 2 seconds | Draft | High |
+| NFR-390020-02 | Responsive design for mobile and desktop | Draft | High |
+| NFR-390020-03 | Accessible to screen readers and keyboard navigation | Draft | High |
+| NFR-390020-04 | Secure handling of subscription data | Draft | High |
+| NFR-390020-05 | Intuitive user interface for selection | Draft | Medium |
+| NFR-390020-06 | Compatible with modern browsers | Draft | Medium |
 
 ## Dependencies
 

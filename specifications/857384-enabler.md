@@ -23,7 +23,6 @@ A webservice API that lists of all the contracts owned by the user id
 
 Returns a list of contract documents from the contract container in cosmos db by its user id
 
-
 ## Functional Requirements
 
 | ID | Name | Requirement | Priority | Status | Approval |

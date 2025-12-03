@@ -31,15 +31,29 @@ Saves the profile document in the "profile" container in cosmos db
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-388018-01 | Implement POST /subscription endpoint | Draft | High |
+| FR-388018-02 | Accept subscription request in payload | Draft | High |
+| FR-388018-03 | Accept profile request in payload | Draft | High |
+| FR-388018-04 | Validate session id with Stripe for payment completion | Draft | High |
+| FR-388018-05 | Extract user id from bearer token | Draft | High |
+| FR-388018-06 | Create account document in accounts container | Draft | High |
+| FR-388018-07 | Set subscription type in account document | Draft | High |
+| FR-388018-08 | Save profile document in profiles container | Draft | High |
+| FR-388018-09 | Set user id on profile document | Draft | High |
+| FR-388018-10 | Handle validation errors and return appropriate responses | Draft | High |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-388018-01 | Secure handling of bearer tokens | Draft | High |
+| NFR-388018-02 | Validate all inputs against data schema | Draft | High |
+| NFR-388018-03 | Response time under 5 seconds | Draft | High |
+| NFR-388018-04 | Atomic operations for account and profile creation | Draft | High |
+| NFR-388018-05 | Comprehensive error logging | Draft | Medium |
+| NFR-388018-06 | PCI compliance for payment validation | Draft | High |
 
 ## Dependencies
 

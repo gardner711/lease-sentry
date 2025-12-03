@@ -29,10 +29,9 @@ The contract is deleted by a webservice API DELETE (/contract) that deletes the 
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
-| ENB-857384 | List Contracts API |
-| ENB-277705 | Delete Contract API |
-| ENB-853968 | Contract Library Web Component |
+| ENB-857384 |
+| ENB-277705 |
+| ENB-853968 |
 
 ## Dependencies
 

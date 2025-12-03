@@ -26,7 +26,6 @@ Grid is populated by the List Contracts API
 Each contract line has a clickable delete icon to delete the contract by calling the Delete Contract API after confirmation
 Each contract line has a clickable view icon to navigate to the contract analysis page (/analysis) by contract id
 
-
 ## Functional Requirements
 
 | ID | Name | Requirement | Priority | Status | Approval |

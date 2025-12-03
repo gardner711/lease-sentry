@@ -1,12 +1,12 @@
-# Checkout Session API
+# Initial Log In Web Component
 
 ## Metadata
 
-- **Name**: Checkout Session API
+- **Name**: Initial Log In Web Component
 - **Type**: Enabler
-- **ID**: ENB-918796
+- **ID**: ENB-925037
 - **Approval**: Not Approved
-- **Capability ID**: CAP-480705
+- **Capability ID**: CAP-398937
 - **Owner**: Product Team
 - **Status**: In Draft
 - **Priority**: High
@@ -15,36 +15,43 @@
 
 ## Technical Overview
 ### Purpose
-A webservice API that creates a new Stripe checkout session
-- POST method
-- /checkoutsession path
-- Accepts a session id
-- Returns the session checkout response that includes a client secret
-- Follows the instructions from Stripe found here: https://docs.stripe.com/checkout/embedded/quickstart
+This web component enables the free subscription express login workflow:
+- This page is independently navigable by a unique url (/freelogin).
+- Displays the log in options from Azure App Service Authentication (Easy Auth)
+- Integrates with Azure App Service Authentication (Easy Auth)
+
+On successful log in:
+- Create a subscription request and add the free subscription type
+- Create a profile and, if available, pre-populate the email, first name, and last name from the log in response
+- Call the Subscription API passing it the subscription and profile request
+On successful subscription submission, navigate to the Contracts Page (/contracts)
 
 ## Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-918796-01 | Implement POST /checkoutsession endpoint | Draft | High |
-| FR-918796-02 | Accept session id in request payload | Draft | High |
-| FR-918796-03 | Create new Stripe checkout session using Stripe API | Draft | High |
-| FR-918796-04 | Return checkout session response with client secret | Draft | High |
-| FR-918796-05 | Follow Stripe embedded checkout quickstart instructions | Draft | High |
-| FR-918796-06 | Handle Stripe API errors and return appropriate responses | Draft | High |
-| FR-918796-07 | Validate session id input | Draft | Medium |
-| FR-918796-08 | Ensure secure communication with Stripe | Draft | High |
+| FR-925037-01 | Display login page at /freelogin | Draft | High |
+| FR-925037-02 | Show login options from Azure Easy Auth | Draft | High |
+| FR-925037-03 | Integrate with Azure App Service Authentication | Draft | High |
+| FR-925037-04 | Create subscription request with free type on login success | Draft | High |
+| FR-925037-05 | Create profile request with pre-populated data from login | Draft | High |
+| FR-925037-06 | Pre-populate email, first name, last name if available | Draft | Medium |
+| FR-925037-07 | Call Subscription API with subscription and profile requests | Draft | High |
+| FR-925037-08 | Navigate to /contracts on successful submission | Draft | High |
+| FR-925037-09 | Handle login failures and display errors | Draft | High |
+| FR-925037-10 | Ensure page is independently navigable | Draft | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-918796-01 | Response time under 3 seconds | Draft | High |
-| NFR-918796-02 | Handle up to 100 concurrent requests | Draft | Medium |
-| NFR-918796-03 | Secure handling of Stripe API keys | Draft | High |
-| NFR-918796-04 | PCI compliance for payment processing | Draft | High |
-| NFR-918796-05 | 99.9% uptime for the API | Draft | High |
-| NFR-918796-06 | Comprehensive error logging | Draft | Medium |
+| NFR-925037-01 | Secure authentication handling | Draft | High |
+| NFR-925037-02 | Responsive design for login options | Draft | High |
+| NFR-925037-03 | Accessible login interface | Draft | High |
+| NFR-925037-04 | Page loads within 2 seconds | Draft | High |
+| NFR-925037-05 | Pre-population improves user experience | Draft | Medium |
+| NFR-925037-06 | Compatible with Azure Easy Auth providers | Draft | High |
+| NFR-925037-07 | Error logging for debugging | Draft | Medium |
 
 ## Dependencies
 
@@ -71,7 +78,7 @@ A webservice API that creates a new Stripe checkout session
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-918796<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-925037<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 
