@@ -1,8 +1,8 @@
-# Footer
+# Footer Web Component
 
 ## Metadata
 
-- **Name**: Footer
+- **Name**: Footer Web Component
 - **Type**: Enabler
 - **ID**: ENB-265470
 - **Approval**: Not Approved
@@ -15,27 +15,35 @@
 
 ## Technical Overview
 ### Purpose
-A footer at the bottom of every page that is always pinned to the bottom. That footer contains a centered title: "Lease Sentry (c)" linked to the homepage. 
+A footer at the bottom of every page that is always pinned to the bottom. That footer contains:
+- a centered title: "Lease Sentry (c)" linked to the homepage.
+- on the right hand side text: Need help with a button that pops up the Support dialoge
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-265470-01 | Footer Display | Display a footer at the bottom of every page in the website. | High | Draft | Not Approved |
-| FR-265470-02 | Footer Positioning | Ensure the footer is always pinned to the bottom of the viewport, even on pages with minimal content. | High | Draft | Not Approved |
-| FR-265470-03 | Footer Content | Include a centered title "Lease Sentry ©" in the footer. | High | Draft | Not Approved |
-| FR-265470-04 | Homepage Link | Make the title "Lease Sentry ©" a clickable link that navigates to the homepage. | High | Draft | Not Approved |
-| FR-265470-05 | Consistent Appearance | Ensure the footer appears consistently across all pages and devices. | Medium | Draft | Not Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-265470-01 | Display footer at bottom of every page | Draft | High |
+| FR-265470-02 | Pin footer to bottom of viewport regardless of content height | Draft | High |
+| FR-265470-03 | Show centered title "Lease Sentry ©" | Draft | High |
+| FR-265470-04 | Make title clickable link to homepage | Draft | High |
+| FR-265470-05 | Display "Need help" text on the right side | Draft | High |
+| FR-265470-06 | Include button next to "Need help" text | Draft | High |
+| FR-265470-07 | Button click opens Support dialog component | Draft | High |
+| FR-265470-08 | Integrate with Support Web Component (ENB-376918) | Draft | High |
+| FR-265470-09 | Ensure consistent footer appearance across all pages | Draft | Medium |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-265470-01 | Responsiveness | Usability | Footer should be responsive and display correctly on desktop, tablet, and mobile devices. | High | Draft | Not Approved |
-| NFR-265470-02 | Accessibility | Usability | Footer content should meet WCAG 2.1 AA standards, including proper contrast and keyboard navigation. | High | Draft | Not Approved |
-| NFR-265470-03 | Performance | Performance | Footer rendering should not impact page load time, with no additional HTTP requests. | Medium | Draft | Not Approved |
-| NFR-265470-04 | Browser Compatibility | Compatibility | Footer should work in all modern browsers (Chrome, Firefox, Safari, Edge). | Medium | Draft | Not Approved |
-| NFR-265470-05 | Maintainability | Maintainability | Footer code should be modular and easy to update for future changes. | Low | Draft | Not Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-265470-01 | Responsive design for desktop, tablet, and mobile | Draft | High |
+| NFR-265470-02 | WCAG 2.1 AA accessibility compliance | Draft | High |
+| NFR-265470-03 | No impact on page load performance | Draft | Medium |
+| NFR-265470-04 | Compatible with modern browsers | Draft | Medium |
+| NFR-265470-05 | Modular and maintainable code structure | Draft | Low |
+| NFR-265470-06 | Proper visual hierarchy and spacing | Draft | Medium |
+| NFR-265470-07 | Smooth support dialog integration | Draft | Medium |
 
 ## Dependencies
 
