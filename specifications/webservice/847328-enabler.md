@@ -16,25 +16,39 @@
 ## Technical Overview
 ### Purpose
 Provide secure API access control using JSON Web Token (JWT) authentication with token generation, validation, and refresh capabilities for protected endpoints.
+Provides a global, accessible user id from the JWT to refer to the user making the request
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-847328-01 | Token Generation | Generate JWT tokens upon successful authentication with user claims | High | Draft | Not Approved |
-| FR-847328-02 | Token Validation | Validate JWT tokens on protected endpoints including signature and expiration | High | Draft | Not Approved |
-| FR-847328-03 | Token Refresh | Provide mechanism to refresh expired tokens using refresh tokens | High | Draft | Not Approved |
-| FR-847328-04 | Protected Endpoints | Secure API endpoints requiring valid JWT tokens | High | Draft | Not Approved |
-| FR-847328-05 | Token Revocation | Support token revocation for logout and security events | High | Draft | Not Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-847328-01 | Implement POST /auth/login endpoint for user authentication and token generation | Draft | High |
+| FR-847328-02 | Implement POST /auth/refresh endpoint for token refresh using refresh tokens | Draft | High |
+| FR-847328-03 | Implement POST /auth/logout endpoint for token revocation | Draft | High |
+| FR-847328-04 | Implement POST /auth/verify endpoint for token validation checking | Draft | Medium |
+| FR-847328-05 | Implement authenticateJWT() middleware function for protecting routes | Draft | High |
+| FR-847328-06 | Extract and provide user ID from JWT token claims globally | Draft | High |
+| FR-847328-07 | Validate JWT tokens including signature, expiration, and issuer | Draft | High |
+| FR-847328-08 | Generate access and refresh tokens with appropriate claims | Draft | High |
+| FR-847328-09 | Support token revocation and blacklisting for security | Draft | High |
+| FR-847328-10 | Handle authentication errors with appropriate HTTP responses | Draft | High |
+| FR-847328-11 | Integrate with protected API endpoints requiring authentication | Draft | High |
+| FR-847328-12 | Provide user context and claims to downstream services | Draft | High |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-847328-01 | Token Expiration | Security | Access tokens should expire within 15 minutes, refresh tokens within 7 days | High | Draft | Not Approved |
-| NFR-847328-02 | Signature Algorithm | Security | Use RS256 or HS256 algorithm for token signing | High | Draft | Not Approved |
-| NFR-847328-03 | Secure Storage | Security | Store signing keys securely using environment variables or key management service | High | Draft | Not Approved |
-| NFR-847328-04 | Performance | Performance | Token validation should add no more than 10ms overhead per request | High | Draft | Not Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-847328-01 | Access tokens should expire within 15 minutes, refresh tokens within 7 days | Draft | High |
+| NFR-847328-02 | Use RS256 algorithm for token signing with secure key management | Draft | High |
+| NFR-847328-03 | Store signing keys securely using Azure Key Vault or environment variables | Draft | High |
+| NFR-847328-04 | Token validation should add no more than 10ms overhead per request | Draft | High |
+| NFR-847328-05 | Support high concurrency with stateless token validation | Draft | High |
+| NFR-847328-06 | Implement comprehensive logging for authentication events | Draft | Medium |
+| NFR-847328-07 | Handle token replay attacks and implement proper nonce validation | Draft | High |
+| NFR-847328-08 | Ensure GDPR compliance for user data in tokens | Draft | High |
+| NFR-847328-09 | Provide monitoring and metrics for authentication success/failure rates | Draft | Medium |
+| NFR-847328-10 | Support horizontal scaling without shared state dependencies | Draft | High |
 
 ## Dependencies
 
