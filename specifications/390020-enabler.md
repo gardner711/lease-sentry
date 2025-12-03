@@ -17,7 +17,7 @@
 ### Purpose
 Step two of a multi-step wizard:
 - This step is independently navigable by a unique url (/newsubscription)
-- A selection of the the three subscription options: Free, Starter, or Pro
+- A selection of the the three subscription options: Starter, or Pro
 - A description of the options from the Universal Subscription Options
 - A grid comparison of the options from the Universal Subscription Options
 
@@ -30,13 +30,14 @@ Adds the selected subscription (free, starter, pro) to the subscription object
 |----|------------|--------|----------|
 | FR-390020-01 | Display subscription selection page at /newsubscription | Draft | High |
 | FR-390020-02 | Show three subscription options: Free, Starter, Pro | Draft | High |
-| FR-390020-03 | Display descriptions for each subscription option | Draft | High |
-| FR-390020-04 | Provide grid comparison of subscription features | Draft | High |
+| FR-390020-03 | Display descriptions for each subscription option from Universal Subscription Options | Draft | High |
+| FR-390020-04 | Provide grid comparison of subscription features from Universal Subscription Options | Draft | High |
 | FR-390020-05 | Allow user to select one subscription option | Draft | High |
 | FR-390020-06 | Validate subscription selection before submission | Draft | High |
 | FR-390020-07 | Navigate to /payment page on successful submission | Draft | High |
-| FR-390020-08 | Update subscription object with selected option | Draft | High |
+| FR-390020-08 | Update subscription object with selected option (free/starter/pro) | Draft | High |
 | FR-390020-09 | Ensure page is independently navigable | Draft | Medium |
+| FR-390020-10 | Handle invalid or missing subscription selection | Draft | Medium |
 
 ## Non-Functional Requirements
 
@@ -48,6 +49,7 @@ Adds the selected subscription (free, starter, pro) to the subscription object
 | NFR-390020-04 | Secure handling of subscription data | Draft | High |
 | NFR-390020-05 | Intuitive user interface for selection | Draft | Medium |
 | NFR-390020-06 | Compatible with modern browsers | Draft | Medium |
+| NFR-390020-07 | Clear visual hierarchy for subscription comparison | Draft | Medium |
 
 ## Dependencies
 
