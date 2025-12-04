@@ -5,10 +5,10 @@
 - **Name**: User Menu Web Component
 - **Type**: Enabler
 - **ID**: ENB-859789
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-463559
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required

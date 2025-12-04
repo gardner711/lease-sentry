@@ -5,10 +5,10 @@
 - **Name**: Get Profile API
 - **Type**: Enabler
 - **ID**: ENB-392023
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-537783
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required

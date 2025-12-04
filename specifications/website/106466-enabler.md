@@ -5,10 +5,10 @@
 - **Name**: Change Password Web Component
 - **Type**: Enabler
 - **ID**: ENB-106466
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-614158
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required

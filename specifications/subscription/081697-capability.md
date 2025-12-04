@@ -7,9 +7,9 @@
 - **System**: ls
 - **Component**: subscription
 - **ID**: CAP-081697
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 

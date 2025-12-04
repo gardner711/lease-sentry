@@ -5,10 +5,10 @@
 - **Name**: Delete Operation
 - **Type**: Enabler
 - **ID**: ENB-966828
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-860898
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required

@@ -5,10 +5,10 @@
 - **Name**: Upload Contract Web Component
 - **Type**: Enabler
 - **ID**: ENB-603922
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-773285
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required

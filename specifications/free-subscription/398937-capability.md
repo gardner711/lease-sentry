@@ -7,9 +7,9 @@
 - **System**: ls
 - **Component**: free-subscription
 - **ID**: CAP-398937
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 

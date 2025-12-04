@@ -5,10 +5,10 @@
 - **Name**: Initial Log In Web Component
 - **Type**: Enabler
 - **ID**: ENB-037678
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-227261
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required

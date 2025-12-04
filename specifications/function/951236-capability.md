@@ -7,9 +7,9 @@
 - **System**: ls
 - **Component**: function
 - **ID**: CAP-951236
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 
@@ -26,6 +26,7 @@ Enables the analyze serverless function in Azure
 | ENB-261735 | Critical Clause Sub Function |
 | ENB-650774 | Report Card Sub Function |
 | ENB-223346 | Deal Cheat Sheet Sub Function |
+| ENB-137266 | State Specific Sub Function |
 
 ## Dependencies
 

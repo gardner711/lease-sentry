@@ -5,10 +5,10 @@
 - **Name**: Profile Web Component
 - **Type**: Enabler
 - **ID**: ENB-682199
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-537783
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required

@@ -5,10 +5,10 @@
 - **Name**: Change Subscription API
 - **Type**: Enabler
 - **ID**: ENB-551364
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-919075
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required

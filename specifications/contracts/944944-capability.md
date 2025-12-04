@@ -7,9 +7,9 @@
 - **System**: ls
 - **Component**: contracts
 - **ID**: CAP-944944
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 

@@ -7,9 +7,9 @@
 - **System**: ls
 - **Component**: function
 - **ID**: CAP-068587
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 

@@ -5,10 +5,10 @@
 - **Name**: Review Web Component
 - **Type**: Enabler
 - **ID**: ENB-307768
-- **Approval**: Not Approved
+- **Approval**: Approved
 - **Capability ID**: CAP-615262
 - **Owner**: Product Team
-- **Status**: In Draft
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required
