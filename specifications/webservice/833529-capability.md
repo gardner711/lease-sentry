@@ -9,7 +9,7 @@
 - **ID**: CAP-833529
 - **Approval**: Approved
 - **Owner**: Product Team
-- **Status**: IMPLEMENTED
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 

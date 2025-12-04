@@ -29,8 +29,8 @@ Implements a comprehensive design system and component library for a web applica
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
 | FR-DS001 | Design Tokens Configuration | The design system SHALL define design tokens in TypeScript/JSON format for colors, typography, spacing, shadows, borders, and animations | High | Ready for Implementation | Approved |
-| FR-DS002 | Theme Provider | The design system SHALL provide a ThemeProvider component supporting light and dark modes | High | Implemented | Approved |
-| FR-DS003 | CSS Variables | The design system SHALL expose design tokens as CSS custom properties for runtime theming | High | Implemented | Approved |
+| FR-DS002 | Theme Provider | The design system SHALL provide a ThemeProvider component supporting light and dark modes | High | Ready for Implementation | Approved |
+| FR-DS003 | CSS Variables | The design system SHALL expose design tokens as CSS custom properties for runtime theming | High | Ready for Implementation | Approved |
 | FR-DS004 | Button Components | The design system SHALL provide Button variants (primary, secondary, outline, ghost, danger) with size options (sm, md, lg) | High | Ready for Implementation | Approved |
 | FR-DS005 | Form Components | The design system SHALL provide Input, Select, Checkbox, Radio, Textarea components with validation states | High | Ready for Implementation | Approved |
 | FR-DS006 | Layout Components | The design system SHALL provide Container, Grid, Stack, Divider components for flexible layouts | High | Ready for Implementation | Approved |
@@ -43,7 +43,7 @@ Implements a comprehensive design system and component library for a web applica
 | FR-DS013 | Form Patterns | The design system SHALL provide FormField wrapper with label, error, and helper text | High | Ready for Implementation | Approved |
 | FR-DS014 | Loading States | The design system SHALL provide Spinner, Skeleton, and ProgressBar components | Medium | Ready for Implementation | Approved |
 | FR-DS016 | Storybook Documentation | The design system SHALL document all components in Storybook with interactive examples | High | Ready for Implementation | Approved |
-| FR-DS017 | Theme Toggle | The design system SHALL provide useTheme hook and ThemeToggle component for user preference | High | Implemented | Approved |
+| FR-DS017 | Theme Toggle | The design system SHALL provide useTheme hook and ThemeToggle component for user preference | High | Ready for Implementation | Approved |
 | FR-DS018 | Accessibility Helpers | The design system SHALL provide VisuallyHidden, FocusTrap, and SkipLink components | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements

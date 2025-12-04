@@ -8,7 +8,7 @@
 - **Approval**: Approved
 - **Capability ID**: CAP-227918
 - **Owner**: Product Team
-- **Status**: IMPLEMENTED
+- **Status**: Ready for Implementation
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required
@@ -25,29 +25,29 @@ application insights key is configurable
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-328984-01 | SDK Integration | Integrate Application Insights SDK into Express.js/Node.js webservice with proper middleware setup | Must Have | IMPLEMENTED | Approved |
-| FR-328984-02 | Request ID Correlation | Extract and use request-id from HTTP headers for end-to-end request correlation | Must Have | IMPLEMENTED | Approved |
-| FR-328984-03 | HTTP Request Logging | Automatically log all incoming HTTP requests with method, URL, status code, and response time | Must Have | IMPLEMENTED | Approved |
-| FR-328984-04 | Handler Action Logging | Log all controller/route handler actions and business logic operations by request-id | Must Have | IMPLEMENTED | Approved |
-| FR-328984-05 | Middleware Integration | Implement Express.js middleware for automatic request/response tracking and correlation | Must Have | IMPLEMENTED | Approved |
-| FR-328984-06 | Database Operation Logging | Track database queries and operations with performance metrics and error handling | Should Have | IMPLEMENTED | Approved |
-| FR-328984-07 | Custom Business Metrics | Implement custom metrics for business-specific operations and KPIs | Should Have | IMPLEMENTED | Approved |
-| FR-328984-08 | Error Tracking | Automatically capture and log all unhandled exceptions and application errors with context | Must Have | IMPLEMENTED | Approved |
-| FR-328984-09 | Configurable Instrumentation | Support configurable Application Insights instrumentation key via environment variables | Must Have | IMPLEMENTED | Approved |
-| FR-328984-10 | Health Check Integration | Include application health checks and dependency monitoring in telemetry | Should Have | IMPLEMENTED | Approved |
+| FR-328984-01 | SDK Integration | Integrate Application Insights SDK into Express.js/Node.js webservice with proper middleware setup | Must Have | Ready for Implementation | Approved |
+| FR-328984-02 | Request ID Correlation | Extract and use request-id from HTTP headers for end-to-end request correlation | Must Have | Ready for Implementation | Approved |
+| FR-328984-03 | HTTP Request Logging | Automatically log all incoming HTTP requests with method, URL, status code, and response time | Must Have | Ready for Implementation | Approved |
+| FR-328984-04 | Handler Action Logging | Log all controller/route handler actions and business logic operations by request-id | Must Have | Ready for Implementation | Approved |
+| FR-328984-05 | Middleware Integration | Implement Express.js middleware for automatic request/response tracking and correlation | Must Have | Ready for Implementation | Approved |
+| FR-328984-06 | Database Operation Logging | Track database queries and operations with performance metrics and error handling | Should Have | Ready for Implementation | Approved |
+| FR-328984-07 | Custom Business Metrics | Implement custom metrics for business-specific operations and KPIs | Should Have | Ready for Implementation | Approved |
+| FR-328984-08 | Error Tracking | Automatically capture and log all unhandled exceptions and application errors with context | Must Have | Ready for Implementation | Approved |
+| FR-328984-09 | Configurable Instrumentation | Support configurable Application Insights instrumentation key via environment variables | Must Have | Ready for Implementation | Approved |
+| FR-328984-10 | Health Check Integration | Include application health checks and dependency monitoring in telemetry | Should Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-328984-01 | Response Time Impact | Performance | Application Insights middleware should not add more than 10ms to response time | Must Have | IMPLEMENTED | Approved |
-| NFR-328984-02 | Memory Overhead | Performance | Telemetry collection should not increase memory usage by more than 15% | Must Have | IMPLEMENTED | Approved |
-| NFR-328984-03 | Reliability | Reliability | Application Insights failures should not crash the webservice or affect user requests | Must Have | IMPLEMENTED | Approved |
-| NFR-328984-04 | Data Security | Security | All telemetry data must be encrypted in transit and sensitive data filtered out | Must Have | IMPLEMENTED | Approved |
-| NFR-328984-05 | Scalability | Scalability | Handle telemetry from webservice scaling to multiple instances behind load balancer | Must Have | IMPLEMENTED | Approved |
-| NFR-328984-06 | Cost Management | Efficiency | Implement sampling and filtering to manage Application Insights costs within budget | Should Have | IMPLEMENTED | Approved |
-| NFR-328984-07 | Real-time Monitoring | Availability | Enable real-time dashboards and alerts for critical webservice metrics | Must Have | IMPLEMENTED | Approved |
-| NFR-328984-08 | GDPR Compliance | Compliance | Implement data anonymization and ensure compliance with data protection regulations | Must Have | IMPLEMENTED | Approved |
+| NFR-328984-01 | Response Time Impact | Performance | Application Insights middleware should not add more than 10ms to response time | Must Have | Ready for Implementation | Approved |
+| NFR-328984-02 | Memory Overhead | Performance | Telemetry collection should not increase memory usage by more than 15% | Must Have | Ready for Implementation | Approved |
+| NFR-328984-03 | Reliability | Reliability | Application Insights failures should not crash the webservice or affect user requests | Must Have | Ready for Implementation | Approved |
+| NFR-328984-04 | Data Security | Security | All telemetry data must be encrypted in transit and sensitive data filtered out | Must Have | Ready for Implementation | Approved |
+| NFR-328984-05 | Scalability | Scalability | Handle telemetry from webservice scaling to multiple instances behind load balancer | Must Have | Ready for Implementation | Approved |
+| NFR-328984-06 | Cost Management | Efficiency | Implement sampling and filtering to manage Application Insights costs within budget | Should Have | Ready for Implementation | Approved |
+| NFR-328984-07 | Real-time Monitoring | Availability | Enable real-time dashboards and alerts for critical webservice metrics | Must Have | Ready for Implementation | Approved |
+| NFR-328984-08 | GDPR Compliance | Compliance | Implement data anonymization and ensure compliance with data protection regulations | Must Have | Ready for Implementation | Approved |
 
 ## Dependencies
 
