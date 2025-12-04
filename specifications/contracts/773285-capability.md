@@ -21,7 +21,6 @@ Enables the contract upload capability
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-000886 |
 | ENB-603922 |
 

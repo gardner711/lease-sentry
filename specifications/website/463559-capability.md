@@ -21,7 +21,6 @@ Navigable menu in the header that shows when the user is logged in
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-859789 |
 
 ## Dependencies

@@ -50,7 +50,6 @@ Unlimited Storage
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-828574 | Subscription Configurations |
 
 ## Dependencies

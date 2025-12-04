@@ -21,7 +21,6 @@ Notification menu on the header
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-624132 | Notification Web Component |
 | ENB-092055 | Get Notifications API |
 

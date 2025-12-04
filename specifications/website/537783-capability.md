@@ -21,7 +21,6 @@ Views and edits the user's profile
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-576795 |
 | ENB-682199 |
 | ENB-392023 |

@@ -21,7 +21,6 @@ Enables the user to submit a support ticket
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-606505 |
 | ENB-376918 |
 

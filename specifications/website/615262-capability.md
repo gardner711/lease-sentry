@@ -21,7 +21,6 @@ Enables the user to submit a review
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-307768 |
 | ENB-633557 |
 

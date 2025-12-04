@@ -21,7 +21,6 @@ Enables the delete serverless function in Azure
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-966828 |
 
 ## Dependencies

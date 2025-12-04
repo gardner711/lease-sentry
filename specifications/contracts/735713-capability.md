@@ -21,7 +21,6 @@ Enables the contract page for managing contracts
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-908856 |
 
 ## Dependencies

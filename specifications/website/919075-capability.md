@@ -21,7 +21,6 @@ Enables the user to manager their subscription
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-551364 |
 | ENB-167373 |
 | ENB-079527 |

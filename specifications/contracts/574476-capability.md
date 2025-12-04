@@ -21,7 +21,6 @@ Enables the recent contract capability
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-349820 |
 | ENB-823280 |
 

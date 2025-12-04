@@ -21,7 +21,6 @@ Enables the free subscription tier for first time users
 
 | Enabler ID |
 |------------|
-| ENB-XXXXXX |
 | ENB-925037 |
 
 ## Dependencies
