@@ -1,4 +1,5 @@
-import { FileText, Shield, Zap, TrendingUp, CheckCircle2, Star, ArrowRight, Users, Award, Clock, Scale, Building2, FileCheck } from 'lucide-react';
+import { FileText, Shield, Zap, TrendingUp, CheckCircle2, Star, ArrowRight, Users, Award, Clock, Scale, Building2, FileCheck, Moon, Sun } from 'lucide-react';
+import { useTheme } from 'next-themes';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 interface Homepage2Props {
@@ -6,6 +7,7 @@ interface Homepage2Props {
 }
 
 export function Homepage2({ onGetStarted }: Homepage2Props) {
+  const { theme, setTheme } = useTheme();
   const features = [
     {
       icon: Shield,
@@ -152,6 +154,15 @@ export function Homepage2({ onGetStarted }: Homepage2Props) {
               <a href="#pricing" className="text-slate-300 hover:text-white transition-colors">Pricing</a>
               <a href="#testimonials" className="text-slate-300 hover:text-white transition-colors">Testimonials</a>
               <button
+                onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+                className="p-2 text-slate-300 hover:text-white transition-colors rounded-lg hover:bg-slate-800"
+                aria-label="Toggle theme"
+              >
+                <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+                <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                <span className="sr-only">Toggle theme</span>
+              </button>
+              <button
                 onClick={() => onGetStarted()}
                 className="px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all shadow-lg shadow-blue-500/50"
               >
@@ -191,7 +202,7 @@ export function Homepage2({ onGetStarted }: Homepage2Props) {
               Your Guardian for Real Estate Contracts
             </h1>
             <p className="text-slate-200 mb-8 text-xl max-w-3xl mx-auto">
-              Don't let legal complexities overwhelm you. Get instant, AI-powered analysis 
+              Don't let legal complexities overwhelm you. Get instant, AI-powered analysis
               that protects your interests and ensures you make informed decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -270,7 +281,7 @@ export function Homepage2({ onGetStarted }: Homepage2Props) {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/80 to-transparent"></div>
         </div>
-        
+
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
             <h2 className="text-white mb-4">Why Choose ContractIQ?</h2>
@@ -337,7 +348,7 @@ export function Homepage2({ onGetStarted }: Homepage2Props) {
           />
           <div className="absolute inset-0 bg-slate-900/95"></div>
         </div>
-        
+
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-white mb-4">Simple, Transparent Pricing</h2>
@@ -349,11 +360,10 @@ export function Homepage2({ onGetStarted }: Homepage2Props) {
             {pricingTiers.map((tier, index) => (
               <div
                 key={index}
-                className={`rounded-2xl p-8 ${
-                  tier.highlighted
+                className={`rounded-2xl p-8 ${tier.highlighted
                     ? 'bg-gradient-to-br from-blue-600 to-purple-600 text-white shadow-2xl scale-105 border-2 border-white/20'
                     : 'bg-slate-800/80 backdrop-blur-sm border border-slate-700'
-                } relative`}
+                  } relative`}
               >
                 {tier.highlighted && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-yellow-400 text-slate-900 rounded-full text-sm shadow-lg">
@@ -385,9 +395,8 @@ export function Homepage2({ onGetStarted }: Homepage2Props) {
                 <ul className="space-y-3 mb-8">
                   {tier.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start gap-3">
-                      <CheckCircle2 className={`w-5 h-5 flex-shrink-0 mt-0.5 ${
-                        tier.highlighted ? 'text-blue-200' : 'text-green-500'
-                      }`} />
+                      <CheckCircle2 className={`w-5 h-5 flex-shrink-0 mt-0.5 ${tier.highlighted ? 'text-blue-200' : 'text-green-500'
+                        }`} />
                       <span className={`text-sm ${tier.highlighted ? 'text-white' : 'text-slate-300'}`}>
                         {feature}
                       </span>
@@ -396,11 +405,10 @@ export function Homepage2({ onGetStarted }: Homepage2Props) {
                 </ul>
                 <button
                   onClick={() => onGetStarted(tier.tier)}
-                  className={`w-full py-3 rounded-lg transition-all ${
-                    tier.highlighted
+                  className={`w-full py-3 rounded-lg transition-all ${tier.highlighted
                       ? 'bg-white text-blue-600 hover:bg-blue-50 shadow-lg'
                       : 'bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:from-blue-600 hover:to-purple-700'
-                  }`}
+                    }`}
                 >
                   {tier.price === 'Custom' ? 'Contact Sales' : 'Get Started'}
                 </button>
@@ -447,13 +455,13 @@ export function Homepage2({ onGetStarted }: Homepage2Props) {
         <div className="absolute inset-0 opacity-20" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E")`,
         }}></div>
-        
+
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-white mb-6">
             Ready to Analyze Your Contract?
           </h2>
           <p className="text-blue-100 mb-8 text-lg">
-            Join thousands of smart buyers, sellers, and agents who use ContractIQ 
+            Join thousands of smart buyers, sellers, and agents who use ContractIQ
             to make informed decisions.
           </p>
           <button

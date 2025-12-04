@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ThemeProvider } from 'next-themes';
 import { Homepage } from './components/Homepage';
 import { Homepage2 } from './components/Homepage2';
 import { AnalysisTool } from './components/AnalysisTool';
@@ -19,7 +20,7 @@ export default function App() {
   };
 
   return (
-    <>
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
       {currentView === 'homepage' && (
         <Homepage onGetStarted={handleGetStarted} />
       )}
@@ -29,6 +30,6 @@ export default function App() {
       {currentView === 'tool' && (
         <AnalysisTool onBackToHome={handleBackToHome} selectedTier={selectedTier} />
       )}
-    </>
+    </ThemeProvider>
   );
 }
