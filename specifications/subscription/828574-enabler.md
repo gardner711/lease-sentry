@@ -26,28 +26,30 @@ Each subscription will have a unique set of Stripe id's that will be required wh
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-828574-01 | Store Stripe secret key per environment with sk_ prefix | Draft | High |
-| FR-828574-02 | Store Stripe public key per environment with pk_ prefix | Draft | High |
-| FR-828574-03 | Store starter subscription price ID per environment with price_ prefix | Draft | High |
-| FR-828574-04 | Store pro subscription price ID per environment with price_ prefix | Draft | High |
-| FR-828574-05 | Implement payment available flag to bypass Stripe integration | Draft | High |
-| FR-828574-06 | Provide secret key access to webserver components only | Draft | High |
-| FR-828574-07 | Provide public key access to website components only | Draft | High |
-| FR-828574-08 | Provide price IDs access to website components only | Draft | High |
-| FR-828574-09 | Support environment-specific configurations (dev/test/production) | Draft | High |
-| FR-828574-10 | Handle free subscription without Stripe integration | Draft | Medium |
-| FR-828574-11 | Validate Stripe key formats and prefixes | Draft | High |
-| FR-828574-12 | Enforce payment bypass when payment available flag is false | Draft | High |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-828574-01 | Secret Key Storage | Store Stripe secret key per environment with sk_ prefix | Must Have | Ready for Implementation | Approved |
+| FR-828574-02 | Public Key Storage | Store Stripe public key per environment with pk_ prefix | Must Have | Ready for Implementation | Approved |
+| FR-828574-03 | Starter Price ID | Store starter subscription price ID per environment with price_ prefix | Must Have | Ready for Implementation | Approved |
+| FR-828574-04 | Pro Price ID | Store pro subscription price ID per environment with price_ prefix | Must Have | Ready for Implementation | Approved |
+| FR-828574-05 | Payment Bypass Flag | Implement payment available flag to bypass Stripe integration for free subscriptions | Must Have | Ready for Implementation | Approved |
+| FR-828574-06 | Secret Key Access | Provide secret key access to webserver components only | Must Have | Ready for Implementation | Approved |
+| FR-828574-07 | Public Key Access | Provide public key access to website components only | Must Have | Ready for Implementation | Approved |
+| FR-828574-08 | Price ID Access | Provide price IDs access to website components only | Must Have | Ready for Implementation | Approved |
+| FR-828574-09 | Environment Configuration | Support environment-specific configurations (dev/test/production) | Must Have | Ready for Implementation | Approved |
+| FR-828574-10 | Free Subscription Handling | Handle free subscription without Stripe integration | Must Have | Ready for Implementation | Approved |
+| FR-828574-11 | Key Validation | Validate Stripe key formats and prefixes | Should Have | Ready for Implementation | Approved |
+| FR-828574-12 | Payment Bypass Enforcement | Enforce payment bypass when payment available flag is false | Must Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-828574-01 | Secure storage and access control for Stripe secret keys | Draft | High |
-| NFR-828574-02 | Environment isolation for configuration data | Draft | High |
-| NFR-828574-03 | Fast configuration retrieval for payment processing | Draft | High |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-828574-01 | Secret Key Security | Security | Secure storage and access control for Stripe secret keys | Must Have | Ready for Implementation | Approved |
+| NFR-828574-02 | Environment Isolation | Security | Environment isolation for configuration data | Must Have | Ready for Implementation | Approved |
+| NFR-828574-03 | Configuration Performance | Performance | Fast configuration retrieval for payment processing | Must Have | Ready for Implementation | Approved |
+| NFR-828574-04 | Configuration Validation | Reliability | Validate configuration completeness and format | Should Have | Ready for Implementation | Approved |
+| NFR-828574-05 | Audit Logging | Observability | Log configuration access and changes | Should Have | Ready for Implementation | Approved |
 | NFR-828574-04 | Comprehensive validation of Stripe configuration values | Draft | High |
 | NFR-828574-05 | Audit logging for configuration changes | Draft | Medium |
 | NFR-828574-06 | Configuration versioning and rollback capability | Draft | Medium |

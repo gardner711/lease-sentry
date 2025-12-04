@@ -28,26 +28,28 @@ On successful subscription submission, navigate to the Contracts Page (/contract
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-925037-01 | Display login page at /freelogin | Draft | High |
-| FR-925037-02 | Show login options from Azure Easy Auth | Draft | High |
-| FR-925037-03 | Integrate with Azure App Service Authentication | Draft | High |
-| FR-925037-04 | Create subscription request with free type on login success | Draft | High |
-| FR-925037-05 | Create profile request with pre-populated data from login | Draft | High |
-| FR-925037-06 | Pre-populate email, first name, last name if available | Draft | Medium |
-| FR-925037-07 | Call Subscription API with subscription and profile requests | Draft | High |
-| FR-925037-08 | Navigate to /contracts on successful submission | Draft | High |
-| FR-925037-09 | Handle login failures and display errors | Draft | High |
-| FR-925037-10 | Ensure page is independently navigable | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-925037-01 | Free Login Page | Display login page at /freelogin | Must Have | Ready for Implementation | Approved |
+| FR-925037-02 | Authentication Options | Show login options from Azure Easy Auth | Must Have | Ready for Implementation | Approved |
+| FR-925037-03 | Easy Auth Integration | Integrate with Azure App Service Authentication | Must Have | Ready for Implementation | Approved |
+| FR-925037-04 | Free Subscription Creation | Create subscription request with free type on login success | Must Have | Ready for Implementation | Approved |
+| FR-925037-05 | Profile Request Creation | Create profile request with pre-populated data from login | Must Have | Ready for Implementation | Approved |
+| FR-925037-06 | Data Pre-population | Pre-populate email, first name, last name if available from login | Should Have | Ready for Implementation | Approved |
+| FR-925037-07 | Subscription API Call | Call Subscription API with subscription and profile requests | Must Have | Ready for Implementation | Approved |
+| FR-925037-08 | Success Navigation | Navigate to /contracts on successful submission | Must Have | Ready for Implementation | Approved |
+| FR-925037-09 | Error Handling | Handle login failures and display appropriate errors | Must Have | Ready for Implementation | Approved |
+| FR-925037-10 | Independent Access | Ensure page is independently navigable | Should Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-925037-01 | Secure authentication handling | Draft | High |
-| NFR-925037-02 | Responsive design for login options | Draft | High |
-| NFR-925037-03 | Accessible login interface | Draft | High |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-925037-01 | Authentication Security | Security | Secure authentication handling and token management | Must Have | Ready for Implementation | Approved |
+| NFR-925037-02 | Responsive Design | Usability | Responsive design for login options on all devices | Must Have | Ready for Implementation | Approved |
+| NFR-925037-03 | Accessibility | Usability | Accessible login interface with proper ARIA labels | Must Have | Ready for Implementation | Approved |
+| NFR-925037-04 | Page Load Performance | Performance | Login page loads within 2 seconds | Should Have | Ready for Implementation | Approved |
+| NFR-925037-05 | Error Resilience | Reliability | Handle authentication failures gracefully | Must Have | Ready for Implementation | Approved |
 | NFR-925037-04 |  |  | Page loads within 2 seconds | High | Draft | Not Approved |
 | NFR-925037-05 |  |  | Pre-population improves user experience | Medium | Draft | Not Approved |
 | NFR-925037-06 |  |  | Compatible with Azure Easy Auth providers | High | Draft | Not Approved |

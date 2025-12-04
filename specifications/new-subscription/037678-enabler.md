@@ -24,24 +24,24 @@ On successful login, navigates to Subscription Choice Step 2
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-037678-01 | Display a login page at /newlogin with authentication options from Azure Easy Auth | Draft | High |
-| FR-037678-02 | Integrate with Azure App Service Authentication (Easy Auth) to handle login flows | Draft | High |
-| FR-037678-03 | On successful authentication, navigate the user to the Subscription Choice Step 2 | Draft | High |
-| FR-037678-04 | Ensure the /newlogin URL is independently accessible without prior steps | Draft | Medium |
-| FR-037678-05 | Display all available login options provided by Azure Easy Auth (e.g., Microsoft, Google, etc.) | Draft | High |
-| FR-037678-06 | Display appropriate error messages for failed authentication attempts | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-037678-01 | Login Page Display | Display a login page at /newlogin with authentication options from Azure Easy Auth | Must Have | Ready for Implementation | Approved |
+| FR-037678-02 | Easy Auth Integration | Integrate with Azure App Service Authentication (Easy Auth) to handle login flows | Must Have | Ready for Implementation | Approved |
+| FR-037678-03 | Post-Login Navigation | On successful authentication, navigate the user to the Subscription Choice Step 2 | Must Have | Ready for Implementation | Approved |
+| FR-037678-04 | Independent Access | Ensure the /newlogin URL is independently accessible without prior steps | Should Have | Ready for Implementation | Approved |
+| FR-037678-05 | Authentication Options | Display all available login options provided by Azure Easy Auth (e.g., Microsoft, Google, etc.) | Must Have | Ready for Implementation | Approved |
+| FR-037678-06 | Error Message Display | Display appropriate error messages for failed authentication attempts | Should Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-037678-01 | Securely handle authentication tokens and prevent unauthorized access | Draft | High |
-| NFR-037678-02 | Provide a clear, intuitive login interface with accessible options | Draft | High |
-| NFR-037678-03 | Login page loads within 2 seconds under normal conditions | Draft | Medium |
-| NFR-037678-04 | Compatible with modern browsers and Azure Easy Auth providers | Draft | Medium |
-| NFR-037678-05 | Handle authentication failures gracefully without crashing the application | Draft | High |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-037678-01 | Authentication Security | Security | Securely handle authentication tokens and prevent unauthorized access | Must Have | Ready for Implementation | Approved |
+| NFR-037678-02 | User Interface Design | Usability | Provide a clear, intuitive login interface with accessible options | Must Have | Ready for Implementation | Approved |
+| NFR-037678-03 | Page Load Performance | Performance | Login page loads within 2 seconds under normal conditions | Should Have | Ready for Implementation | Approved |
+| NFR-037678-04 | Browser Compatibility | Compatibility | Compatible with modern browsers and Azure Easy Auth providers | Must Have | Ready for Implementation | Approved |
+| NFR-037678-05 | Error Resilience | Reliability | Handle authentication failures gracefully without crashing the application | Must Have | Ready for Implementation | Approved |
 
 ## Dependencies
 

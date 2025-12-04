@@ -2,7 +2,7 @@
 
 **Created:** December 3, 2025
 **Updated:** December 3, 2025
-**Source:** specifications/references/UI/ - Real Estate Contract Analyzer UI Implementation
+**Source:** ExampleUI/ - Real Estate Contract Analyzer UI Implementation
 
 ## Design Philosophy
 
@@ -605,7 +605,7 @@ Based on the reference implementation:
 The reference implementation follows this structure:
 
 ```
-specifications/references/UI/
+<!-- ExampleUI -->
 ├── src/
 │   ├── components/
 │   │   ├── ui/           # shadcn/ui components (40+ components)

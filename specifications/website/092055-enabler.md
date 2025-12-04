@@ -21,30 +21,35 @@ A webservice notification operation:
 - returns a list of notifications
 
 Retrieves the notification document from the "notification" container in cosmos db for the user based on their user id from the JWT
+If the notifications count is greater than 10 then remove the bottom ones in the array until it there are only 10
+Update notification in the "notification" container of the cosmos db
+Return the notification
 
 
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-092055-01 | Implement GET /notification endpoint | Draft | High |
-| FR-092055-02 | Extract user ID from JWT JWT | Draft | High |
-| FR-092055-03 | Query notification documents from notification container in Cosmos DB | Draft | High |
-| FR-092055-04 | Filter notifications by user ID | Draft | High |
-| FR-092055-05 | Return list of notification documents | Draft | High |
-| FR-092055-06 | Include notification type (analysis or contract) in response | Draft | High |
-| FR-092055-07 | Include contract ID for each notification | Draft | High |
-| FR-092055-08 | Include processing status for each notification | Draft | High |
-| FR-092055-09 | Return appropriate HTTP status codes | Draft | High |
-| FR-092055-10 | Handle authentication errors | Draft | High |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-092055-01 | Notification Endpoint | Implement GET /notification endpoint | Must Have | Ready for Implementation | Approved |
+| FR-092055-02 | JWT User Extraction | Extract user ID from JWT token | Must Have | Ready for Implementation | Approved |
+| FR-092055-03 | Notification Query | Query notification documents from notification container in Cosmos DB | Must Have | Ready for Implementation | Approved |
+| FR-092055-04 | User Filtering | Filter notifications by user ID | Must Have | Ready for Implementation | Approved |
+| FR-092055-05 | Notification Limit | If notifications count is greater than 10, remove bottom ones until only 10 remain | Should Have | Ready for Implementation | Approved |
+| FR-092055-06 | Database Update | Update notification document in Cosmos DB after trimming | Should Have | Ready for Implementation | Approved |
+| FR-092055-07 | Notification Response | Return list of notification documents with type, contract ID, and status | Must Have | Ready for Implementation | Approved |
+| FR-092055-08 | HTTP Status Codes | Return appropriate HTTP status codes for success and errors | Must Have | Ready for Implementation | Approved |
+| FR-092055-09 | Authentication Handling | Handle authentication errors and unauthorized access | Must Have | Ready for Implementation | Approved |
+| FR-092055-10 | Error Responses | Provide meaningful error messages for failed requests | Should Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-092055-01 | Response time under 2 seconds | Draft | High |
-| NFR-092055-02 | Secure token handling and validation | Draft | High |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-092055-01 | Response Time | Performance | API response time under 2 seconds | Must Have | Ready for Implementation | Approved |
+| NFR-092055-02 | JWT Security | Security | Secure token handling and validation | Must Have | Ready for Implementation | Approved |
+| NFR-092055-03 | Data Consistency | Reliability | Ensure notification trimming and updates are atomic | Should Have | Ready for Implementation | Approved |
+| NFR-092055-04 | Error Logging | Observability | Log all notification retrievals and errors | Should Have | Ready for Implementation | Approved |
 | NFR-092055-03 | Efficient Cosmos DB queries | Draft | High |
 | NFR-092055-04 | Handle high request volume from periodic refreshes | Draft | High |
 | NFR-092055-05 | Comprehensive error logging | Draft | Medium |

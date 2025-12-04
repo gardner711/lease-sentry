@@ -21,7 +21,7 @@ Enables the analyze serverless function in Azure
 
 | Enabler ID |
 |------------|
-| ENB-800535 |
+| ENB-800535 | Analyze Operation |
 | ENB-261735 | Critical Clause Sub Function |
 | ENB-650774 | Report Card Sub Function |
 | ENB-223346 | Deal Cheat Sheet Sub Function |

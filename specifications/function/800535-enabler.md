@@ -22,6 +22,7 @@ Performs the following operations:
 Gets the contract by contract id from the "contract" container in cosmos db
 Gets the file from blob storage using the storage from the contract document
 TODO - loads the document in azure ai search
+A failure in any function does not fail the operation, rather is logged and appended to the analysis document
 Creates an analysis document
 - appends the contract id from the bus message
 - appends the user id from the bus message
@@ -29,10 +30,13 @@ Creates an analysis document
 - appends the results from the Report Card sub function
 - appends the results from the Deal Cheat Sheet sub function
 - appends the results from the State Specific sub function
-A failure in any function does not fail the operation, rather is logged and appended to the analysis document
 Adds the analysis document in the "analysis" container in cosmos db
 Updates the contract document status to processed
 Updates the contract in the "contract" container in cosmos db
+Gets the notification from the "notification" container in cosmos db by the user id
+Appends an item in the notifications array with a status of "processed", type of "analysis", contract id of the contract id, title of the contract title
+Find all the items in the notifications array that match the contract id and mark their status as "processed"
+Updates the notification in the "notification" container
 
 ## Functional Requirements
 

@@ -30,24 +30,24 @@ On acceptance, the Change Subscription API is called with the new subscription t
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-079527-01 |  | Display subscription options: Starter and Pro | High | Draft | Not Approved |
-| FR-079527-02 |  | Show descriptions for each subscription option from Universal Subscription Options | High | Draft | Not Approved |
-| FR-079527-03 |  | Provide grid comparison of subscription features | High | Draft | Not Approved |
-| FR-079527-04 |  | Call Get Subscription API to determine current subscription | High | Draft | Not Approved |
-| FR-079527-05 |  | Pre-select current subscription option | High | Draft | Not Approved |
-| FR-079527-06 |  | Enable submit button when subscription selection changes | High | Draft | Not Approved |
-| FR-079527-07 |  | Show confirmation dialog on submission with billing impact warning | High | Draft | Not Approved |
-| FR-079527-08 |  | Call Change Subscription API on confirmation | High | Draft | Not Approved |
-| FR-079527-09 |  | Handle API success/error responses | High | Draft | Not Approved |
-| FR-079527-10 |  | Update UI to reflect new subscription status | Medium | Draft | Not Approved |
+| FR-079527-01 | Subscription Options Display | Display subscription options: Starter and Pro | Must Have | Ready for Implementation | Approved |
+| FR-079527-02 | Option Descriptions | Show descriptions for each subscription option from Universal Subscription Options | Must Have | Ready for Implementation | Approved |
+| FR-079527-03 | Feature Comparison Grid | Provide grid comparison of subscription features | Must Have | Ready for Implementation | Approved |
+| FR-079527-04 | Current Subscription API | Call Get Subscription API to determine current subscription | Must Have | Ready for Implementation | Approved |
+| FR-079527-05 | Current Selection Highlight | Pre-select current subscription option | Must Have | Ready for Implementation | Approved |
+| FR-079527-06 | Submit Button Enablement | Enable submit button when subscription selection changes | Must Have | Ready for Implementation | Approved |
+| FR-079527-07 | Change Confirmation Dialog | Show confirmation dialog on submission with billing impact warning | Must Have | Ready for Implementation | Approved |
+| FR-079527-08 | Change Subscription API | Call Change Subscription API on confirmation | Must Have | Ready for Implementation | Approved |
+| FR-079527-09 | API Response Handling | Handle API success/error responses | Must Have | Ready for Implementation | Approved |
+| FR-079527-10 | UI Status Update | Update UI to reflect new subscription status | Should Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-079527-01 |  |  | Responsive design for mobile and desktop | High | Draft | Not Approved |
-| NFR-079527-02 |  |  | Accessible form controls and navigation | High | Draft | Not Approved |
-| NFR-079527-03 |  |  | Fast loading of subscription data | High | Draft | Not Approved |
+| NFR-079527-01 | Responsive Design | Usability | Responsive design for mobile and desktop | Must Have | Ready for Implementation | Approved |
+| NFR-079527-02 | Accessibility | Usability | Accessible form controls and navigation | Must Have | Ready for Implementation | Approved |
+| NFR-079527-03 | Data Loading Performance | Performance | Fast loading of subscription data | Must Have | Ready for Implementation | Approved |
 | NFR-079527-04 |  |  | Clear visual indication of current vs new subscription | High | Draft | Not Approved |
 | NFR-079527-05 |  |  | Intuitive confirmation dialog design | High | Draft | Not Approved |
 | NFR-079527-06 |  |  | Secure handling of subscription change requests | High | Draft | Not Approved |

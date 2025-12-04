@@ -21,7 +21,7 @@ Enables the contract upload capability
 
 | Enabler ID |
 |------------|
-| ENB-000886 |
+| ENB-000886 | Upload Contract API |
 | ENB-603922 |
 
 ## Dependencies

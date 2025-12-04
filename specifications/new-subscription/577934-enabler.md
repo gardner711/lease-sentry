@@ -25,29 +25,29 @@ On success, navigates to the Contracts Page (/contracts)
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-577934-01 | Display profile creation page at /newprofile | Draft | High |
-| FR-577934-02 | Add session id to subscription request | Draft | High |
-| FR-577934-03 | Provide form for First Name input | Draft | High |
-| FR-577934-04 | Provide form for Last Name input | Draft | High |
-| FR-577934-05 | Provide form for Email input with pre-population | Draft | High |
-| FR-577934-06 | Provide dropdown for State selection (50 US states) | Draft | High |
-| FR-577934-07 | Validate all form inputs | Draft | High |
-| FR-577934-08 | Call Subscription API with subscription and profile data | Draft | High |
-| FR-577934-09 | Navigate to /contracts on successful submission | Draft | High |
-| FR-577934-10 | Handle API errors and display to user | Draft | High |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-577934-01 | Profile Page Display | Display profile creation page at /newprofile | Must Have | Ready for Implementation | Approved |
+| FR-577934-02 | Session ID Integration | Add session id to subscription request | Must Have | Ready for Implementation | Approved |
+| FR-577934-03 | First Name Input | Provide form for First Name input | Must Have | Ready for Implementation | Approved |
+| FR-577934-04 | Last Name Input | Provide form for Last Name input | Must Have | Ready for Implementation | Approved |
+| FR-577934-05 | Email Input | Provide form for Email input with pre-population | Must Have | Ready for Implementation | Approved |
+| FR-577934-06 | State Selection | Provide dropdown for State selection (50 US states) | Must Have | Ready for Implementation | Approved |
+| FR-577934-07 | Form Validation | Validate all form inputs | Must Have | Ready for Implementation | Approved |
+| FR-577934-08 | Subscription API Call | Call Subscription API with subscription and profile data | Must Have | Ready for Implementation | Approved |
+| FR-577934-09 | Success Navigation | Navigate to /contracts on successful submission | Must Have | Ready for Implementation | Approved |
+| FR-577934-10 | Error Handling | Handle API errors and display to user | Must Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-577934-01 | Pre-populate email from login if available | Draft | Medium |
-| NFR-577934-02 | Responsive form design | Draft | High |
-| NFR-577934-03 | Accessible form controls | Draft | High |
-| NFR-577934-04 | Secure form submission | Draft | High |
-| NFR-577934-05 | Page loads within 2 seconds | Draft | High |
-| NFR-577934-06 | Client-side validation for better UX | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-577934-01 | Email Pre-population | Usability | Pre-populate email from login if available | Should Have | Ready for Implementation | Approved |
+| NFR-577934-02 | Responsive Design | Usability | Responsive form design for mobile and desktop | Must Have | Ready for Implementation | Approved |
+| NFR-577934-03 | Accessibility | Usability | Accessible form controls and navigation | Must Have | Ready for Implementation | Approved |
+| NFR-577934-04 | Form Security | Security | Secure form submission with input sanitization | Must Have | Ready for Implementation | Approved |
+| NFR-577934-05 | Page Load Performance | Performance | Page loads within 2 seconds | Must Have | Ready for Implementation | Approved |
+| NFR-577934-06 | Client Validation | Usability | Client-side validation for better user experience | Should Have | Ready for Implementation | Approved |
 | NFR-577934-07 | Compatible with modern browsers | Draft | Medium |
 
 ## Dependencies

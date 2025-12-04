@@ -29,25 +29,26 @@ The contract is deleted by a webservice API DELETE (/contract) that deletes the 
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-277705-01 | Implement DELETE /contract endpoint | Draft | High |
-| FR-277705-02 | Accept contract id in request | Draft | High |
-| FR-277705-03 | Delete contract document from cosmos contracts container | Draft | High |
-| FR-277705-04 | Delete analysis document from cosmos analysis container | Draft | High |
-| FR-277705-05 | Delete blob storage file using location from contract | Draft | High |
-| FR-277705-06 | Validate contract ownership by user | Draft | High |
-| FR-277705-07 | Return success/error responses | Draft | High |
-| FR-277705-08 | Handle partial deletion failures | Draft | Medium |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-277705-01 | Delete Contract Endpoint | Implement DELETE /contract endpoint | Must Have | Ready for Implementation | Approved |
+| FR-277705-02 | Contract ID Parameter | Accept contract id in request path or body | Must Have | Ready for Implementation | Approved |
+| FR-277705-03 | Contract Document Deletion | Delete contract document from cosmos contracts container | Must Have | Ready for Implementation | Approved |
+| FR-277705-04 | Analysis Document Deletion | Delete analysis document from cosmos analysis container | Must Have | Ready for Implementation | Approved |
+| FR-277705-05 | Blob File Deletion | Delete blob storage file using location from contract document | Must Have | Ready for Implementation | Approved |
+| FR-277705-06 | Ownership Validation | Validate contract ownership by user ID from JWT | Must Have | Ready for Implementation | Approved |
+| FR-277705-07 | Response Handling | Return appropriate success/error HTTP responses | Must Have | Ready for Implementation | Approved |
+| FR-277705-08 | Partial Failure Handling | Handle partial deletion failures with rollback or cleanup | Should Have | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-277705-01 | Atomic deletion operations | Draft | High |
-| NFR-277705-02 | Secure access control | Draft | High |
-| NFR-277705-03 | Response time under 3 seconds | Draft | High |
-| NFR-277705-04 | Comprehensive error logging | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-277705-01 | Atomic Operations | Reliability | Ensure atomic deletion operations across all data stores | Must Have | Ready for Implementation | Approved |
+| NFR-277705-02 | Access Security | Security | Secure access control with JWT validation | Must Have | Ready for Implementation | Approved |
+| NFR-277705-03 | Response Performance | Performance | Response time under 3 seconds for complete deletion | Must Have | Ready for Implementation | Approved |
+| NFR-277705-04 | Audit Logging | Observability | Comprehensive error and success logging | Should Have | Ready for Implementation | Approved |
+| NFR-277705-05 | Data Consistency | Reliability | Maintain data consistency during partial failures | Must Have | Ready for Implementation | Approved |
 | NFR-277705-05 |  |  | Handle concurrent deletions | Medium | Draft | Not Approved |
 
 ## Dependencies
