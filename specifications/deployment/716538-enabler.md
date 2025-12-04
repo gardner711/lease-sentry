@@ -26,7 +26,7 @@ Provision and configure Azure App Service Authentication (Easy Auth) for the Sta
 | FR-716541 | Multi-Provider Support | Support GitHub, Google, and Facebook as additional providers | Medium | Ready for Implementation | Approved |
 | FR-716542 | Token Store | Enable token store for access and refresh token management | Must Have | Ready for Implementation | Approved |
 | FR-716543 | Authorization Rules | Define URL-based authorization rules for role-based access | Must Have | Ready for Implementation | Approved |
-| FR-716544 | API Authentication | Protect API endpoints with bearer token validation | Must Have | Ready for Implementation | Approved |
+| FR-716544 | API Authentication | Protect API endpoints with JWT validation | Must Have | Ready for Implementation | Approved |
 | FR-716545 | Session Management | Configure session timeout and cookie settings | Must Have | Ready for Implementation | Approved |
 | FR-716546 | Custom Login Page | Support custom login/logout redirect URLs | Medium | Ready for Implementation | Approved |
 | FR-716547 | Claims Mapping | Map identity provider claims to application roles | Must Have | Ready for Implementation | Approved |
@@ -118,7 +118,7 @@ flowchart TD
     AUTHRULES --> WEBAPP
     AUTHRULES --> FUNCTIONS
     
-    API["API Protection<br/>Bearer Token<br/>🔒"]
+    API["API Protection<br/>JWT<br/>🔒"]
     VALIDATION["Token Validation<br/>JWT Verify<br/>✅"]
     
     WEBAPP --> API

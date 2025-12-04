@@ -27,6 +27,7 @@ Implementation direction and non functional requirements of the web service
 | ENB-847342 |
 | ENB-558144 | Linter |
 | ENB-227929 | Folder Structure |
+| ENB-328984 | Application Insights |
 
 ## Dependencies
 

@@ -29,7 +29,7 @@ A client wrapper around the webserver API calls defined in the references\api-sc
 | FR-335470-06 | Contract Retrieval | Implement methods for GET /contract (list with paging/sorting/filtering) and GET /contract/{id} (single contract), ensuring authenticated access. | High | Draft | Not Approved |
 | FR-335470-07 | Request Logging | Log each API request to the console, including URL, method, headers, and body. | High | Draft | Not Approved |
 | FR-335470-08 | Response Logging | Log each API response to the console, including status code, headers, and body. | High | Draft | Not Approved |
-| FR-335470-09 | Authentication Handling | Include Bearer token in requests for authenticated endpoints, retrieved from application auth state. | High | Draft | Not Approved |
+| FR-335470-09 | Authentication Handling | Include JWT in requests for authenticated endpoints, retrieved from application auth state. | High | Draft | Not Approved |
 | FR-335470-10 | Error Handling | Handle HTTP errors (4xx, 5xx) and network failures, returning appropriate error objects to callers. | High | Draft | Not Approved |
 | FR-335470-11 | Async Operations | Ensure all API calls are asynchronous, returning Promises for integration with async/await. | High | Draft | Not Approved |
 | FR-335470-12 | Data Validation | Validate request payloads against the data schemas defined in references/data-schema.md before sending. | Medium | Draft | Not Approved |

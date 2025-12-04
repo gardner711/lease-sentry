@@ -20,7 +20,7 @@ A webservice API that updates an existing subscription
 - /subscription path
 - Accepts a subscription request
 
-Retrieves the account document for the user id in the bearer token from "account" container in cosmos db
+Retrieves the account document for the user id in the JWT from "account" container in cosmos db
 Updates the Stripe subscription using the price id of the new subscription type with the subscription id and subscription item id from the account document
 Updates and save the account document with the new subscription item id and subscription type (starter or pro)
 
@@ -30,7 +30,7 @@ Updates and save the account document with the new subscription item id and subs
 |----|------|-------------|----------|--------|----------|
 | FR-551364-01 |  | Implement PUT /subscription endpoint | High | Draft | Not Approved |
 | FR-551364-02 |  | Accept subscription request in payload | High | Draft | Not Approved |
-| FR-551364-03 |  | Extract user id from bearer token | High | Draft | Not Approved |
+| FR-551364-03 |  | Extract user id from JWT | High | Draft | Not Approved |
 | FR-551364-04 |  | Retrieve account document from accounts container using user id | High | Draft | Not Approved |
 | FR-551364-05 |  | Update Stripe subscription with new price id using subscription id and item id | High | Draft | Not Approved |
 | FR-551364-06 |  | Update account document with new subscription item id and type | High | Draft | Not Approved |
@@ -43,7 +43,7 @@ Updates and save the account document with the new subscription item id and subs
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-551364-01 |  |  | Secure handling of bearer tokens and account data | High | Draft | Not Approved |
+| NFR-551364-01 |  |  | Secure handling of JWTs and account data | High | Draft | Not Approved |
 | NFR-551364-02 |  |  | Validate all inputs against data schema | High | Draft | Not Approved |
 | NFR-551364-03 |  |  | Response time under 5 seconds | High | Draft | Not Approved |
 | NFR-551364-04 |  |  | Atomic account document updates | High | Draft | Not Approved |

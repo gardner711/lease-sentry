@@ -32,7 +32,7 @@ Sends an email with:
 |----|------|-------------|----------|--------|----------|
 | FR-606505-01 |  | Implement POST /support endpoint | High | Draft | Not Approved |
 | FR-606505-02 |  | Accept support data: subject, comment, email | High | Draft | Not Approved |
-| FR-606505-03 |  | Extract user id from bearer token if authenticated | High | Draft | Not Approved |
+| FR-606505-03 |  | Extract user id from JWT if authenticated | High | Draft | Not Approved |
 | FR-606505-04 |  | Include user details in stored support request | High | Draft | Not Approved |
 | FR-606505-05 |  | Save support request to support container in cosmos | High | Draft | Not Approved |
 | FR-606505-06 |  | Send notification email via SMTP service | High | Draft | Not Approved |

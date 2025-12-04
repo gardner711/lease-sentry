@@ -19,7 +19,7 @@ A webservice API that lists of all the contracts owned by the user id
 - GET method
 - /contract path
 - Supports sorting, filtering, and paging
-- Requires the user id from the bearer token
+- Requires the user id from the JWT
 
 Returns a list of contract documents from the contract container in cosmos db by its user id
 
@@ -28,7 +28,7 @@ Returns a list of contract documents from the contract container in cosmos db by
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
 | FR-857384-01 | Implement GET /contract endpoint | Draft | High |
-| FR-857384-02 | Extract user id from bearer token | Draft | High |
+| FR-857384-02 | Extract user id from JWT | Draft | High |
 | FR-857384-03 | Query contracts from cosmos db by user id | Draft | High |
 | FR-857384-04 | Support sorting by parameters | Draft | High |
 | FR-857384-05 | Support filtering by parameters | Draft | High |

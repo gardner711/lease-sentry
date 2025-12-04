@@ -23,6 +23,7 @@ Implementation direction and non functional requirements of the web service
 |------------|
 | ENB-847293 |
 | ENB-097046 |
+| ENB-731163 | Application Insights |
 
 ## Dependencies
 

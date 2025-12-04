@@ -20,7 +20,7 @@ The profile operation in the web service:
 - Url (/profile) 
 - Accepts a profile request
 
-Update the profile userId to the user id in the bearer token
+Update the profile userId to the user id in the JWT
 Profile saved in "profile" container in cosmos db
 
 ## Functional Requirements
@@ -29,7 +29,7 @@ Profile saved in "profile" container in cosmos db
 |----|------|-------------|----------|--------|----------|
 | FR-576795-01 |  | Implement PUT /profile endpoint | High | Draft | Not Approved |
 | FR-576795-02 |  | Accept profile request in payload | High | Draft | Not Approved |
-| FR-576795-03 |  | Extract user id from bearer token | High | Draft | Not Approved |
+| FR-576795-03 |  | Extract user id from JWT | High | Draft | Not Approved |
 | FR-576795-04 |  | Set userId in profile document | High | Draft | Not Approved |
 | FR-576795-05 |  | Save profile to profiles container in cosmos | High | Draft | Not Approved |
 | FR-576795-06 |  | Validate profile data | High | Draft | Not Approved |

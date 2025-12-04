@@ -29,7 +29,7 @@ Retrieves the notification document from the "notification" container in cosmos 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
 | FR-092055-01 | Implement GET /notification endpoint | Draft | High |
-| FR-092055-02 | Extract user ID from JWT bearer token | Draft | High |
+| FR-092055-02 | Extract user ID from JWT JWT | Draft | High |
 | FR-092055-03 | Query notification documents from notification container in Cosmos DB | Draft | High |
 | FR-092055-04 | Filter notifications by user ID | Draft | High |
 | FR-092055-05 | Return list of notification documents | Draft | High |

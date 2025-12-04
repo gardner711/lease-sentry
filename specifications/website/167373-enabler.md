@@ -19,10 +19,11 @@ A webservice API that deletes an existing subscription
 - DELETE method
 - /subscription path
 
-Gets the account document from the "account" container from cosmos db by the user id of the user id in the bearer token
+Gets the account document from the "account" container from cosmos db by the user id of the user id in the JWT
 Uses the Stripe integration to cancel the subscription with the account document information
 Creates a delete bus message
-Adds the user id of the from the bearer token
+- Adds the user id of the from the JWT
+- Adds the request-id
 Publishes the delete bus message to Event Grid
 
 ## Functional Requirements
@@ -30,10 +31,10 @@ Publishes the delete bus message to Event Grid
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
 | FR-167373-01 |  | Implement DELETE /subscription endpoint | High | Draft | Not Approved |
-| FR-167373-02 |  | Extract user id from bearer token | High | Draft | Not Approved |
+| FR-167373-02 |  | Extract user id from JWT | High | Draft | Not Approved |
 | FR-167373-03 |  | Retrieve account document from accounts container using user id | High | Draft | Not Approved |
 | FR-167373-04 |  | Cancel Stripe subscription using account document information | High | Draft | Not Approved |
-| FR-167373-05 |  | Create delete bus message with user id | High | Draft | Not Approved |
+| FR-167373-05 |  | Create delete bus message with user id and request id | High | Draft | Not Approved |
 | FR-167373-06 |  | Publish delete bus message to Event Grid | High | Draft | Not Approved |
 | FR-167373-07 |  | Handle Stripe cancellation errors | High | Draft | Not Approved |
 | FR-167373-08 |  | Return success/error responses | High | Draft | Not Approved |
@@ -43,7 +44,7 @@ Publishes the delete bus message to Event Grid
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-167373-01 |  |  | Secure handling of bearer tokens and account data | High | Draft | Not Approved |
+| NFR-167373-01 |  |  | Secure handling of JWTs and account data | High | Draft | Not Approved |
 | NFR-167373-02 |  |  | Guaranteed message delivery to Event Grid | High | Draft | Not Approved |
 | NFR-167373-03 |  |  | Response time under 5 seconds | High | Draft | Not Approved |
 | NFR-167373-04 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |

@@ -23,7 +23,7 @@
 |----|------|-------------|----------|--------|----------|
 | FR-633557-01 |  | Implement POST /review endpoint | High | Draft | Not Approved |
 | FR-633557-02 |  | Accept review data: rating, comment, email | High | Draft | Not Approved |
-| FR-633557-03 |  | Extract user id from bearer token if authenticated | High | Draft | Not Approved |
+| FR-633557-03 |  | Extract user id from JWT if authenticated | High | Draft | Not Approved |
 | FR-633557-04 |  | Include user first name, last name, user id, email in stored data | High | Draft | Not Approved |
 | FR-633557-05 |  | Save review to reviews container in cosmos | High | Draft | Not Approved |
 | FR-633557-06 |  | Validate rating (1-5) and comment length | High | Draft | Not Approved |

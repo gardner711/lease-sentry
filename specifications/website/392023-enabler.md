@@ -20,14 +20,14 @@ The profile operation in the web service:
 - Url (/profile) 
 - Returns profile document
 
-Get the user's profile from the "profile" container in comsos db based on the user id in the bearer token
+Get the user's profile from the "profile" container in comsos db based on the user id in the JWT
 
 ## Functional Requirements
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
 | FR-392023-01 |  | Implement GET /profile endpoint | High | Draft | Not Approved |
-| FR-392023-02 |  | Extract user id from bearer token | High | Draft | Not Approved |
+| FR-392023-02 |  | Extract user id from JWT | High | Draft | Not Approved |
 | FR-392023-03 |  | Query profile from profiles container in cosmos by user id | High | Draft | Not Approved |
 | FR-392023-04 |  | Return profile document in response | High | Draft | Not Approved |
 | FR-392023-05 |  | Handle case when profile not found | High | Draft | Not Approved |

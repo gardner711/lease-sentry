@@ -1,49 +1,37 @@
-# Recent Contracts API
+# Application Insights
 
 ## Metadata
 
-- **Name**: Recent Contracts API
+- **Name**: Application Insights
 - **Type**: Enabler
-- **ID**: ENB-349820
-- **Approval**: Approved
-- **Capability ID**: CAP-574476
+- **ID**: ENB-853107
+- **Approval**: Not Approved
+- **Capability ID**: CAP-026386
 - **Owner**: Product Team
-- **Status**: Ready for Implementation
+- **Status**: In Draft
 - **Priority**: High
 - **Analysis Review**: Required
 - **Code Review**: Not Required
 
 ## Technical Overview
 ### Purpose
-A webservice API that gets a list of the top 10 most recent contracts
-- GET method
-- /contract/recent path
-- Returns an array of contract documents
+Instrument functions with Application Insights:
+- accepts request-id
+- log bus message and function actions for each bus message
 
-Gets the top 10 most recent contracts from the "contract" container in cosmos db
-Orders the list by upload datetime descending
+application insights key is configurable
 
 ## Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| FR-349820-01 | Implement GET /contract/recent endpoint | Draft | High |
-| FR-349820-02 | Query top 10 contracts by upload datetime descending | Draft | High |
-| FR-349820-03 | Return array of contract documents | Draft | High |
-| FR-349820-04 | Extract user id from JWT | Draft | High |
-| FR-349820-05 | Filter contracts by user id | Draft | High |
-| FR-349820-06 | Handle cases with less than 10 contracts | Draft | Medium |
-| FR-349820-07 | Return appropriate response format | Draft | High |
+| ID | Name | Requirement | Priority | Status | Approval |
+|----|------|-------------|----------|--------|----------|
+| FR-XXXXXX | [Name] | [Requirement Description] | [Priority] | [Status] | [Approval] |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-349820-01 | Response time under 1 second | Draft | High |
-| NFR-349820-02 | Secure token handling | Draft | High |
-| NFR-349820-03 | Efficient cosmos query | Draft | High |
-| NFR-349820-04 | Handle high request volume | Draft | Medium |
-| NFR-349820-05 | Comprehensive error logging | Draft | Medium |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-XXXXXX | [Name] | [Type] | [Requirement Description] | [Priority] | [Status] | [Approval] |
 
 ## Dependencies
 
@@ -70,7 +58,7 @@ Orders the list by upload datetime descending
 ### Enabler Dependency Flow Diagram
 ```mermaid
 flowchart TD
-    ENB_XXXXXX["ENB-349820<br/>[Enabler Name]<br/>📡"]
+    ENB_XXXXXX["ENB-853107<br/>[Enabler Name]<br/>📡"]
 
     %% Add your dependency flows here
 

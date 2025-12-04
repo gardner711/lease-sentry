@@ -27,7 +27,7 @@ Follow the API Schema found in references\api-schema.yaml and the data schema in
 | FR-352820-04 | Implement POST /review (auth) endpoint | Draft | Medium |
 | FR-352820-05 | Implement POST /contract (auth), GET /contract (auth with paging/sorting/filtering), GET /contract/{id} (auth), GET /contract/recent (auth), DELETE /contract (auth) | Draft | High |
 | FR-352820-06 | Implement POST /checkoutsession (auth) endpoint for Stripe checkout sessions | Draft | High |
-| FR-352820-07 | Enforce authentication for required endpoints using Bearer tokens | Draft | High |
+| FR-352820-07 | Enforce authentication for required endpoints using JWTs | Draft | High |
 | FR-352820-08 | Validate all request payloads against the schemas in data-schema.md | Draft | High |
 | FR-352820-09 | Store and retrieve data using Azure Cosmos DB as defined in data-schema.md | Draft | High |
 | FR-352820-10 | Return appropriate HTTP status codes and error messages for invalid requests | Draft | High |

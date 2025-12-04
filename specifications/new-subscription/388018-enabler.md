@@ -23,12 +23,12 @@ A webservice API that creates a new subscription
 
 Validates the session id is valid and payment is complete with Stripe
 Create an account document:
-- Set user id from the user id in the bearer token
+- Set user id from the user id in the JWT
 - Set the subscription type
 - Set the subscription item id from the Stripe session
 - Set the subscription id from the Stripe session
 Saves the account in the "account" container in cosmos db
-Set the user id from the user id in the bearer token on the profile document
+Set the user id from the user id in the JWT on the profile document
 Saves the profile document in the "profile" container in cosmos db
 
 ## Functional Requirements
@@ -39,21 +39,21 @@ Saves the profile document in the "profile" container in cosmos db
 | FR-388018-02 | Accept subscription request in payload | Draft | High |
 | FR-388018-03 | Accept profile request in payload | Draft | High |
 | FR-388018-04 | Validate session id with Stripe for payment completion | Draft | High |
-| FR-388018-05 | Extract user id from bearer token | Draft | High |
+| FR-388018-05 | Extract user id from JWT | Draft | High |
 | FR-388018-06 | Create account document in accounts container | Draft | High |
-| FR-388018-07 | Set user id from bearer token in account document | Draft | High |
+| FR-388018-07 | Set user id from JWT in account document | Draft | High |
 | FR-388018-08 | Set subscription type in account document | Draft | High |
 | FR-388018-09 | Set subscription item id from Stripe session in account document | Draft | High |
 | FR-388018-10 | Set subscription id from Stripe session in account document | Draft | High |
 | FR-388018-11 | Save profile document in profiles container | Draft | High |
-| FR-388018-12 | Set user id from bearer token on profile document | Draft | High |
+| FR-388018-12 | Set user id from JWT on profile document | Draft | High |
 | FR-388018-13 | Handle validation errors and return appropriate responses | Draft | High |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-388018-01 | Secure handling of bearer tokens | Draft | High |
+| NFR-388018-01 | Secure handling of JWTs | Draft | High |
 | NFR-388018-02 | Validate all inputs against data schema | Draft | High |
 | NFR-388018-03 | Response time under 5 seconds | Draft | High |
 | NFR-388018-04 | Atomic operations for account and profile creation | Draft | High |

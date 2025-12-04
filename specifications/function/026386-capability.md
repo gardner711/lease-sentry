@@ -25,6 +25,7 @@ Implementation direction and non functional requirements of the function
 | ENB-026400 |
 | ENB-026420 |
 | ENB-026440 | Folder Structure |
+| ENB-853107 | Application Insights |
 
 ## Dependencies
 
