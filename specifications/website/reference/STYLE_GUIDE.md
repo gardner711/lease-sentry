@@ -582,6 +582,16 @@ All CSS custom properties automatically switch between light and dark variants b
 4. **Follow the design token system** for colors and spacing
 5. **Test in both light and dark themes**
 
+### Observed Usage Patterns
+
+Based on the reference implementation:
+
+- **Button Variants**: Primary buttons for main actions, secondary for supporting actions, outline for less prominent actions
+- **Form Handling**: React Hook Form integration with proper validation states
+- **Icon Usage**: Lucide React icons with consistent sizing (h-4 w-4, h-6 w-6)
+- **Layout Patterns**: Card-based design with proper spacing and shadows
+- **Responsive Design**: Mobile-first approach with breakpoint-specific adjustments
+
 ### Development Workflow
 
 1. **Check existing components** in `src/components/ui/` first
@@ -592,17 +602,39 @@ All CSS custom properties automatically switch between light and dark variants b
 
 ### File Organization
 
+The reference implementation follows this structure:
+
 ```
-src/
-├── components/
-│   ├── ui/           # shadcn/ui components
-│   ├── Homepage.tsx  # Page components
-│   └── AnalysisTool.tsx
-├── styles/
-│   └── globals.css   # Design tokens and theme variables
-├── guidelines/
-│   └── Guidelines.md # AI development guidelines
-└── index.css         # Tailwind CSS imports
+specifications/references/UI/
+├── src/
+│   ├── components/
+│   │   ├── ui/           # shadcn/ui components (40+ components)
+│   │   ├── Homepage.tsx  # Landing page component
+│   │   ├── AnalysisTool.tsx # Main analysis interface
+│   │   └── *.tsx         # Feature-specific components
+│   ├── styles/
+│   │   └── globals.css   # Design tokens and theme variables
+│   ├── guidelines/
+│   │   └── Guidelines.md # AI development guidelines
+│   └── index.css         # Tailwind CSS v4 imports
+├── package.json          # Dependencies and scripts
+└── vite.config.ts        # Vite configuration
+```
+
+### Theme Provider Setup
+
+For theme switching functionality, wrap your app with `ThemeProvider`:
+
+```tsx
+import { ThemeProvider } from 'next-themes';
+
+function App() {
+  return (
+    <ThemeProvider attribute="class" defaultTheme="system">
+      {/* Your app content */}
+    </ThemeProvider>
+  );
+}
 ```
 
 This style guide ensures consistent, accessible, and maintainable UI implementation across the lease-sentry application.
