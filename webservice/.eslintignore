@@ -1,0 +1,14 @@
+node_modules/
+dist/
+logs/
+coverage/
+*.log
+.env*
+!.env.example
+Dockerfile*
+docker-compose*.yml
+.eslintrc.json
+.prettierrc.json
+jest.config.*
+tsconfig.json
+healthcheck.js

@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  lease-sentry-webservice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    env_file:
+      - .env.development
+    volumes:
+      - .:/app
+      - /app/node_modules
+    depends_on:
+      - cosmosdb-emulator
+    networks:
+      - lease-sentry-network
+
+  cosmosdb-emulator:
+    image: mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:latest
+    ports:
+      - "8081:8081"
+      - "10250:10250"
+      - "10251:10251"
+      - "10252:10252"
+      - "10253:10253"
+      - "10254:10254"
+    environment:
+      - AZURE_COSMOS_EMULATOR_PARTITION_COUNT=10
+      - AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE=true
+    volumes:
+      - cosmosdb-data:/tmp/cosmosdb-emulator
+    networks:
+      - lease-sentry-network
+
+volumes:
+  cosmosdb-data:
+
+
+networks:
+  lease-sentry-network:
+    driver: bridge
