@@ -1,8 +1,8 @@
-# Header
+# Header - Logged In
 
 ## Metadata
 
-- **Name**: Header
+- **Name**: Header - Logged In
 - **Type**: Enabler
 - **ID**: ENB-951534
 - **Approval**: Approved
@@ -15,34 +15,42 @@
 
 ## Technical Overview
 ### Purpose
-Implements a responsive header component with a clean, professional design, featuring a fixed-height navigation bar with logo, title, navigation elements, and theme toggle functionality. The header uses a white background with dark text in light mode and dark background with light text in dark mode per STYLE_GUIDE.md, providing consistent branding and navigation across all pages of the website with full theme support.
-The title is configurable and will change based on environment e.g. Lease Sentry (test) or Lease Sentry (dev)
+A header web component that:
+- Is at the top of the page
+- Is present on all pages where the user has been logged in
+- Has the site logo and title
+- Title is configurable based on environment (e.g. Lease Sentry (test) or Lease Sentry (dev)
+- User Menu is present and pinned to the right
+- Notification Menu is present and pinned next to the left of the User Menu
+
+This web component is only present when the user has been logged into the site and a JWT is present
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-951001 | Header Container | The header must be a fixed-height container at the top of every page with a height of 64px | High | Implemented | Approved |
-| FR-951002 | Logo Display | The header must display a logo on the left side with dimensions 32x32px, positioned 16px from the left edge | High | Implemented | Approved |
-| FR-951003 | Title Display | The header must display the website title text immediately adjacent to the logo (8px spacing), using a clear, readable font at 24px size (1.5rem) | High | Implemented | Approved |
-| FR-951004 | Horizontal Layout | Logo and title must be arranged horizontally in a flex container with centered vertical alignment | High | Implemented | Approved |
-| FR-951005 | Navigation Items | The header must support additional navigation items positioned to the right of the title | Medium | Implemented | Approved |
-| FR-951006 | Light Background | The header must have a white background color with light shadow per STYLE_GUIDE.md | Medium | Implemented | Approved |
-| FR-951007 | Text Contrast | Title and navigation text must be dark colored (#212529 for title, #6c757d for links) for contrast against the white background in light mode, and light colored (#e6edf3 for title, #8b949e for links) in dark mode | High | Implemented | Approved |
-| FR-951008 | Logo Link | The logo and title must function as a clickable link to return to the home page | Medium | Implemented | Approved |
-| FR-951009 | Theme Toggle | The header must include a theme toggle button that switches between light and dark modes with visual feedback (moon icon for light mode, sun icon for dark mode) | High | Implemented | Approved |
-| FR-951010 | Theme Persistence | The selected theme must persist across page refreshes using localStorage | High | Implemented | Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-951534-01 | Display header at top of page for logged-in users only | Draft | High |
+| FR-951534-02 | Check for presence of JWT token to determine visibility | Draft | High |
+| FR-951534-03 | Display site logo on the left side of header | Draft | High |
+| FR-951534-04 | Display configurable site title next to logo | Draft | High |
+| FR-951534-05 | Support environment-based title configuration (dev, test, prod) | Draft | High |
+| FR-951534-06 | Integrate User Menu component pinned to the right | Draft | High |
+| FR-951534-07 | Integrate Notification Menu component next to User Menu | Draft | High |
+| FR-951534-08 | Ensure header is present on all authenticated pages | Draft | High |
+| FR-951534-09 | Hide header completely when user is not logged in | Draft | High |
+| FR-951534-10 | Maintain consistent header layout across all pages | Draft | Medium |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-951001 | Responsive Design | Usability | The header must maintain its layout and proportions across desktop, tablet, and mobile screen sizes (min-width: 320px) | High | Ready for Implementation | Not Approved |
-| NFR-951002 | Load Performance | Performance | Header assets (logo image) must load within 200ms on standard connections | Medium | Ready for Implementation | Not Approved |
-| NFR-951003 | Browser Compatibility | Compatibility | The header must render consistently across Chrome, Firefox, Safari, and Edge browsers | High | Ready for Implementation | Not Approved |
-| NFR-951004 | Accessibility | Accessibility | The header must meet WCAG 2.1 Level AA standards with proper semantic HTML and ARIA labels | High | Ready for Implementation | Not Approved |
-| NFR-951005 | Sticky Positioning | Usability | The header must remain fixed at the top of the viewport during page scrolling | Medium | Ready for Implementation | Not Approved |
-| NFR-951006 | Visual Consistency | Maintainability | Header styling must use CSS variables for colors and dimensions to enable theme customization | Low | Ready for Implementation | Not Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-951534-01 | Responsive design for desktop, tablet, and mobile devices | Draft | High |
+| NFR-951534-02 | Accessible navigation and screen reader support | Draft | High |
+| NFR-951534-03 | Fast header rendering without blocking page load | Draft | High |
+| NFR-951534-04 | Consistent visual design following design system | Draft | High |
+| NFR-951534-05 | Secure JWT token validation without exposing sensitive data | Draft | High |
+| NFR-951534-06 | Compatible with modern browsers | Draft | High |
+| NFR-951534-07 | Minimal impact on page performance and load times | Draft | Medium | |
 
 ## Dependencies
 
@@ -51,12 +59,16 @@ The title is configurable and will change based on environment e.g. Lease Sentry
 | Enabler ID | Description |
 |------------|-------------|
 | ENB-189342 | Design System Implementation - provides color scheme, typography, and spacing standards |
+| ENB-859789 | User Menu Web Component - integrated into header on the right side |
+| ENB-624132 | Notification Web Component - integrated into header next to user menu |
 
 ### Internal Downstream Impact
 
 | Enabler ID | Description |
 |------------|-------------|
 | ENB-501283 | Web Application - uses the header component on all application pages |
+| ENB-859789 | User Menu Web Component - depends on header for positioning and layout |
+| ENB-624132 | Notification Web Component - depends on header for positioning and layout |
 
 ### External Dependencies
 

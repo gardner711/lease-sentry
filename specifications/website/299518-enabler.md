@@ -17,26 +17,6 @@
 ### Purpose
 Implements a comprehensive design system showcase page that displays all UI components and patterns from the STYLE_GUIDE.md. The page serves as a living style guide demonstrating buttons, forms, cards, search/filter controls, alerts, badges, and typography. The design emphasizes clean layout, component organization, and responsive behavior across all devices with full support for light and dark themes.
 
-### Implementation Details
-- **Location**: `website/src/pages/HomePage/`
-- **Files**: `HomePage.tsx`, `HomePage.css`
-- **Purpose**: Component showcase and design system demonstration
-- **Layout**: Sectioned approach with theme-aware backgrounds
-- **Components Showcased**: Buttons, Forms, Cards, Search/Filter, Alerts, Badges, Typography, Links
-- **Hero Section**: Removed per user request - page starts directly with component sections
-- **Light Mode**:
-  - Page Background: Light gray (#f8f9fa)
-  - Section Backgrounds: Alternating white (#ffffff) and light gray (#f8f9fa)
-  - Text: Dark colors (#212529, #6c757d)
-  - Cards/Forms: White backgrounds with light borders
-- **Dark Mode**:
-  - Page Background: Very dark (#0d1117)
-  - Section Backgrounds: Alternating very dark (#0d1117) and dark (#161b22)
-  - Text: Light colors (#e6edf3, #8b949e)
-  - Cards/Forms: Dark backgrounds (#161b22) with dark borders (#30363d)
-  - Form Controls: Dark backgrounds with proper focus states
-- **Status**: Fully implemented with comprehensive theme support
-
 ## Functional Requirements
 
 | ID | Name | Requirement | Priority | Status | Approval |

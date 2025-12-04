@@ -19,27 +19,32 @@ Implement POST /support endpoint to receive support requests, store them in the 
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-606505-01 |  | Implement POST /support endpoint | High | Draft | Not Approved |
-| FR-606505-02 |  | Accept support data: subject, comment, email | High | Draft | Not Approved |
-| FR-606505-03 |  | Extract user id from bearer token if authenticated | High | Draft | Not Approved |
-| FR-606505-04 |  | Include user details in stored support request | High | Draft | Not Approved |
-| FR-606505-05 |  | Save support request to support container in cosmos | High | Draft | Not Approved |
-| FR-606505-06 |  | Send notification email via SMTP service | High | Draft | Not Approved |
-| FR-606505-07 |  | Validate subject options and required fields | High | Draft | Not Approved |
-| FR-606505-08 |  | Return success/error responses | High | Draft | Not Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-606505-01 | Implement POST /support endpoint | Draft | High |
+| FR-606505-02 | Accept support data: subject, comment, email | Draft | High |
+| FR-606505-03 | Validate subject options: Billing Question, Technical Issue, General Question/Comment | Draft | High |
+| FR-606505-04 | Validate required fields: email, subject, comment | Draft | High |
+| FR-606505-05 | Extract user id from bearer token if authenticated | Draft | High |
+| FR-606505-06 | Include user details in stored support request when authenticated | Draft | High |
+| FR-606505-07 | Support anonymous support requests without user authentication | Draft | Medium |
+| FR-606505-08 | Save support request to support container in Cosmos DB | Draft | High |
+| FR-606505-09 | Send notification email via configurable SMTP service | Draft | High |
+| FR-606505-10 | Include support request details in notification email | Draft | Medium |
+| FR-606505-11 | Return success/error responses with appropriate HTTP status codes | Draft | High |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-606505-01 |  |  | Secure handling of user data | High | Draft | Not Approved |
-| NFR-606505-02 |  |  | Validate all inputs | High | Draft | Not Approved |
-| NFR-606505-03 |  |  | Response time under 2 seconds | High | Draft | Not Approved |
-| NFR-606505-04 |  |  | Atomic support request storage | High | Draft | Not Approved |
-| NFR-606505-05 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
-| NFR-606505-06 |  |  | Configurable SMTP settings | Medium | Draft | Not Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-606505-01 | Secure handling of user data and email addresses | Draft | High |
+| NFR-606505-02 | Validate all inputs including email format and field lengths | Draft | High |
+| NFR-606505-03 | Response time under 2 seconds | Draft | High |
+| NFR-606505-04 | Atomic support request storage and email sending | Draft | High |
+| NFR-606505-05 | Comprehensive error logging for debugging and monitoring | Draft | Medium |
+| NFR-606505-06 | Configurable SMTP settings with secure credential management | Draft | Medium |
+| NFR-606505-07 | Email delivery reliability with retry mechanisms | Draft | Medium |
+| NFR-606505-08 | Protection against email injection attacks | Draft | High |
 
 ## Dependencies
 

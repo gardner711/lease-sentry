@@ -25,26 +25,26 @@ Returns a list of contract documents from the contract container in cosmos db by
 
 ## Functional Requirements
 
-| ID | Name | Requirement | Priority | Status | Approval |
-|----|------|-------------|----------|--------|----------|
-| FR-857384-01 |  | Implement GET /contract endpoint | High | Draft | Not Approved |
-| FR-857384-02 |  | Extract user id from bearer token | High | Draft | Not Approved |
-| FR-857384-03 |  | Query contracts from cosmos db by user id | High | Draft | Not Approved |
-| FR-857384-04 |  | Support sorting by parameters | High | Draft | Not Approved |
-| FR-857384-05 |  | Support filtering by parameters | High | Draft | Not Approved |
-| FR-857384-06 |  | Support paging (e.g., 20 at a time) | High | Draft | Not Approved |
-| FR-857384-07 |  | Return list of contract documents | High | Draft | Not Approved |
-| FR-857384-08 |  | Handle authentication errors | High | Draft | Not Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| FR-857384-01 | Implement GET /contract endpoint | Draft | High |
+| FR-857384-02 | Extract user id from bearer token | Draft | High |
+| FR-857384-03 | Query contracts from cosmos db by user id | Draft | High |
+| FR-857384-04 | Support sorting by parameters | Draft | High |
+| FR-857384-05 | Support filtering by parameters | Draft | High |
+| FR-857384-06 | Support paging (e.g., 20 at a time) | Draft | High |
+| FR-857384-07 | Return list of contract documents | Draft | High |
+| FR-857384-08 | Handle authentication errors | Draft | High |
 
 ## Non-Functional Requirements
 
-| ID | Name | Type | Requirement | Priority | Status | Approval |
-|----|------|------|-------------|----------|--------|----------|
-| NFR-857384-01 |  |  | Response time under 2 seconds | High | Draft | Not Approved |
-| NFR-857384-02 |  |  | Secure token handling | High | Draft | Not Approved |
-| NFR-857384-03 |  |  | Efficient cosmos db queries | High | Draft | Not Approved |
-| NFR-857384-04 |  |  | Handle large result sets | Medium | Draft | Not Approved |
-| NFR-857384-05 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
+| ID | Requirement | Status | Priority |
+|----|------------|--------|----------|
+| NFR-857384-01 | Response time under 2 seconds | Draft | High |
+| NFR-857384-02 | Secure token handling | Draft | High |
+| NFR-857384-03 | Efficient cosmos db queries | Draft | High |
+| NFR-857384-04 | Handle large result sets | Draft | Medium |
+| NFR-857384-05 | Comprehensive error logging | Draft | Medium |
 
 ## Dependencies
 

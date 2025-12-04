@@ -1,8 +1,8 @@
-# Website
+# Layout
 
 ## Metadata
 
-- **Name**: Website
+- **Name**: Layout
 - **Type**: Capability
 - **System**: ls
 - **Component**: web-site
@@ -21,12 +21,12 @@ A single website to support the user interface for the web application
 
 | Enabler ID |
 |------------|
-| ENB-951534 | Header |
-| ENB-874140 | Layout |
-| ENB-299518 | Home Page |
-| ENB-265470 | Footer |
-| ENB-928863 | Header Menu |
-| ENB-335470 | API Webserver Client |
+| ENB-951534 |
+| ENB-874140 |
+| ENB-299518 |
+| ENB-265470 |
+| ENB-335470 |
+| ENB-817784 | Header Menu - Not Logged In |
 
 ## Dependencies
 
