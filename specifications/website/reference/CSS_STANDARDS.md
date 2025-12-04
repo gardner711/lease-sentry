@@ -40,12 +40,11 @@ This document defines the standardized CSS values, tokens, and patterns that SHA
 
 ## Color Palette
 
-### Primary Colors - Ford Blue Theme
-**Updated November 10, 2025**: Primary colors changed to Ford blue primary (#1a365d) matching reference site localhost:5133 (ford-blue-primary)
+### Primary Colors - shadcn/ui Design System
+**Updated November 10, 2025**: Colors updated to match actual shadcn/ui implementation with OKLCH color space
 ```css
---primary-color: #1a365d;    /* Ford blue primary - default state */
---primary-hover: #142a4a;     /* Darker Ford blue - hover state */
---primary-active: #0f1f37;    /* Deep Ford blue - active/pressed state */
+--primary: #030213;           /* Dark blue-black primary */
+--primary-foreground: oklch(1 0 0); /* White text on primary */
 ```
 
 **Legacy values (deprecated):**
@@ -557,13 +556,17 @@ Place these in your root CSS file:
 
 ```css
 :root {
-  /* Colors - Ford Blue Theme */
-  --primary-color: #1a365d;
-  --primary-hover: #142a4a;
-  --primary-active: #0f1f37;
-  --secondary-color: #6c757d;
-  --success: #28a745;
-  --danger: #dc3545;
+  /* Colors - shadcn/ui Design System */
+  --primary: #030213;
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.95 0.0058 264.53);
+  --secondary-foreground: #030213;
+  --muted: #ececf0;
+  --muted-foreground: #717182;
+  --accent: #e9ebef;
+  --accent-foreground: #030213;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
   --warning: #ffc107;
   --info: #17a2b8;
   
