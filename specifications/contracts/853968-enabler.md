@@ -30,27 +30,27 @@ Each contract line has a clickable view icon to navigate to the contract analysi
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-853968-01 | Display contract library description section | Draft | Medium |
-| FR-853968-02 | Render grid with columns: title, score, upload datetime, delete icon, view icon | Draft | High |
-| FR-853968-03 | Populate grid using List Contracts API | Draft | High |
-| FR-853968-04 | Implement sorting by column | Draft | High |
-| FR-853968-05 | Implement filtering by title, score, upload datetime | Draft | High |
-| FR-853968-06 | Implement paging (20 at a time) | Draft | High |
-| FR-853968-07 | Handle delete icon click with confirmation | Draft | High |
-| FR-853968-08 | Call Delete Contract API on confirmed delete | Draft | High |
-| FR-853968-09 | Navigate to /analysis on view icon click | Draft | High |
-| FR-853968-10 | Update grid after delete operations | Draft | Medium |
+| FR-853968-01 | Display contract library description section | Ready for Implementation | Medium |
+| FR-853968-02 | Render grid with columns: title, score, upload datetime, delete icon, view icon | Ready for Implementation | High |
+| FR-853968-03 | Populate grid using List Contracts API | Ready for Implementation | High |
+| FR-853968-04 | Implement sorting by column | Ready for Implementation | High |
+| FR-853968-05 | Implement filtering by title, score, upload datetime | Ready for Implementation | High |
+| FR-853968-06 | Implement paging (20 at a time) | Ready for Implementation | High |
+| FR-853968-07 | Handle delete icon click with confirmation | Ready for Implementation | High |
+| FR-853968-08 | Call Delete Contract API on confirmed delete | Ready for Implementation | High |
+| FR-853968-09 | Navigate to /analysis on view icon click | Ready for Implementation | High |
+| FR-853968-10 | Update grid after delete operations | Ready for Implementation | Medium |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-853968-01 | Responsive grid design | Draft | High |
-| NFR-853968-02 | Fast grid loading and updates | Draft | High |
-| NFR-853968-03 | Accessible icons and interactions | Draft | High |
-| NFR-853968-04 |  |  | Intuitive sorting and filtering UI | Medium | Draft | Not Approved |
-| NFR-853968-05 |  |  | Handle large datasets efficiently | Medium | Draft | Not Approved |
-| NFR-853968-06 |  |  | Compatible with modern browsers | Medium | Draft | Not Approved |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-853968-01 | Responsive Design | Usability | Responsive grid design | High | Ready for Implementation | Approved |
+| NFR-853968-02 | Performance | Performance | Fast grid loading and updates | High | Ready for Implementation | Approved |
+| NFR-853968-03 | Accessibility | Usability | Accessible icons and interactions | High | Ready for Implementation | Approved |
+| NFR-853968-04 | User Experience | Usability | Intuitive sorting and filtering UI | Medium | Ready for Implementation | Approved |
+| NFR-853968-05 | Scalability | Performance | Handle large datasets efficiently | Medium | Ready for Implementation | Approved |
+| NFR-853968-06 | Compatibility | Compatibility | Compatible with modern browsers | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

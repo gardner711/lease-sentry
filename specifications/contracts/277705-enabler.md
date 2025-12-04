@@ -49,7 +49,7 @@ The contract is deleted by a webservice API DELETE (/contract) that deletes the 
 | NFR-277705-03 | Response Performance | Performance | Response time under 3 seconds for complete deletion | Must Have | Ready for Implementation | Approved |
 | NFR-277705-04 | Audit Logging | Observability | Comprehensive error and success logging | Should Have | Ready for Implementation | Approved |
 | NFR-277705-05 | Data Consistency | Reliability | Maintain data consistency during partial failures | Must Have | Ready for Implementation | Approved |
-| NFR-277705-05 |  |  | Handle concurrent deletions | Medium | Draft | Not Approved |
+| NFR-277705-06 | Concurrency Handling | Reliability | Handle concurrent deletions | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

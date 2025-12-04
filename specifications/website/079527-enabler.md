@@ -48,10 +48,10 @@ On acceptance, the Change Subscription API is called with the new subscription t
 | NFR-079527-01 | Responsive Design | Usability | Responsive design for mobile and desktop | Must Have | Ready for Implementation | Approved |
 | NFR-079527-02 | Accessibility | Usability | Accessible form controls and navigation | Must Have | Ready for Implementation | Approved |
 | NFR-079527-03 | Data Loading Performance | Performance | Fast loading of subscription data | Must Have | Ready for Implementation | Approved |
-| NFR-079527-04 |  |  | Clear visual indication of current vs new subscription | High | Draft | Not Approved |
-| NFR-079527-05 |  |  | Intuitive confirmation dialog design | High | Draft | Not Approved |
-| NFR-079527-06 |  |  | Secure handling of subscription change requests | High | Draft | Not Approved |
-| NFR-079527-07 |  |  | Compatible with modern browsers | Medium | Draft | Not Approved |
+| NFR-079527-04 |  |  | Clear visual indication of current vs new subscription | High | Ready for Implementation | Approved |
+| NFR-079527-05 |  |  | Intuitive confirmation dialog design | High | Ready for Implementation | Approved |
+| NFR-079527-06 |  |  | Secure handling of subscription change requests | High | Ready for Implementation | Approved |
+| NFR-079527-07 |  |  | Compatible with modern browsers | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

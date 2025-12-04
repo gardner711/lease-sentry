@@ -27,23 +27,23 @@ Orders the list by upload datetime descending
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-349820-01 | Implement GET /contract/recent endpoint | Draft | High |
-| FR-349820-02 | Query top 10 contracts by upload datetime descending | Draft | High |
-| FR-349820-03 | Return array of contract documents | Draft | High |
-| FR-349820-04 | Extract user id from JWT | Draft | High |
-| FR-349820-05 | Filter contracts by user id | Draft | High |
-| FR-349820-06 | Handle cases with less than 10 contracts | Draft | Medium |
-| FR-349820-07 | Return appropriate response format | Draft | High |
+| FR-349820-01 | Implement GET /contract/recent endpoint | Ready for Implementation | High |
+| FR-349820-02 | Query top 10 contracts by upload datetime descending | Ready for Implementation | High |
+| FR-349820-03 | Return array of contract documents | Ready for Implementation | High |
+| FR-349820-04 | Extract user id from JWT | Ready for Implementation | High |
+| FR-349820-05 | Filter contracts by user id | Ready for Implementation | High |
+| FR-349820-06 | Handle cases with less than 10 contracts | Ready for Implementation | Medium |
+| FR-349820-07 | Return appropriate response format | Ready for Implementation | High |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-349820-01 | Response time under 1 second | Draft | High |
-| NFR-349820-02 | Secure token handling | Draft | High |
-| NFR-349820-03 | Efficient cosmos query | Draft | High |
-| NFR-349820-04 | Handle high request volume | Draft | Medium |
-| NFR-349820-05 | Comprehensive error logging | Draft | Medium |
+| NFR-349820-01 | Response time under 1 second | Ready for Implementation | High |
+| NFR-349820-02 | Secure token handling | Ready for Implementation | High |
+| NFR-349820-03 | Efficient cosmos query | Ready for Implementation | High |
+| NFR-349820-04 | Handle high request volume | Ready for Implementation | Medium |
+| NFR-349820-05 | Comprehensive error logging | Ready for Implementation | Medium |
 
 ## Dependencies
 

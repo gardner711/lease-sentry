@@ -28,30 +28,30 @@ On clicking the menu a drop down appears that has:
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-859789-01 | Display user image from auth provider or generic user icon | Draft | High |
-| FR-859789-02 | Show drop down menu when user clicks the component | Draft | High |
-| FR-859789-03 | Include "Profile" menu item with profile icon | Draft | High |
-| FR-859789-04 | Navigate to Profile page when Profile menu item is clicked | Draft | High |
-| FR-859789-05 | Include "Subscription" menu item with subscription icon | Draft | High |
-| FR-859789-06 | Navigate to Subscription page when Subscription menu item is clicked | Draft | High |
-| FR-859789-07 | Include "Change Password" menu item with password icon | Draft | High |
-| FR-859789-08 | Navigate to Change Password page when Change Password menu item is clicked | Draft | High |
-| FR-859789-09 | Include "Need Help" menu item with help icon | Draft | High |
-| FR-859789-10 | Open Support Dialogue popup when Need Help menu item is clicked | Draft | High |
-| FR-859789-11 | Integrate with Support Web Component (ENB-376918) for help functionality | Draft | High |
-| FR-859789-12 | Close drop down menu when clicking outside or selecting a menu item | Draft | Medium |
+| FR-859789-01 | Display user image from auth provider or generic user icon | Ready for Implementation | High |
+| FR-859789-02 | Show drop down menu when user clicks the component | Ready for Implementation | High |
+| FR-859789-03 | Include "Profile" menu item with profile icon | Ready for Implementation | High |
+| FR-859789-04 | Navigate to Profile page when Profile menu item is clicked | Ready for Implementation | High |
+| FR-859789-05 | Include "Subscription" menu item with subscription icon | Ready for Implementation | High |
+| FR-859789-06 | Navigate to Subscription page when Subscription menu item is clicked | Ready for Implementation | High |
+| FR-859789-07 | Include "Change Password" menu item with password icon | Ready for Implementation | High |
+| FR-859789-08 | Navigate to Change Password page when Change Password menu item is clicked | Ready for Implementation | High |
+| FR-859789-09 | Include "Need Help" menu item with help icon | Ready for Implementation | High |
+| FR-859789-10 | Open Support Dialogue popup when Need Help menu item is clicked | Ready for Implementation | High |
+| FR-859789-11 | Integrate with Support Web Component (ENB-376918) for help functionality | Ready for Implementation | High |
+| FR-859789-12 | Close drop down menu when clicking outside or selecting a menu item | Ready for Implementation | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-859789-01 | Responsive design for desktop, tablet, and mobile devices | Draft | High |
-| NFR-859789-02 | Accessible keyboard navigation and screen reader support | Draft | High |
-| NFR-859789-03 | Consistent visual design with application theme | Draft | High |
-| NFR-859789-04 | Smooth drop down animation and transitions | Draft | Medium |
-| NFR-859789-05 | Fast loading of user avatar image | Draft | Medium |
-| NFR-859789-06 | Secure handling of user profile images | Draft | High |
-| NFR-859789-07 | Compatible with modern browsers | Draft | High |
+| NFR-859789-01 | Responsive design for desktop, tablet, and mobile devices | Ready for Implementation | High |
+| NFR-859789-02 | Accessible keyboard navigation and screen reader support | Ready for Implementation | High |
+| NFR-859789-03 | Consistent visual design with application theme | Ready for Implementation | High |
+| NFR-859789-04 | Smooth drop down animation and transitions | Ready for Implementation | Medium |
+| NFR-859789-05 | Fast loading of user avatar image | Ready for Implementation | Medium |
+| NFR-859789-06 | Secure handling of user profile images | Ready for Implementation | High |
+| NFR-859789-07 | Compatible with modern browsers | Ready for Implementation | High |
 
 ## Dependencies
 

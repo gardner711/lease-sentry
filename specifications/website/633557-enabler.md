@@ -21,25 +21,25 @@
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-633557-01 |  | Implement POST /review endpoint | High | Draft | Not Approved |
-| FR-633557-02 |  | Accept review data: rating, comment, email | High | Draft | Not Approved |
-| FR-633557-03 |  | Extract user id from JWT if authenticated | High | Draft | Not Approved |
-| FR-633557-04 |  | Include user first name, last name, user id, email in stored data | High | Draft | Not Approved |
-| FR-633557-05 |  | Save review to reviews container in cosmos | High | Draft | Not Approved |
-| FR-633557-06 |  | Validate rating (1-5) and comment length | High | Draft | Not Approved |
-| FR-633557-07 |  | Handle anonymous reviews (no user id) | Medium | Draft | Not Approved |
-| FR-633557-08 |  | Return success/error responses | High | Draft | Not Approved |
+| FR-633557-01 |  | Implement POST /review endpoint | High | Ready for Implementation | Approved |
+| FR-633557-02 |  | Accept review data: rating, comment, email | High | Ready for Implementation | Approved |
+| FR-633557-03 |  | Extract user id from JWT if authenticated | High | Ready for Implementation | Approved |
+| FR-633557-04 |  | Include user first name, last name, user id, email in stored data | High | Ready for Implementation | Approved |
+| FR-633557-05 |  | Save review to reviews container in cosmos | High | Ready for Implementation | Approved |
+| FR-633557-06 |  | Validate rating (1-5) and comment length | High | Ready for Implementation | Approved |
+| FR-633557-07 |  | Handle anonymous reviews (no user id) | Medium | Ready for Implementation | Approved |
+| FR-633557-08 |  | Return success/error responses | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-633557-01 |  |  | Secure handling of user data | High | Draft | Not Approved |
-| NFR-633557-02 |  |  | Validate all inputs | High | Draft | Not Approved |
-| NFR-633557-03 |  |  | Response time under 2 seconds | High | Draft | Not Approved |
-| NFR-633557-04 |  |  | Atomic review storage | High | Draft | Not Approved |
-| NFR-633557-05 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
-| NFR-633557-06 |  |  | Support high volume of reviews | Medium | Draft | Not Approved |
+| NFR-633557-01 |  |  | Secure handling of user data | High | Ready for Implementation | Approved |
+| NFR-633557-02 |  |  | Validate all inputs | High | Ready for Implementation | Approved |
+| NFR-633557-03 |  |  | Response time under 2 seconds | High | Ready for Implementation | Approved |
+| NFR-633557-04 |  |  | Atomic review storage | High | Ready for Implementation | Approved |
+| NFR-633557-05 |  |  | Comprehensive error logging | Medium | Ready for Implementation | Approved |
+| NFR-633557-06 |  |  | Support high volume of reviews | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

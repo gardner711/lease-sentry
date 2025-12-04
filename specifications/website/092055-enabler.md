@@ -50,10 +50,10 @@ Return the notification
 | NFR-092055-02 | JWT Security | Security | Secure token handling and validation | Must Have | Ready for Implementation | Approved |
 | NFR-092055-03 | Data Consistency | Reliability | Ensure notification trimming and updates are atomic | Should Have | Ready for Implementation | Approved |
 | NFR-092055-04 | Error Logging | Observability | Log all notification retrievals and errors | Should Have | Ready for Implementation | Approved |
-| NFR-092055-03 | Efficient Cosmos DB queries | Draft | High |
-| NFR-092055-04 | Handle high request volume from periodic refreshes | Draft | High |
-| NFR-092055-05 | Comprehensive error logging | Draft | Medium |
-| NFR-092055-06 | Support up to 10 notifications per user | Draft | Medium |
+| NFR-092055-03 | Efficient Cosmos DB queries | Ready for Implementation | High |
+| NFR-092055-04 | Handle high request volume from periodic refreshes | Ready for Implementation | High |
+| NFR-092055-05 | Comprehensive error logging | Ready for Implementation | Medium |
+| NFR-092055-06 | Support up to 10 notifications per user | Ready for Implementation | Medium |
 
 ## Dependencies
 

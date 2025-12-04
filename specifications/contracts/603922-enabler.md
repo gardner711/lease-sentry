@@ -28,28 +28,28 @@ Once a document is selected:
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-603922-01 | Display upload section with description | Draft | High |
-| FR-603922-02 | Provide file upload interface for PDF, DOCX, PNG, JPG | Draft | High |
-| FR-603922-03 | Validate selected file type | Draft | High |
-| FR-603922-04 | Show progress dialog during upload | Draft | High |
-| FR-603922-05 | Call Upload Contract API with selected file | Draft | High |
-| FR-603922-06 | Handle upload success and display confirmation | Draft | High |
-| FR-603922-07 | Handle upload errors and display messages | Draft | High |
-| FR-603922-08 | Refresh Contract Library component after upload | Draft | High |
-| FR-603922-09 | Refresh Recent Contracts component after upload | Draft | High |
-| FR-603922-10 | Ensure component integration with page | Draft | Medium |
+| FR-603922-01 | Display upload section with description | Ready for Implementation | High |
+| FR-603922-02 | Provide file upload interface for PDF, DOCX, PNG, JPG | Ready for Implementation | High |
+| FR-603922-03 | Validate selected file type | Ready for Implementation | High |
+| FR-603922-04 | Show progress dialog during upload | Ready for Implementation | High |
+| FR-603922-05 | Call Upload Contract API with selected file | Ready for Implementation | High |
+| FR-603922-06 | Handle upload success and display confirmation | Ready for Implementation | High |
+| FR-603922-07 | Handle upload errors and display messages | Ready for Implementation | High |
+| FR-603922-08 | Refresh Contract Library component after upload | Ready for Implementation | High |
+| FR-603922-09 | Refresh Recent Contracts component after upload | Ready for Implementation | High |
+| FR-603922-10 | Ensure component integration with page | Ready for Implementation | Medium |
 
 ## Non-Functional Requirements
 
-| ID | Requirement | Status | Priority |
-|----|------------|--------|----------|
-| NFR-603922-01 | Responsive upload interface | Draft | High |
-| NFR-603922-02 | Accessible file selection and upload | Draft | High |
-| NFR-603922-03 | Progress dialog provides real-time feedback | Draft | Medium |
-| NFR-603922-04 | Secure file handling in browser | Draft | High |
-| NFR-603922-05 | Fast component refresh after upload | Draft | High |
-| NFR-603922-06 |  |  | Compatible with modern browsers | Medium | Draft | Not Approved |
-| NFR-603922-07 |  |  | Handle large file uploads gracefully | Medium | Draft | Not Approved |
+| ID | Name | Type | Requirement | Priority | Status | Approval |
+|----|------|------|-------------|----------|--------|----------|
+| NFR-603922-01 | Responsive Design | Usability | Responsive upload interface | High | Ready for Implementation | Approved |
+| NFR-603922-02 | Accessibility | Usability | Accessible file selection and upload | High | Ready for Implementation | Approved |
+| NFR-603922-03 | User Experience | Usability | Progress dialog provides real-time feedback | Medium | Ready for Implementation | Approved |
+| NFR-603922-04 | Security | Security | Secure file handling in browser | High | Ready for Implementation | Approved |
+| NFR-603922-05 | Performance | Performance | Fast component refresh after upload | High | Ready for Implementation | Approved |
+| NFR-603922-06 | Compatibility | Compatibility | Compatible with modern browsers | Medium | Ready for Implementation | Approved |
+| NFR-603922-07 | Scalability | Performance | Handle large file uploads gracefully | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

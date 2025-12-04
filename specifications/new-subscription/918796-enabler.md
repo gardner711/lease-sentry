@@ -26,25 +26,25 @@ A webservice API that creates a new Stripe checkout session
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-918796-01 | Implement POST /checkoutsession endpoint | Draft | High |
-| FR-918796-02 | Accept session id in request payload | Draft | High |
-| FR-918796-03 | Create new Stripe checkout session using Stripe API | Draft | High |
-| FR-918796-04 | Return checkout session response with client secret | Draft | High |
-| FR-918796-05 | Follow Stripe embedded checkout quickstart instructions | Draft | High |
-| FR-918796-06 | Handle Stripe API errors and return appropriate responses | Draft | High |
-| FR-918796-07 | Validate session id input | Draft | Medium |
-| FR-918796-08 | Ensure secure communication with Stripe | Draft | High |
+| FR-918796-01 | Implement POST /checkoutsession endpoint | Ready for Implementation | High |
+| FR-918796-02 | Accept session id in request payload | Ready for Implementation | High |
+| FR-918796-03 | Create new Stripe checkout session using Stripe API | Ready for Implementation | High |
+| FR-918796-04 | Return checkout session response with client secret | Ready for Implementation | High |
+| FR-918796-05 | Follow Stripe embedded checkout quickstart instructions | Ready for Implementation | High |
+| FR-918796-06 | Handle Stripe API errors and return appropriate responses | Ready for Implementation | High |
+| FR-918796-07 | Validate session id input | Ready for Implementation | Medium |
+| FR-918796-08 | Ensure secure communication with Stripe | Ready for Implementation | High |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-918796-01 | Response time under 3 seconds | Draft | High |
-| NFR-918796-02 | Handle up to 100 concurrent requests | Draft | Medium |
-| NFR-918796-03 | Secure handling of Stripe API keys | Draft | High |
-| NFR-918796-04 | PCI compliance for payment processing | Draft | High |
-| NFR-918796-05 | 99.9% uptime for the API | Draft | High |
-| NFR-918796-06 | Comprehensive error logging | Draft | Medium |
+| NFR-918796-01 | Response time under 3 seconds | Ready for Implementation | High |
+| NFR-918796-02 | Handle up to 100 concurrent requests | Ready for Implementation | Medium |
+| NFR-918796-03 | Secure handling of Stripe API keys | Ready for Implementation | High |
+| NFR-918796-04 | PCI compliance for payment processing | Ready for Implementation | High |
+| NFR-918796-05 | 99.9% uptime for the API | Ready for Implementation | High |
+| NFR-918796-06 | Comprehensive error logging | Ready for Implementation | Medium |
 
 ## Dependencies
 

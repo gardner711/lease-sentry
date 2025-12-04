@@ -27,25 +27,25 @@ Profile saved in "profile" container in cosmos db
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-576795-01 |  | Implement PUT /profile endpoint | High | Draft | Not Approved |
-| FR-576795-02 |  | Accept profile request in payload | High | Draft | Not Approved |
-| FR-576795-03 |  | Extract user id from JWT | High | Draft | Not Approved |
-| FR-576795-04 |  | Set userId in profile document | High | Draft | Not Approved |
-| FR-576795-05 |  | Save profile to profiles container in cosmos | High | Draft | Not Approved |
-| FR-576795-06 |  | Validate profile data | High | Draft | Not Approved |
-| FR-576795-07 |  | Handle update conflicts | Medium | Draft | Not Approved |
-| FR-576795-08 |  | Return success/error responses | High | Draft | Not Approved |
+| FR-576795-01 |  | Implement PUT /profile endpoint | High | Ready for Implementation | Approved |
+| FR-576795-02 |  | Accept profile request in payload | High | Ready for Implementation | Approved |
+| FR-576795-03 |  | Extract user id from JWT | High | Ready for Implementation | Approved |
+| FR-576795-04 |  | Set userId in profile document | High | Ready for Implementation | Approved |
+| FR-576795-05 |  | Save profile to profiles container in cosmos | High | Ready for Implementation | Approved |
+| FR-576795-06 |  | Validate profile data | High | Ready for Implementation | Approved |
+| FR-576795-07 |  | Handle update conflicts | Medium | Ready for Implementation | Approved |
+| FR-576795-08 |  | Return success/error responses | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-576795-01 |  |  | Secure token handling | High | Draft | Not Approved |
-| NFR-576795-02 |  |  | Validate all input fields | High | Draft | Not Approved |
-| NFR-576795-03 |  |  | Response time under 2 seconds | High | Draft | Not Approved |
-| NFR-576795-04 |  |  | Atomic profile updates | High | Draft | Not Approved |
-| NFR-576795-05 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
-| NFR-576795-06 |  |  | Handle concurrent updates | Medium | Draft | Not Approved |
+| NFR-576795-01 |  |  | Secure token handling | High | Ready for Implementation | Approved |
+| NFR-576795-02 |  |  | Validate all input fields | High | Ready for Implementation | Approved |
+| NFR-576795-03 |  |  | Response time under 2 seconds | High | Ready for Implementation | Approved |
+| NFR-576795-04 |  |  | Atomic profile updates | High | Ready for Implementation | Approved |
+| NFR-576795-05 |  |  | Comprehensive error logging | Medium | Ready for Implementation | Approved |
+| NFR-576795-06 |  |  | Handle concurrent updates | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

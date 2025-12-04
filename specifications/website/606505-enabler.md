@@ -30,25 +30,25 @@ Sends an email with:
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-606505-01 |  | Implement POST /support endpoint | High | Draft | Not Approved |
-| FR-606505-02 |  | Accept support data: subject, comment, email | High | Draft | Not Approved |
-| FR-606505-03 |  | Extract user id from JWT if authenticated | High | Draft | Not Approved |
-| FR-606505-04 |  | Include user details in stored support request | High | Draft | Not Approved |
-| FR-606505-05 |  | Save support request to support container in cosmos | High | Draft | Not Approved |
-| FR-606505-06 |  | Send notification email via SMTP service | High | Draft | Not Approved |
-| FR-606505-07 |  | Validate subject options and required fields | High | Draft | Not Approved |
-| FR-606505-08 |  | Return success/error responses | High | Draft | Not Approved |
+| FR-606505-01 |  | Implement POST /support endpoint | High | Ready for Implementation | Approved |
+| FR-606505-02 |  | Accept support data: subject, comment, email | High | Ready for Implementation | Approved |
+| FR-606505-03 |  | Extract user id from JWT if authenticated | High | Ready for Implementation | Approved |
+| FR-606505-04 |  | Include user details in stored support request | High | Ready for Implementation | Approved |
+| FR-606505-05 |  | Save support request to support container in cosmos | High | Ready for Implementation | Approved |
+| FR-606505-06 |  | Send notification email via SMTP service | High | Ready for Implementation | Approved |
+| FR-606505-07 |  | Validate subject options and required fields | High | Ready for Implementation | Approved |
+| FR-606505-08 |  | Return success/error responses | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-606505-01 |  |  | Secure handling of user data | High | Draft | Not Approved |
-| NFR-606505-02 |  |  | Validate all inputs | High | Draft | Not Approved |
-| NFR-606505-03 |  |  | Response time under 2 seconds | High | Draft | Not Approved |
-| NFR-606505-04 |  |  | Atomic support request storage | High | Draft | Not Approved |
-| NFR-606505-05 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
-| NFR-606505-06 |  |  | Configurable SMTP settings | Medium | Draft | Not Approved |
+| NFR-606505-01 |  |  | Secure handling of user data | High | Ready for Implementation | Approved |
+| NFR-606505-02 |  |  | Validate all inputs | High | Ready for Implementation | Approved |
+| NFR-606505-03 |  |  | Response time under 2 seconds | High | Ready for Implementation | Approved |
+| NFR-606505-04 |  |  | Atomic support request storage | High | Ready for Implementation | Approved |
+| NFR-606505-05 |  |  | Comprehensive error logging | Medium | Ready for Implementation | Approved |
+| NFR-606505-06 |  |  | Configurable SMTP settings | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

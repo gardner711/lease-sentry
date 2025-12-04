@@ -29,28 +29,28 @@ This web component is only present when the user has been logged into the site a
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-951534-01 | Display header at top of page for logged-in users only | Draft | High |
-| FR-951534-02 | Check for presence of JWT token to determine visibility | Draft | High |
-| FR-951534-03 | Display site logo on the left side of header | Draft | High |
-| FR-951534-04 | Display configurable site title next to logo | Draft | High |
-| FR-951534-05 | Support environment-based title configuration (dev, test, prod) | Draft | High |
-| FR-951534-06 | Integrate User Menu component pinned to the right | Draft | High |
-| FR-951534-07 | Integrate Notification Menu component next to User Menu | Draft | High |
-| FR-951534-08 | Ensure header is present on all authenticated pages | Draft | High |
-| FR-951534-09 | Hide header completely when user is not logged in | Draft | High |
-| FR-951534-10 | Maintain consistent header layout across all pages | Draft | Medium |
+| FR-951534-01 | Display header at top of page for logged-in users only | Ready for Implementation | High |
+| FR-951534-02 | Check for presence of JWT token to determine visibility | Ready for Implementation | High |
+| FR-951534-03 | Display site logo on the left side of header | Ready for Implementation | High |
+| FR-951534-04 | Display configurable site title next to logo | Ready for Implementation | High |
+| FR-951534-05 | Support environment-based title configuration (dev, test, prod) | Ready for Implementation | High |
+| FR-951534-06 | Integrate User Menu component pinned to the right | Ready for Implementation | High |
+| FR-951534-07 | Integrate Notification Menu component next to User Menu | Ready for Implementation | High |
+| FR-951534-08 | Ensure header is present on all authenticated pages | Ready for Implementation | High |
+| FR-951534-09 | Hide header completely when user is not logged in | Ready for Implementation | High |
+| FR-951534-10 | Maintain consistent header layout across all pages | Ready for Implementation | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-951534-01 | Responsive design for desktop, tablet, and mobile devices | Draft | High |
-| NFR-951534-02 | Accessible navigation and screen reader support | Draft | High |
-| NFR-951534-03 | Fast header rendering without blocking page load | Draft | High |
-| NFR-951534-04 | Consistent visual design following design system | Draft | High |
-| NFR-951534-05 | Secure JWT token validation without exposing sensitive data | Draft | High |
-| NFR-951534-06 | Compatible with modern browsers | Draft | High |
-| NFR-951534-07 | Minimal impact on page performance and load times | Draft | Medium | |
+| NFR-951534-01 | Responsive design for desktop, tablet, and mobile devices | Ready for Implementation | High |
+| NFR-951534-02 | Accessible navigation and screen reader support | Ready for Implementation | High |
+| NFR-951534-03 | Fast header rendering without blocking page load | Ready for Implementation | High |
+| NFR-951534-04 | Consistent visual design following design system | Ready for Implementation | High |
+| NFR-951534-05 | Secure JWT token validation without exposing sensitive data | Ready for Implementation | High |
+| NFR-951534-06 | Compatible with modern browsers | Ready for Implementation | High |
+| NFR-951534-07 | Minimal impact on page performance and load times | Ready for Implementation | Medium | |
 
 ## Dependencies
 

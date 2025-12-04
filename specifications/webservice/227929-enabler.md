@@ -21,17 +21,17 @@ Ensure the project maintains a clean folder structure with implementation code s
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-227929-01 | Separate Implementation Folder | Create a dedicated subfolder named after the project (e.g., `webservice/`) that contains ALL implementation code, dependencies, and build files. The root folder must only contain specifications/, documentation, and project-level files. | High | Draft | Not Approved |
-| FR-227929-02 | Clear Naming Convention | The implementation folder name must clearly identify the project/component being implemented (avoid generic names like `src/`, `code/`, or `app/`). | High | Draft | Not Approved |
-| FR-227929-03 | No Root Implementation Files | Implementation files (source code, package.json, etc.) must NOT exist in the project root directory. Only documentation and specification folders are permitted at root level. | High | Draft | Not Approved |
+| FR-227929-01 | Separate Implementation Folder | Create a dedicated subfolder named after the project (e.g., `webservice/`) that contains ALL implementation code, dependencies, and build files. The root folder must only contain specifications/, documentation, and project-level files. | High | Ready for Implementation | Approved |
+| FR-227929-02 | Clear Naming Convention | The implementation folder name must clearly identify the project/component being implemented (avoid generic names like `src/`, `code/`, or `app/`). | High | Ready for Implementation | Approved |
+| FR-227929-03 | No Root Implementation Files | Implementation files (source code, package.json, etc.) must NOT exist in the project root directory. Only documentation and specification folders are permitted at root level. | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-227929-01 | Maintainability | Organization | The folder structure must make it immediately clear where implementation code resides vs specifications, enabling easy navigation and reducing confusion. | High | Draft | Not Approved |
-| NFR-227929-02 | Scalability | Organization | The structure must support multiple implementations or sub-projects by allowing additional named folders alongside the main implementation folder. | High | Draft | Not Approved |
-| NFR-227929-03 | Consistency | Standards | All future implementations must follow the same pattern: root-level specifications and documentation, with implementation in named subfolders. | High | Draft | Not Approved |
+| NFR-227929-01 | Maintainability | Organization | The folder structure must make it immediately clear where implementation code resides vs specifications, enabling easy navigation and reducing confusion. | High | Ready for Implementation | Approved |
+| NFR-227929-02 | Scalability | Organization | The structure must support multiple implementations or sub-projects by allowing additional named folders alongside the main implementation folder. | High | Ready for Implementation | Approved |
+| NFR-227929-03 | Consistency | Standards | All future implementations must follow the same pattern: root-level specifications and documentation, with implementation in named subfolders. | High | Ready for Implementation | Approved |
 
 ## Dependencies
 

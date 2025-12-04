@@ -27,24 +27,24 @@ Returns a list of contract documents from the contract container in cosmos db by
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-857384-01 | Implement GET /contract endpoint | Draft | High |
-| FR-857384-02 | Extract user id from JWT | Draft | High |
-| FR-857384-03 | Query contracts from cosmos db by user id | Draft | High |
-| FR-857384-04 | Support sorting by parameters | Draft | High |
-| FR-857384-05 | Support filtering by parameters | Draft | High |
-| FR-857384-06 | Support paging (e.g., 20 at a time) | Draft | High |
-| FR-857384-07 | Return list of contract documents | Draft | High |
-| FR-857384-08 | Handle authentication errors | Draft | High |
+| FR-857384-01 | Implement GET /contract endpoint | Ready for Implementation | High |
+| FR-857384-02 | Extract user id from JWT | Ready for Implementation | High |
+| FR-857384-03 | Query contracts from cosmos db by user id | Ready for Implementation | High |
+| FR-857384-04 | Support sorting by parameters | Ready for Implementation | High |
+| FR-857384-05 | Support filtering by parameters | Ready for Implementation | High |
+| FR-857384-06 | Support paging (e.g., 20 at a time) | Ready for Implementation | High |
+| FR-857384-07 | Return list of contract documents | Ready for Implementation | High |
+| FR-857384-08 | Handle authentication errors | Ready for Implementation | High |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-857384-01 | Response time under 2 seconds | Draft | High |
-| NFR-857384-02 | Secure token handling | Draft | High |
-| NFR-857384-03 | Efficient cosmos db queries | Draft | High |
-| NFR-857384-04 | Handle large result sets | Draft | Medium |
-| NFR-857384-05 | Comprehensive error logging | Draft | Medium |
+| NFR-857384-01 | Response time under 2 seconds | Ready for Implementation | High |
+| NFR-857384-02 | Secure token handling | Ready for Implementation | High |
+| NFR-857384-03 | Efficient cosmos db queries | Ready for Implementation | High |
+| NFR-857384-04 | Handle large result sets | Ready for Implementation | Medium |
+| NFR-857384-05 | Comprehensive error logging | Ready for Implementation | Medium |
 
 ## Dependencies
 

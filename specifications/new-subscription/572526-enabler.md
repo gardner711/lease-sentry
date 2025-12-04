@@ -27,27 +27,27 @@ On success, adds the selected session id to the subscription document
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-572526-01 | Display payment page at /payment | Draft | High |
-| FR-572526-02 | Integrate Stripe embedded forms for payment | Draft | High |
-| FR-572526-03 | Use configurable Stripe public key | Draft | High |
-| FR-572526-04 | Use configurable Stripe price ID | Draft | High |
-| FR-572526-05 | Create Stripe payment session via Checkout Session API | Draft | High |
-| FR-572526-06 | Handle payment success and update subscription document | Draft | High |
-| FR-572526-07 | Add session id to subscription on successful payment | Draft | High |
-| FR-572526-08 | Follow Stripe embedded checkout quickstart for Node.js | Draft | High |
-| FR-572526-09 | Ensure page is independently navigable | Draft | Medium |
+| FR-572526-01 | Display payment page at /payment | Ready for Implementation | High |
+| FR-572526-02 | Integrate Stripe embedded forms for payment | Ready for Implementation | High |
+| FR-572526-03 | Use configurable Stripe public key | Ready for Implementation | High |
+| FR-572526-04 | Use configurable Stripe price ID | Ready for Implementation | High |
+| FR-572526-05 | Create Stripe payment session via Checkout Session API | Ready for Implementation | High |
+| FR-572526-06 | Handle payment success and update subscription document | Ready for Implementation | High |
+| FR-572526-07 | Add session id to subscription on successful payment | Ready for Implementation | High |
+| FR-572526-08 | Follow Stripe embedded checkout quickstart for Node.js | Ready for Implementation | High |
+| FR-572526-09 | Ensure page is independently navigable | Ready for Implementation | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-572526-01 | Secure handling of Stripe public key | Draft | High |
-| NFR-572526-02 | Responsive design for payment forms | Draft | High |
-| NFR-572526-03 | Accessible payment interface | Draft | High |
-| NFR-572526-04 | Page loads within 2 seconds | Draft | High |
-| NFR-572526-05 | PCI compliance for payment forms | Draft | High |
-| NFR-572526-06 | Error handling for payment failures | Draft | High |
-| NFR-572526-07 | Compatible with modern browsers | Draft | Medium |
+| NFR-572526-01 | Secure handling of Stripe public key | Ready for Implementation | High |
+| NFR-572526-02 | Responsive design for payment forms | Ready for Implementation | High |
+| NFR-572526-03 | Accessible payment interface | Ready for Implementation | High |
+| NFR-572526-04 | Page loads within 2 seconds | Ready for Implementation | High |
+| NFR-572526-05 | PCI compliance for payment forms | Ready for Implementation | High |
+| NFR-572526-06 | Error handling for payment failures | Ready for Implementation | High |
+| NFR-572526-07 | Compatible with modern browsers | Ready for Implementation | Medium |
 
 ## Dependencies
 

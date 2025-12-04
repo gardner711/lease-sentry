@@ -38,30 +38,30 @@ Notifications are refreshed every 5 seconds
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-624132-01 |  | Display notification bell icon in header | High | Draft | Not Approved |
-| FR-624132-02 |  | Show animated progress bar under icon when notifications are processing | High | Draft | Not Approved |
-| FR-624132-03 |  | Display drop down menu when notification icon is clicked | High | Draft | Not Approved |
-| FR-624132-04 |  | Show maximum of 10 notifications in the drop down | High | Draft | Not Approved |
-| FR-624132-05 |  | Display appropriate icons for each notification type (analysis vs contract) | High | Draft | Not Approved |
-| FR-624132-06 |  | Show spinning progress icon for contract notifications that are processing | High | Draft | Not Approved |
-| FR-624132-07 |  | Make each notification item clickable | High | Draft | Not Approved |
-| FR-624132-08 |  | Navigate to Contract page with contract ID when contract notification is clicked | High | Draft | Not Approved |
-| FR-624132-09 |  | Navigate to Analysis page with contract ID when analysis notification is clicked | High | Draft | Not Approved |
-| FR-624132-10 |  | Retrieve notifications using Get Notifications API (ENB-092055) | High | Draft | Not Approved |
-| FR-624132-11 |  | Refresh notifications every 5 seconds | High | Draft | Not Approved |
-| FR-624132-12 |  | Close drop down menu when clicking outside or selecting a notification | Medium | Draft | Not Approved |
+| FR-624132-01 |  | Display notification bell icon in header | High | Ready for Implementation | Approved |
+| FR-624132-02 |  | Show animated progress bar under icon when notifications are processing | High | Ready for Implementation | Approved |
+| FR-624132-03 |  | Display drop down menu when notification icon is clicked | High | Ready for Implementation | Approved |
+| FR-624132-04 |  | Show maximum of 10 notifications in the drop down | High | Ready for Implementation | Approved |
+| FR-624132-05 |  | Display appropriate icons for each notification type (analysis vs contract) | High | Ready for Implementation | Approved |
+| FR-624132-06 |  | Show spinning progress icon for contract notifications that are processing | High | Ready for Implementation | Approved |
+| FR-624132-07 |  | Make each notification item clickable | High | Ready for Implementation | Approved |
+| FR-624132-08 |  | Navigate to Contract page with contract ID when contract notification is clicked | High | Ready for Implementation | Approved |
+| FR-624132-09 |  | Navigate to Analysis page with contract ID when analysis notification is clicked | High | Ready for Implementation | Approved |
+| FR-624132-10 |  | Retrieve notifications using Get Notifications API (ENB-092055) | High | Ready for Implementation | Approved |
+| FR-624132-11 |  | Refresh notifications every 5 seconds | High | Ready for Implementation | Approved |
+| FR-624132-12 |  | Close drop down menu when clicking outside or selecting a notification | Medium | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-624132-01 |  |  | Responsive design for desktop, tablet, and mobile devices | High | Draft | Not Approved |
-| NFR-624132-02 |  |  | Accessible keyboard navigation and screen reader support | High | Draft | Not Approved |
-| NFR-624132-03 |  |  | Smooth drop down animations and transitions | Medium | Draft | Not Approved |
-| NFR-624132-04 |  |  | Real-time notification updates without page refresh | High | Draft | Not Approved |
-| NFR-624132-05 |  |  | Consistent visual design with application theme | High | Draft | Not Approved |
-| NFR-624132-06 |  |  | Fast loading and rendering of notification list | High | Draft | Not Approved |
-| NFR-624132-07 |  |  | Compatible with modern browsers | High | Draft | Not Approved |
+| NFR-624132-01 |  |  | Responsive design for desktop, tablet, and mobile devices | High | Ready for Implementation | Approved |
+| NFR-624132-02 |  |  | Accessible keyboard navigation and screen reader support | High | Ready for Implementation | Approved |
+| NFR-624132-03 |  |  | Smooth drop down animations and transitions | Medium | Ready for Implementation | Approved |
+| NFR-624132-04 |  |  | Real-time notification updates without page refresh | High | Ready for Implementation | Approved |
+| NFR-624132-05 |  |  | Consistent visual design with application theme | High | Ready for Implementation | Approved |
+| NFR-624132-06 |  |  | Fast loading and rendering of notification list | High | Ready for Implementation | Approved |
+| NFR-624132-07 |  |  | Compatible with modern browsers | High | Ready for Implementation | Approved |
 
 ## Dependencies
 

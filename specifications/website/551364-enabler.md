@@ -28,28 +28,28 @@ Updates and save the account document with the new subscription item id and subs
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-551364-01 |  | Implement PUT /subscription endpoint | High | Draft | Not Approved |
-| FR-551364-02 |  | Accept subscription request in payload | High | Draft | Not Approved |
-| FR-551364-03 |  | Extract user id from JWT | High | Draft | Not Approved |
-| FR-551364-04 |  | Retrieve account document from accounts container using user id | High | Draft | Not Approved |
-| FR-551364-05 |  | Update Stripe subscription with new price id using subscription id and item id | High | Draft | Not Approved |
-| FR-551364-06 |  | Update account document with new subscription item id and type | High | Draft | Not Approved |
-| FR-551364-07 |  | Save updated account document to accounts container | High | Draft | Not Approved |
-| FR-551364-08 |  | Validate subscription type (starter or pro) | High | Draft | Not Approved |
-| FR-551364-09 |  | Handle Stripe API errors gracefully | High | Draft | Not Approved |
-| FR-551364-10 |  | Return success/error responses | High | Draft | Not Approved |
+| FR-551364-01 |  | Implement PUT /subscription endpoint | High | Ready for Implementation | Approved |
+| FR-551364-02 |  | Accept subscription request in payload | High | Ready for Implementation | Approved |
+| FR-551364-03 |  | Extract user id from JWT | High | Ready for Implementation | Approved |
+| FR-551364-04 |  | Retrieve account document from accounts container using user id | High | Ready for Implementation | Approved |
+| FR-551364-05 |  | Update Stripe subscription with new price id using subscription id and item id | High | Ready for Implementation | Approved |
+| FR-551364-06 |  | Update account document with new subscription item id and type | High | Ready for Implementation | Approved |
+| FR-551364-07 |  | Save updated account document to accounts container | High | Ready for Implementation | Approved |
+| FR-551364-08 |  | Validate subscription type (starter or pro) | High | Ready for Implementation | Approved |
+| FR-551364-09 |  | Handle Stripe API errors gracefully | High | Ready for Implementation | Approved |
+| FR-551364-10 |  | Return success/error responses | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-551364-01 |  |  | Secure handling of JWTs and account data | High | Draft | Not Approved |
-| NFR-551364-02 |  |  | Validate all inputs against data schema | High | Draft | Not Approved |
-| NFR-551364-03 |  |  | Response time under 5 seconds | High | Draft | Not Approved |
-| NFR-551364-04 |  |  | Atomic account document updates | High | Draft | Not Approved |
-| NFR-551364-05 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
-| NFR-551364-06 |  |  | Stripe API rate limit handling | High | Draft | Not Approved |
-| NFR-551364-07 |  |  | Idempotent subscription changes | Medium | Draft | Not Approved |
+| NFR-551364-01 |  |  | Secure handling of JWTs and account data | High | Ready for Implementation | Approved |
+| NFR-551364-02 |  |  | Validate all inputs against data schema | High | Ready for Implementation | Approved |
+| NFR-551364-03 |  |  | Response time under 5 seconds | High | Ready for Implementation | Approved |
+| NFR-551364-04 |  |  | Atomic account document updates | High | Ready for Implementation | Approved |
+| NFR-551364-05 |  |  | Comprehensive error logging | Medium | Ready for Implementation | Approved |
+| NFR-551364-06 |  |  | Stripe API rate limit handling | High | Ready for Implementation | Approved |
+| NFR-551364-07 |  |  | Idempotent subscription changes | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

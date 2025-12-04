@@ -29,28 +29,28 @@ On click of the Free Trial button, navigation to the Initial Free Login (/freelo
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-817784-01 | Display header at top of page for non-logged-in users only | Draft | High |
-| FR-817784-02 | Check for absence of JWT token to determine visibility | Draft | High |
-| FR-817784-03 | Display site logo on the left side of header | Draft | High |
-| FR-817784-04 | Display configurable site title next to logo | Draft | High |
-| FR-817784-05 | Support environment-based title configuration (dev, test, prod) | Draft | High |
-| FR-817784-06 | Display Free Trial button pinned to the right | Draft | High |
-| FR-817784-07 | Navigate to /freelogin when Free Trial button is clicked | Draft | High |
-| FR-817784-08 | Ensure header is present on all non-authenticated pages | Draft | High |
-| FR-817784-09 | Hide header completely when user is logged in | Draft | High |
-| FR-817784-10 | Maintain consistent header layout across all public pages | Draft | Medium |
+| FR-817784-01 | Display header at top of page for non-logged-in users only | Ready for Implementation | High |
+| FR-817784-02 | Check for absence of JWT token to determine visibility | Ready for Implementation | High |
+| FR-817784-03 | Display site logo on the left side of header | Ready for Implementation | High |
+| FR-817784-04 | Display configurable site title next to logo | Ready for Implementation | High |
+| FR-817784-05 | Support environment-based title configuration (dev, test, prod) | Ready for Implementation | High |
+| FR-817784-06 | Display Free Trial button pinned to the right | Ready for Implementation | High |
+| FR-817784-07 | Navigate to /freelogin when Free Trial button is clicked | Ready for Implementation | High |
+| FR-817784-08 | Ensure header is present on all non-authenticated pages | Ready for Implementation | High |
+| FR-817784-09 | Hide header completely when user is logged in | Ready for Implementation | High |
+| FR-817784-10 | Maintain consistent header layout across all public pages | Ready for Implementation | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-817784-01 | Responsive design for desktop, tablet, and mobile devices | Draft | High |
-| NFR-817784-02 | Accessible navigation and screen reader support | Draft | High |
-| NFR-817784-03 | Fast header rendering without blocking page load | Draft | High |
-| NFR-817784-04 | Consistent visual design following design system | Draft | High |
-| NFR-817784-05 | Compatible with modern browsers | Draft | High |
-| NFR-817784-06 | Minimal impact on page performance and load times | Draft | Medium |
-| NFR-817784-07 | Clear call-to-action styling for Free Trial button | Draft | Medium |
+| NFR-817784-01 | Responsive design for desktop, tablet, and mobile devices | Ready for Implementation | High |
+| NFR-817784-02 | Accessible navigation and screen reader support | Ready for Implementation | High |
+| NFR-817784-03 | Fast header rendering without blocking page load | Ready for Implementation | High |
+| NFR-817784-04 | Consistent visual design following design system | Ready for Implementation | High |
+| NFR-817784-05 | Compatible with modern browsers | Ready for Implementation | High |
+| NFR-817784-06 | Minimal impact on page performance and load times | Ready for Implementation | Medium |
+| NFR-817784-07 | Clear call-to-action styling for Free Trial button | Ready for Implementation | Medium |
 
 ## Dependencies
 

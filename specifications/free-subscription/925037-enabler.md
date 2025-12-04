@@ -50,10 +50,10 @@ On successful subscription submission, navigate to the Contracts Page (/contract
 | NFR-925037-03 | Accessibility | Usability | Accessible login interface with proper ARIA labels | Must Have | Ready for Implementation | Approved |
 | NFR-925037-04 | Page Load Performance | Performance | Login page loads within 2 seconds | Should Have | Ready for Implementation | Approved |
 | NFR-925037-05 | Error Resilience | Reliability | Handle authentication failures gracefully | Must Have | Ready for Implementation | Approved |
-| NFR-925037-04 |  |  | Page loads within 2 seconds | High | Draft | Not Approved |
-| NFR-925037-05 |  |  | Pre-population improves user experience | Medium | Draft | Not Approved |
-| NFR-925037-06 |  |  | Compatible with Azure Easy Auth providers | High | Draft | Not Approved |
-| NFR-925037-07 |  |  | Error logging for debugging | Medium | Draft | Not Approved |
+| NFR-925037-04 |  |  | Page loads within 2 seconds | High | Ready for Implementation | Approved |
+| NFR-925037-05 |  |  | Pre-population improves user experience | Medium | Ready for Implementation | Approved |
+| NFR-925037-06 |  |  | Compatible with Azure Easy Auth providers | High | Ready for Implementation | Approved |
+| NFR-925037-07 |  |  | Error logging for debugging | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

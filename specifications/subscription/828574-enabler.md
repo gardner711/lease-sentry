@@ -50,10 +50,10 @@ Each subscription will have a unique set of Stripe id's that will be required wh
 | NFR-828574-03 | Configuration Performance | Performance | Fast configuration retrieval for payment processing | Must Have | Ready for Implementation | Approved |
 | NFR-828574-04 | Configuration Validation | Reliability | Validate configuration completeness and format | Should Have | Ready for Implementation | Approved |
 | NFR-828574-05 | Audit Logging | Observability | Log configuration access and changes | Should Have | Ready for Implementation | Approved |
-| NFR-828574-04 | Comprehensive validation of Stripe configuration values | Draft | High |
-| NFR-828574-05 | Audit logging for configuration changes | Draft | Medium |
-| NFR-828574-06 | Configuration versioning and rollback capability | Draft | Medium |
-| NFR-828574-07 | PCI DSS compliance for payment configuration handling | Draft | High |
+| NFR-828574-04 | Comprehensive validation of Stripe configuration values | Ready for Implementation | High |
+| NFR-828574-05 | Audit logging for configuration changes | Ready for Implementation | Medium |
+| NFR-828574-06 | Configuration versioning and rollback capability | Ready for Implementation | Medium |
+| NFR-828574-07 | PCI DSS compliance for payment configuration handling | Ready for Implementation | High |
 
 ## Dependencies
 

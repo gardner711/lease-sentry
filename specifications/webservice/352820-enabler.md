@@ -21,31 +21,31 @@ Follow the API Schema found in references\api-schema.yaml and the data schema in
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-352820-01 | Implement POST /subscription (unauth), GET /subscription (auth), PUT /subscription (auth), DELETE /subscription (auth) as per api-schema.yaml | Draft | High |
-| FR-352820-02 | Implement PUT /profile (auth), GET /profile (auth) endpoints | Draft | High |
-| FR-352820-03 | Implement POST /support (unauth) endpoint | Draft | Medium |
-| FR-352820-04 | Implement POST /review (auth) endpoint | Draft | Medium |
-| FR-352820-05 | Implement POST /contract (auth), GET /contract (auth with paging/sorting/filtering), GET /contract/{id} (auth), GET /contract/recent (auth), DELETE /contract (auth) | Draft | High |
-| FR-352820-06 | Implement POST /checkoutsession (auth) endpoint for Stripe checkout sessions | Draft | High |
-| FR-352820-07 | Enforce authentication for required endpoints using JWTs | Draft | High |
-| FR-352820-08 | Validate all request payloads against the schemas in data-schema.md | Draft | High |
-| FR-352820-09 | Store and retrieve data using Azure Cosmos DB as defined in data-schema.md | Draft | High |
-| FR-352820-10 | Return appropriate HTTP status codes and error messages for invalid requests | Draft | High |
-| FR-352820-11 | Ensure responses match the OpenAPI schema definitions | Draft | High |
-| FR-352820-12 | Log all requests and responses for monitoring and debugging | Draft | Medium |
+| FR-352820-01 | Implement POST /subscription (unauth), GET /subscription (auth), PUT /subscription (auth), DELETE /subscription (auth) as per api-schema.yaml | Ready for Implementation | High |
+| FR-352820-02 | Implement PUT /profile (auth), GET /profile (auth) endpoints | Ready for Implementation | High |
+| FR-352820-03 | Implement POST /support (unauth) endpoint | Ready for Implementation | Medium |
+| FR-352820-04 | Implement POST /review (auth) endpoint | Ready for Implementation | Medium |
+| FR-352820-05 | Implement POST /contract (auth), GET /contract (auth with paging/sorting/filtering), GET /contract/{id} (auth), GET /contract/recent (auth), DELETE /contract (auth) | Ready for Implementation | High |
+| FR-352820-06 | Implement POST /checkoutsession (auth) endpoint for Stripe checkout sessions | Ready for Implementation | High |
+| FR-352820-07 | Enforce authentication for required endpoints using JWTs | Ready for Implementation | High |
+| FR-352820-08 | Validate all request payloads against the schemas in data-schema.md | Ready for Implementation | High |
+| FR-352820-09 | Store and retrieve data using Azure Cosmos DB as defined in data-schema.md | Ready for Implementation | High |
+| FR-352820-10 | Return appropriate HTTP status codes and error messages for invalid requests | Ready for Implementation | High |
+| FR-352820-11 | Ensure responses match the OpenAPI schema definitions | Ready for Implementation | High |
+| FR-352820-12 | Log all requests and responses for monitoring and debugging | Ready for Implementation | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-352820-01 | API responses should be under 500ms for simple operations | Draft | High |
-| NFR-352820-02 | Handle at least 1000 requests per minute | Draft | High |
-| NFR-352820-03 | Implement HTTPS, input sanitization, and protect against common vulnerabilities (OWASP Top 10) | Draft | High |
-| NFR-352820-04 | Scale horizontally to handle increased load using Azure App Service or Kubernetes | Draft | Medium |
-| NFR-352820-05 | Achieve 99.9% uptime with proper error handling and retries | Draft | High |
-| NFR-352820-06 | Code should be modular, well-documented, and follow REST API best practices | Draft | Medium |
-| NFR-352820-07 | Compatible with the API client (ENB-335470) and follow OpenAPI spec | Draft | High |
-| NFR-352820-08 | Provide metrics, logs, and traces for monitoring with Azure Application Insights | Draft | Medium |
+| NFR-352820-01 | API responses should be under 500ms for simple operations | Ready for Implementation | High |
+| NFR-352820-02 | Handle at least 1000 requests per minute | Ready for Implementation | High |
+| NFR-352820-03 | Implement HTTPS, input sanitization, and protect against common vulnerabilities (OWASP Top 10) | Ready for Implementation | High |
+| NFR-352820-04 | Scale horizontally to handle increased load using Azure App Service or Kubernetes | Ready for Implementation | Medium |
+| NFR-352820-05 | Achieve 99.9% uptime with proper error handling and retries | Ready for Implementation | High |
+| NFR-352820-06 | Code should be modular, well-documented, and follow REST API best practices | Ready for Implementation | Medium |
+| NFR-352820-07 | Compatible with the API client (ENB-335470) and follow OpenAPI spec | Ready for Implementation | High |
+| NFR-352820-08 | Provide metrics, logs, and traces for monitoring with Azure Application Insights | Ready for Implementation | Medium |
 
 ## Dependencies
 

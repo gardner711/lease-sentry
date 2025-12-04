@@ -26,25 +26,25 @@ On successful change password, navigate to the Contracts Page (/contracts)
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-106466-01 |  | Display change password page at /changepassword | High | Draft | Not Approved |
-| FR-106466-02 |  | Show change password options from Azure Easy Auth | High | Draft | Not Approved |
-| FR-106466-03 |  | Integrate with Azure App Service Authentication | High | Draft | Not Approved |
-| FR-106466-04 |  | Handle password change flow | High | Draft | Not Approved |
-| FR-106466-05 |  | Validate new password requirements | High | Draft | Not Approved |
-| FR-106466-06 |  | Navigate to /contracts on successful change | High | Draft | Not Approved |
-| FR-106466-07 |  | Handle change failures and display errors | High | Draft | Not Approved |
-| FR-106466-08 |  | Ensure page is independently navigable | Medium | Draft | Not Approved |
+| FR-106466-01 |  | Display change password page at /changepassword | High | Ready for Implementation | Approved |
+| FR-106466-02 |  | Show change password options from Azure Easy Auth | High | Ready for Implementation | Approved |
+| FR-106466-03 |  | Integrate with Azure App Service Authentication | High | Ready for Implementation | Approved |
+| FR-106466-04 |  | Handle password change flow | High | Ready for Implementation | Approved |
+| FR-106466-05 |  | Validate new password requirements | High | Ready for Implementation | Approved |
+| FR-106466-06 |  | Navigate to /contracts on successful change | High | Ready for Implementation | Approved |
+| FR-106466-07 |  | Handle change failures and display errors | High | Ready for Implementation | Approved |
+| FR-106466-08 |  | Ensure page is independently navigable | Medium | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-106466-01 |  |  | Secure password handling | High | Draft | Not Approved |
-| NFR-106466-02 |  |  | Responsive page design | High | Draft | Not Approved |
-| NFR-106466-03 |  |  | Accessible password change interface | High | Draft | Not Approved |
-| NFR-106466-04 |  |  | Fast page loading | High | Draft | Not Approved |
-| NFR-106466-05 |  |  | Compatible with Azure Easy Auth | High | Draft | Not Approved |
-| NFR-106466-06 |  |  | Error logging for debugging | Medium | Draft | Not Approved |
+| NFR-106466-01 |  |  | Secure password handling | High | Ready for Implementation | Approved |
+| NFR-106466-02 |  |  | Responsive page design | High | Ready for Implementation | Approved |
+| NFR-106466-03 |  |  | Accessible password change interface | High | Ready for Implementation | Approved |
+| NFR-106466-04 |  |  | Fast page loading | High | Ready for Implementation | Approved |
+| NFR-106466-05 |  |  | Compatible with Azure Easy Auth | High | Ready for Implementation | Approved |
+| NFR-106466-06 |  |  | Error logging for debugging | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

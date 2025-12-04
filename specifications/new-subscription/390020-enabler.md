@@ -28,28 +28,28 @@ Adds the selected subscription (free, starter, pro) to the subscription object
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-390020-01 | Display subscription selection page at /newsubscription | Draft | High |
-| FR-390020-02 | Show three subscription options: Free, Starter, Pro | Draft | High |
-| FR-390020-03 | Display descriptions for each subscription option from Universal Subscription Options | Draft | High |
-| FR-390020-04 | Provide grid comparison of subscription features from Universal Subscription Options | Draft | High |
-| FR-390020-05 | Allow user to select one subscription option | Draft | High |
-| FR-390020-06 | Validate subscription selection before submission | Draft | High |
-| FR-390020-07 | Navigate to /payment page on successful submission | Draft | High |
-| FR-390020-08 | Update subscription object with selected option (free/starter/pro) | Draft | High |
-| FR-390020-09 | Ensure page is independently navigable | Draft | Medium |
-| FR-390020-10 | Handle invalid or missing subscription selection | Draft | Medium |
+| FR-390020-01 | Display subscription selection page at /newsubscription | Ready for Implementation | High |
+| FR-390020-02 | Show three subscription options: Free, Starter, Pro | Ready for Implementation | High |
+| FR-390020-03 | Display descriptions for each subscription option from Universal Subscription Options | Ready for Implementation | High |
+| FR-390020-04 | Provide grid comparison of subscription features from Universal Subscription Options | Ready for Implementation | High |
+| FR-390020-05 | Allow user to select one subscription option | Ready for Implementation | High |
+| FR-390020-06 | Validate subscription selection before submission | Ready for Implementation | High |
+| FR-390020-07 | Navigate to /payment page on successful submission | Ready for Implementation | High |
+| FR-390020-08 | Update subscription object with selected option (free/starter/pro) | Ready for Implementation | High |
+| FR-390020-09 | Ensure page is independently navigable | Ready for Implementation | Medium |
+| FR-390020-10 | Handle invalid or missing subscription selection | Ready for Implementation | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-390020-01 | Page loads within 2 seconds | Draft | High |
-| NFR-390020-02 | Responsive design for mobile and desktop | Draft | High |
-| NFR-390020-03 | Accessible to screen readers and keyboard navigation | Draft | High |
-| NFR-390020-04 | Secure handling of subscription data | Draft | High |
-| NFR-390020-05 | Intuitive user interface for selection | Draft | Medium |
-| NFR-390020-06 | Compatible with modern browsers | Draft | Medium |
-| NFR-390020-07 | Clear visual hierarchy for subscription comparison | Draft | Medium |
+| NFR-390020-01 | Page loads within 2 seconds | Ready for Implementation | High |
+| NFR-390020-02 | Responsive design for mobile and desktop | Ready for Implementation | High |
+| NFR-390020-03 | Accessible to screen readers and keyboard navigation | Ready for Implementation | High |
+| NFR-390020-04 | Secure handling of subscription data | Ready for Implementation | High |
+| NFR-390020-05 | Intuitive user interface for selection | Ready for Implementation | Medium |
+| NFR-390020-06 | Compatible with modern browsers | Ready for Implementation | Medium |
+| NFR-390020-07 | Clear visual hierarchy for subscription comparison | Ready for Implementation | Medium |
 
 ## Dependencies
 

@@ -28,26 +28,26 @@ On submission, submits changes to the Update Profile API
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-682199-01 |  | Display profile form with first name, last name, email, state fields | High | Draft | Not Approved |
-| FR-682199-02 |  | Populate form using Get Profile API | High | Draft | Not Approved |
-| FR-682199-03 |  | Allow editing of first name, last name, email, state | High | Draft | Not Approved |
-| FR-682199-04 |  | Provide dropdown for US state selection | High | Draft | Not Approved |
-| FR-682199-05 |  | Validate form inputs (email format, required fields) | High | Draft | Not Approved |
-| FR-682199-06 |  | Submit changes to Update Profile API | High | Draft | Not Approved |
-| FR-682199-07 |  | Handle API success and display confirmation | High | Draft | Not Approved |
-| FR-682199-08 |  | Handle API errors and display messages | High | Draft | Not Approved |
-| FR-682199-09 |  | Refresh form data after successful update | Medium | Draft | Not Approved |
+| FR-682199-01 |  | Display profile form with first name, last name, email, state fields | High | Ready for Implementation | Approved |
+| FR-682199-02 |  | Populate form using Get Profile API | High | Ready for Implementation | Approved |
+| FR-682199-03 |  | Allow editing of first name, last name, email, state | High | Ready for Implementation | Approved |
+| FR-682199-04 |  | Provide dropdown for US state selection | High | Ready for Implementation | Approved |
+| FR-682199-05 |  | Validate form inputs (email format, required fields) | High | Ready for Implementation | Approved |
+| FR-682199-06 |  | Submit changes to Update Profile API | High | Ready for Implementation | Approved |
+| FR-682199-07 |  | Handle API success and display confirmation | High | Ready for Implementation | Approved |
+| FR-682199-08 |  | Handle API errors and display messages | High | Ready for Implementation | Approved |
+| FR-682199-09 |  | Refresh form data after successful update | Medium | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-682199-01 |  |  | Responsive form layout | High | Draft | Not Approved |
-| NFR-682199-02 |  |  | Accessible form controls | High | Draft | Not Approved |
-| NFR-682199-03 |  |  | Client-side validation for better UX | Medium | Draft | Not Approved |
-| NFR-682199-04 |  |  | Secure form submission | High | Draft | Not Approved |
-| NFR-682199-05 |  |  | Fast form loading and updates | High | Draft | Not Approved |
-| NFR-682199-06 |  |  | Compatible with modern browsers | Medium | Draft | Not Approved |
+| NFR-682199-01 |  |  | Responsive form layout | High | Ready for Implementation | Approved |
+| NFR-682199-02 |  |  | Accessible form controls | High | Ready for Implementation | Approved |
+| NFR-682199-03 |  |  | Client-side validation for better UX | Medium | Ready for Implementation | Approved |
+| NFR-682199-04 |  |  | Secure form submission | High | Ready for Implementation | Approved |
+| NFR-682199-05 |  |  | Fast form loading and updates | High | Ready for Implementation | Approved |
+| NFR-682199-06 |  |  | Compatible with modern browsers | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

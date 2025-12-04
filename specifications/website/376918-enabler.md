@@ -27,26 +27,26 @@ On submission, the Support API is called
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-376918-01 |  | Display pop-up support dialog | High | Draft | Not Approved |
-| FR-376918-02 |  | Show helpful greeting with response commitment | High | Draft | Not Approved |
-| FR-376918-03 |  | Provide subject dropdown with options | High | Draft | Not Approved |
-| FR-376918-04 |  | Include comment text box | High | Draft | Not Approved |
-| FR-376918-05 |  | Include email input field | High | Draft | Not Approved |
-| FR-376918-06 |  | Pre-populate email if user is authenticated | High | Draft | Not Approved |
-| FR-376918-07 |  | Validate required fields before submission | High | Draft | Not Approved |
-| FR-376918-08 |  | Submit support request to API | High | Draft | Not Approved |
-| FR-376918-09 |  | Show success/error feedback | High | Draft | Not Approved |
+| FR-376918-01 |  | Display pop-up support dialog | High | Ready for Implementation | Approved |
+| FR-376918-02 |  | Show helpful greeting with response commitment | High | Ready for Implementation | Approved |
+| FR-376918-03 |  | Provide subject dropdown with options | High | Ready for Implementation | Approved |
+| FR-376918-04 |  | Include comment text box | High | Ready for Implementation | Approved |
+| FR-376918-05 |  | Include email input field | High | Ready for Implementation | Approved |
+| FR-376918-06 |  | Pre-populate email if user is authenticated | High | Ready for Implementation | Approved |
+| FR-376918-07 |  | Validate required fields before submission | High | Ready for Implementation | Approved |
+| FR-376918-08 |  | Submit support request to API | High | Ready for Implementation | Approved |
+| FR-376918-09 |  | Show success/error feedback | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-376918-01 |  |  | Responsive design for mobile/desktop | High | Draft | Not Approved |
-| NFR-376918-02 |  |  | Accessible form controls | High | Draft | Not Approved |
-| NFR-376918-03 |  |  | Fast dialog loading | Medium | Draft | Not Approved |
-| NFR-376918-04 |  |  | Clear error messaging | High | Draft | Not Approved |
-| NFR-376918-05 |  |  | Secure form handling | High | Draft | Not Approved |
-| NFR-376918-06 |  |  | Consistent UI styling | Medium | Draft | Not Approved |
+| NFR-376918-01 |  |  | Responsive design for mobile/desktop | High | Ready for Implementation | Approved |
+| NFR-376918-02 |  |  | Accessible form controls | High | Ready for Implementation | Approved |
+| NFR-376918-03 |  |  | Fast dialog loading | Medium | Ready for Implementation | Approved |
+| NFR-376918-04 |  |  | Clear error messaging | High | Ready for Implementation | Approved |
+| NFR-376918-05 |  |  | Secure form handling | High | Ready for Implementation | Approved |
+| NFR-376918-06 |  |  | Consistent UI styling | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

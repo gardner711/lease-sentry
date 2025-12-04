@@ -29,25 +29,25 @@ Bottom section:
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-406492-01 |  | Display top section describing subscription change capability | High | Draft | Not Approved |
-| FR-406492-02 |  | Embed Change Subscription Web Component in top section | High | Draft | Not Approved |
-| FR-406492-03 |  | Display bottom section describing subscription cancellation | High | Draft | Not Approved |
-| FR-406492-04 |  | Style bottom section with caution/cautionary appearance | High | Draft | Not Approved |
-| FR-406492-05 |  | Embed Delete Subscription Web Component in bottom section | High | Draft | Not Approved |
-| FR-406492-06 |  | Ensure proper visual separation between sections | Medium | Draft | Not Approved |
-| FR-406492-07 |  | Handle authentication and redirect if user not logged in | High | Draft | Not Approved |
+| FR-406492-01 |  | Display top section describing subscription change capability | High | Ready for Implementation | Approved |
+| FR-406492-02 |  | Embed Change Subscription Web Component in top section | High | Ready for Implementation | Approved |
+| FR-406492-03 |  | Display bottom section describing subscription cancellation | High | Ready for Implementation | Approved |
+| FR-406492-04 |  | Style bottom section with caution/cautionary appearance | High | Ready for Implementation | Approved |
+| FR-406492-05 |  | Embed Delete Subscription Web Component in bottom section | High | Ready for Implementation | Approved |
+| FR-406492-06 |  | Ensure proper visual separation between sections | Medium | Ready for Implementation | Approved |
+| FR-406492-07 |  | Handle authentication and redirect if user not logged in | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-406492-01 |  |  | Page loads within 2 seconds | High | Draft | Not Approved |
-| NFR-406492-02 |  |  | Responsive layout for mobile and desktop | High | Draft | Not Approved |
-| NFR-406492-03 |  |  | Accessible navigation and content structure | High | Draft | Not Approved |
-| NFR-406492-04 |  |  | Clear visual hierarchy between change and delete sections | High | Draft | Not Approved |
-| NFR-406492-05 |  |  | Consistent styling with application theme | Medium | Draft | Not Approved |
-| NFR-406492-06 |  |  | Secure page access requiring authentication | High | Draft | Not Approved |
-| NFR-406492-07 |  |  | Intuitive user experience for subscription management | Medium | Draft | Not Approved |
+| NFR-406492-01 |  |  | Page loads within 2 seconds | High | Ready for Implementation | Approved |
+| NFR-406492-02 |  |  | Responsive layout for mobile and desktop | High | Ready for Implementation | Approved |
+| NFR-406492-03 |  |  | Accessible navigation and content structure | High | Ready for Implementation | Approved |
+| NFR-406492-04 |  |  | Clear visual hierarchy between change and delete sections | High | Ready for Implementation | Approved |
+| NFR-406492-05 |  |  | Consistent styling with application theme | Medium | Ready for Implementation | Approved |
+| NFR-406492-06 |  |  | Secure page access requiring authentication | High | Ready for Implementation | Approved |
+| NFR-406492-07 |  |  | Intuitive user experience for subscription management | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

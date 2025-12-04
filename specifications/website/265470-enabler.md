@@ -23,27 +23,27 @@ A footer at the bottom of every page that is always pinned to the bottom. That f
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| FR-265470-01 | Display footer at bottom of every page | Draft | High |
-| FR-265470-02 | Pin footer to bottom of viewport regardless of content height | Draft | High |
-| FR-265470-03 | Show centered title "Lease Sentry ©" | Draft | High |
-| FR-265470-04 | Make title clickable link to homepage | Draft | High |
-| FR-265470-05 | Display "Need help" text on the right side | Draft | High |
-| FR-265470-06 | Include button next to "Need help" text | Draft | High |
-| FR-265470-07 | Button click opens Support dialog component | Draft | High |
-| FR-265470-08 | Integrate with Support Web Component (ENB-376918) | Draft | High |
-| FR-265470-09 | Ensure consistent footer appearance across all pages | Draft | Medium |
+| FR-265470-01 | Display footer at bottom of every page | Ready for Implementation | High |
+| FR-265470-02 | Pin footer to bottom of viewport regardless of content height | Ready for Implementation | High |
+| FR-265470-03 | Show centered title "Lease Sentry ©" | Ready for Implementation | High |
+| FR-265470-04 | Make title clickable link to homepage | Ready for Implementation | High |
+| FR-265470-05 | Display "Need help" text on the right side | Ready for Implementation | High |
+| FR-265470-06 | Include button next to "Need help" text | Ready for Implementation | High |
+| FR-265470-07 | Button click opens Support dialog component | Ready for Implementation | High |
+| FR-265470-08 | Integrate with Support Web Component (ENB-376918) | Ready for Implementation | High |
+| FR-265470-09 | Ensure consistent footer appearance across all pages | Ready for Implementation | Medium |
 
 ## Non-Functional Requirements
 
 | ID | Requirement | Status | Priority |
 |----|------------|--------|----------|
-| NFR-265470-01 | Responsive design for desktop, tablet, and mobile | Draft | High |
-| NFR-265470-02 | WCAG 2.1 AA accessibility compliance | Draft | High |
-| NFR-265470-03 | No impact on page load performance | Draft | Medium |
-| NFR-265470-04 | Compatible with modern browsers | Draft | Medium |
-| NFR-265470-05 | Modular and maintainable code structure | Draft | Low |
-| NFR-265470-06 | Proper visual hierarchy and spacing | Draft | Medium |
-| NFR-265470-07 | Smooth support dialog integration | Draft | Medium |
+| NFR-265470-01 | Responsive design for desktop, tablet, and mobile | Ready for Implementation | High |
+| NFR-265470-02 | WCAG 2.1 AA accessibility compliance | Ready for Implementation | High |
+| NFR-265470-03 | No impact on page load performance | Ready for Implementation | Medium |
+| NFR-265470-04 | Compatible with modern browsers | Ready for Implementation | Medium |
+| NFR-265470-05 | Modular and maintainable code structure | Ready for Implementation | Low |
+| NFR-265470-06 | Proper visual hierarchy and spacing | Ready for Implementation | Medium |
+| NFR-265470-07 | Smooth support dialog integration | Ready for Implementation | Medium |
 
 ## Dependencies
 

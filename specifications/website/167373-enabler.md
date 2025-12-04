@@ -30,27 +30,27 @@ Publishes the delete bus message to Event Grid
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-167373-01 |  | Implement DELETE /subscription endpoint | High | Draft | Not Approved |
-| FR-167373-02 |  | Extract user id from JWT | High | Draft | Not Approved |
-| FR-167373-03 |  | Retrieve account document from accounts container using user id | High | Draft | Not Approved |
-| FR-167373-04 |  | Cancel Stripe subscription using account document information | High | Draft | Not Approved |
-| FR-167373-05 |  | Create delete bus message with user id and request id | High | Draft | Not Approved |
-| FR-167373-06 |  | Publish delete bus message to Event Grid | High | Draft | Not Approved |
-| FR-167373-07 |  | Handle Stripe cancellation errors | High | Draft | Not Approved |
-| FR-167373-08 |  | Return success/error responses | High | Draft | Not Approved |
-| FR-167373-09 |  | Log subscription deletion activity | Medium | Draft | Not Approved |
+| FR-167373-01 |  | Implement DELETE /subscription endpoint | High | Ready for Implementation | Approved |
+| FR-167373-02 |  | Extract user id from JWT | High | Ready for Implementation | Approved |
+| FR-167373-03 |  | Retrieve account document from accounts container using user id | High | Ready for Implementation | Approved |
+| FR-167373-04 |  | Cancel Stripe subscription using account document information | High | Ready for Implementation | Approved |
+| FR-167373-05 |  | Create delete bus message with user id and request id | High | Ready for Implementation | Approved |
+| FR-167373-06 |  | Publish delete bus message to Event Grid | High | Ready for Implementation | Approved |
+| FR-167373-07 |  | Handle Stripe cancellation errors | High | Ready for Implementation | Approved |
+| FR-167373-08 |  | Return success/error responses | High | Ready for Implementation | Approved |
+| FR-167373-09 |  | Log subscription deletion activity | Medium | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-167373-01 |  |  | Secure handling of JWTs and account data | High | Draft | Not Approved |
-| NFR-167373-02 |  |  | Guaranteed message delivery to Event Grid | High | Draft | Not Approved |
-| NFR-167373-03 |  |  | Response time under 5 seconds | High | Draft | Not Approved |
-| NFR-167373-04 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
-| NFR-167373-05 |  |  | Stripe API rate limit handling | High | Draft | Not Approved |
-| NFR-167373-06 |  |  | Atomic subscription cancellation and message publishing | High | Draft | Not Approved |
-| NFR-167373-07 |  |  | Audit trail for subscription deletions | Medium | Draft | Not Approved |
+| NFR-167373-01 |  |  | Secure handling of JWTs and account data | High | Ready for Implementation | Approved |
+| NFR-167373-02 |  |  | Guaranteed message delivery to Event Grid | High | Ready for Implementation | Approved |
+| NFR-167373-03 |  |  | Response time under 5 seconds | High | Ready for Implementation | Approved |
+| NFR-167373-04 |  |  | Comprehensive error logging | Medium | Ready for Implementation | Approved |
+| NFR-167373-05 |  |  | Stripe API rate limit handling | High | Ready for Implementation | Approved |
+| NFR-167373-06 |  |  | Atomic subscription cancellation and message publishing | High | Ready for Implementation | Approved |
+| NFR-167373-07 |  |  | Audit trail for subscription deletions | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 

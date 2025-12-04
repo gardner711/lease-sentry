@@ -48,7 +48,7 @@ Provides a global, accessible user id from the JWT to refer to the user making t
 | NFR-847328-07 | Replay Attack Protection | Security | Handle token replay attacks and implement proper nonce validation | Must Have | Ready for Implementation | Approved |
 | NFR-847328-08 | GDPR Compliance | Compliance | Ensure GDPR compliance for user data in tokens | Must Have | Ready for Implementation | Approved |
 | NFR-847328-09 | Authentication Metrics | Observability | Provide monitoring and metrics for authentication success/failure rates | Should Have | Ready for Implementation | Approved |
-| NFR-847328-10 | Support horizontal scaling without shared state dependencies | Draft | High |
+| NFR-847328-10 | Horizontal Scaling | Scalability | Support horizontal scaling without shared state dependencies | High | Ready for Implementation | Approved |
 
 ## Dependencies
 

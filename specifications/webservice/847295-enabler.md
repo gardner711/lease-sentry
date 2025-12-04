@@ -21,19 +21,19 @@ Provide standardized health check endpoints for monitoring service availability,
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-847295-01 | Liveness Check | Provide /health/live endpoint to indicate service is running | High | Draft | Not Approved |
-| FR-847295-02 | Readiness Check | Provide /health/ready endpoint to indicate service can accept traffic | High | Draft | Not Approved |
-| FR-847295-03 | Detailed Status | Provide /health endpoint with detailed component status | High | Draft | Not Approved |
-| FR-847295-04 | Dependency Checks | Verify status of critical dependencies (database, external services) | High | Draft | Not Approved |
+| FR-847295-01 | Liveness Check | Provide /health/live endpoint to indicate service is running | High | Ready for Implementation | Approved |
+| FR-847295-02 | Readiness Check | Provide /health/ready endpoint to indicate service can accept traffic | High | Ready for Implementation | Approved |
+| FR-847295-03 | Detailed Status | Provide /health endpoint with detailed component status | High | Ready for Implementation | Approved |
+| FR-847295-04 | Dependency Checks | Verify status of critical dependencies (database, external services) | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-847295-01 | Response Time | Performance | Health checks should respond within 100ms | High | Draft | Not Approved |
-| NFR-847295-02 | Lightweight | Performance | Health checks should not consume significant resources | High | Draft | Not Approved |
-| NFR-847295-03 | Standard Format | Compatibility | Follow RFC 7807 problem details or similar health check standards | High | Draft | Not Approved |
-| NFR-569990 |  |  |  | High | In Draft | Not Approved |
+| NFR-847295-01 | Response Time | Performance | Health checks should respond within 100ms | High | Ready for Implementation | Approved |
+| NFR-847295-02 | Lightweight | Performance | Health checks should not consume significant resources | High | Ready for Implementation | Approved |
+| NFR-847295-03 | Standard Format | Compatibility | Follow RFC 7807 problem details or similar health check standards | High | Ready for Implementation | Approved |
+| NFR-569990 |  |  |  | High | Ready for Implementation | Approved |
 
 ## Dependencies
 

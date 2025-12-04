@@ -26,22 +26,22 @@ Get the user's profile from the "profile" container in comsos db based on the us
 
 | ID | Name | Requirement | Priority | Status | Approval |
 |----|------|-------------|----------|--------|----------|
-| FR-392023-01 |  | Implement GET /profile endpoint | High | Draft | Not Approved |
-| FR-392023-02 |  | Extract user id from JWT | High | Draft | Not Approved |
-| FR-392023-03 |  | Query profile from profiles container in cosmos by user id | High | Draft | Not Approved |
-| FR-392023-04 |  | Return profile document in response | High | Draft | Not Approved |
-| FR-392023-05 |  | Handle case when profile not found | High | Draft | Not Approved |
-| FR-392023-06 |  | Validate authentication | High | Draft | Not Approved |
+| FR-392023-01 |  | Implement GET /profile endpoint | High | Ready for Implementation | Approved |
+| FR-392023-02 |  | Extract user id from JWT | High | Ready for Implementation | Approved |
+| FR-392023-03 |  | Query profile from profiles container in cosmos by user id | High | Ready for Implementation | Approved |
+| FR-392023-04 |  | Return profile document in response | High | Ready for Implementation | Approved |
+| FR-392023-05 |  | Handle case when profile not found | High | Ready for Implementation | Approved |
+| FR-392023-06 |  | Validate authentication | High | Ready for Implementation | Approved |
 
 ## Non-Functional Requirements
 
 | ID | Name | Type | Requirement | Priority | Status | Approval |
 |----|------|------|-------------|----------|--------|----------|
-| NFR-392023-01 |  |  | Secure token handling | High | Draft | Not Approved |
-| NFR-392023-02 |  |  | Response time under 1 second | High | Draft | Not Approved |
-| NFR-392023-03 |  |  | Efficient cosmos query | High | Draft | Not Approved |
-| NFR-392023-04 |  |  | Comprehensive error logging | Medium | Draft | Not Approved |
-| NFR-392023-05 |  |  | Handle high request volume | Medium | Draft | Not Approved |
+| NFR-392023-01 |  |  | Secure token handling | High | Ready for Implementation | Approved |
+| NFR-392023-02 |  |  | Response time under 1 second | High | Ready for Implementation | Approved |
+| NFR-392023-03 |  |  | Efficient cosmos query | High | Ready for Implementation | Approved |
+| NFR-392023-04 |  |  | Comprehensive error logging | Medium | Ready for Implementation | Approved |
+| NFR-392023-05 |  |  | Handle high request volume | Medium | Ready for Implementation | Approved |
 
 ## Dependencies
 
