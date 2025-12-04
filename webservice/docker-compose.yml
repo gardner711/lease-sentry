@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  webservice:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lease-sentry-webservice-prod
+    image: lease-sentry-webservice:latest
+    ports:
+      - "4100:4100"
+    environment:
+      - NODE_ENV=production
+      - PORT=4100
+      - HOST=0.0.0.0
+    env_file:
+      - .env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:4100/health/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - lease-sentry-network
+
+networks:
+  lease-sentry-network:
+    driver: bridge

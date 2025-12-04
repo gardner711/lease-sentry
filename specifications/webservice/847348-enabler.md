@@ -15,7 +15,7 @@
 
 ## Technical Overview
 ### Purpose
-Implement comprehensive unit tests for all API operations defined in the specifications, covering all HTTP methods (GET, POST, PUT, DELETE, PATCH), request validation, response formatting, error handling, and edge cases to ensure API reliability and prevent regressions.
+Implement comprehensive unit tests for all API operations defined in the specifications, covering all HTTP methods (GET, POST, PUT, DELETE, PATCH), request validation, response formatting, error handling, and edge cases to ensure API reliability and prevent regressions. Ensure any future updates follow the same methodology.
 
 ## Functional Requirements
 

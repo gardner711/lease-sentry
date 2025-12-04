@@ -15,7 +15,7 @@
 
 ## Technical Overview
 ### Purpose
-[What is the purpose?]
+Implement a responsive and accessible review submission dialog web component that allows users to provide a 1-5 star rating and detailed comments. The component handles form validation, pre-populates user email where available, submits data to the `/review` API, and manages success/error states with appropriate user feedback.
 
 ## Functional Requirements
 

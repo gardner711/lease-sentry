@@ -9,7 +9,7 @@
 - **ID**: CAP-227969
 - **Approval**: Approved
 - **Owner**: Product Team
-- **Status**: Ready for Implementation
+- **Status**: Implemented
 - **Priority**: High
 - **Analysis Review**: Required
 
@@ -21,7 +21,7 @@ Ensures all API call have unit tests and integration tests that exercise the spe
 
 | Enabler ID |
 |------------|
-| ENB-847348 |
+| ENB-847348 | API Unit Testing |
 
 ## Dependencies
 
