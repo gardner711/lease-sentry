@@ -22,6 +22,7 @@ Establish a comprehensive design system for the web application, inspired by mod
 | Enabler ID |
 |------------|
 | ENB-189342 | Design System Implementation |
+| ENB-558298 | Style Guide |
 
 ## Dependencies
 

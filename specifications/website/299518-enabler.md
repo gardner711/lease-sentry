@@ -63,20 +63,13 @@ Create a comprehensive, professional homepage that serves as the primary landing
 
 | Enabler ID | Description |
 |------------|-------------|
-| ENB-501283 | Web Application - home page serves as landing/entry point to application |
+| ENB-299518 | Web Application - home page serves as landing/entry point to application |
 
 ### External Dependencies
 
-**External Upstream Dependencies**:
-- High-quality background images and graphics
-- Customer testimonials and case studies
-- Pricing and feature information
-- Brand assets (logo, colors, messaging)
+**External Upstream Dependencies**: None identified.
 
-**External Downstream Impact**:
-- Marketing team will use homepage for lead generation
-- Sales team will reference homepage in customer conversations
-- SEO and content marketing efforts will be based on homepage content
+**External Downstream Impact**: None identified.
 
 ## Technical Specifications (Template)
 
